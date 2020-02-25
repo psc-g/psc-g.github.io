@@ -61,6 +61,8 @@ It's also really useful to go through sites like [glassdoor](https://www.glassdo
 
 Try writing code on a whiteboard (or on a piece of paper _by hand_ if you don't have access to a chalk/white-board). It is _very_ different to code on a whiteboard, but that is what you will be asked to do at the interview. It's best if you've already had some experience doing it! What I'd recommend is to practice writing a full program on a whiteboard, then code it up in your computer and make sure it compiles/runs in one go. If it doesn't, try again!
 
+It's also extremely useful to practice coding on a whiteboard while someone else is watching, to get used to the potential anxiety response!
+
 Although a few syntax errors are ok, we do take note if the coding is sloppy and full of syntax errors. It suggests you may not be as familiar with your preferred language.
 
 ### Algorithms & Data Structures
@@ -95,6 +97,7 @@ Congratulations, you have interviews scheduled! This is already a great achievem
    *  Complexity analysis on a naive solution is probably much easier than on a more complex solution.
    *  If you can code up the naive solution very quickly, that's great! Once it's down you can move to a more complex solution, but at least you have a solution that works as a baseline.
    *  It will be _much_ easier for the interviewer to understand a naive solution than a complex one. And you want the interviewer to understand your solution: you don't get points for tricking/confusing the interviewer!
+   *  Walking through a naive solution is a "manual profiler" of your code, helping you identify redundant work and opportunities for optimization (thanks, Pascal, for this point!).
    But once again, make sure you tell the interviewer that you're starting with a naive solution.
 *  **It's ok to make simplifying assumptions.** If it helps you think through the problem more clearly, it's totally fine to make simplifying assumptions (e.g. "Can I assume to list is already sorted?"), for reasons similar to the point on naive solutions. This is in fact a great signal, as it shows that you can decompose a problem into parts, and that you can identify those parts that cause more problems. Once you solve the problem with the simplifying assumptions, you can work towards a solution that doesn't require the assumptions; but at least you already got a working solution on the board!
 *  **Use test cases.** Come up with a few test cases that you can test on your code. Try to anticipate edge cases (e.g. empty lists, out-of-bounds indices, special characters when you're expecting only letters, etc.). Writing down a few test cases will help you make sure your code is correct, and it will also help convince the interviewer of this! Additionally, having a set of concrete examples on the board is really useful when trying to sort out misunderstandings with the interviewer. The interviewer may even add a few extra test cases to highlight some other edge cases you may have missed.
@@ -118,7 +121,7 @@ Phew! You made it through, congratulations again! Timelines vary a fair bit, but
    *  You get an offer. Woohoo!
    *  You get called in for extra interviews. This does not necessarily mean you didn't perform strongly enough in your interviews. It can be for a number of different reasons, such as that there's a type of skill that wasn't properly evaluated during your interviews.
    *  You're being considered for a different role. Again, this is not a bad thing, it just means that based on your packet the various committees felt a different role would be a better fit. This will possibly involve a few extra interviews. Ultimately, this is a good thing, the role you applied for might not be what you thought it was.
-   *  You don't get an offer. I'm sorry if this is your outcome. Getting a job offer at Google is _very_ hard, and we err on the side of false negatives. So don't feel discouraged! The work you put into preparing for this interview, and the experience of the interview itself, will definitely help you perform better in other interviews. Finally, you can always reapply after a year! I have reviewed packets that initially received a no-offer, only to come back a year later and get an offer.
+   *  You don't get an offer. I'm sorry if this is your outcome. Getting a job offer at Google is _very_ hard, and people have suggested there is a [high false-negative rate](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html). So don't feel discouraged! The work you put into preparing for this interview, and the experience of the interview itself, will definitely help you perform better in other interviews. Finally, you can always reapply after a year! I have reviewed packets that initially received a no-offer, only to come back a year later and get an offer.
 
 ## Final thoughts
 
@@ -126,4 +129,10 @@ This post ended up being a lot longer than I anticipated, but I really hope it p
 
 This post should also be somewhat helpful for non-SWE roles. The non-SWE role I am most familiar with is Research Scientist (RS). I have conducted a few research interviews for RS roles, but not enough to be able to provide concrete guidance. What I will say, though, is that even for RS roles you have to pass some coding interviews. I interviewed someone for an RS role who was super strong on the theory but did quite poorly in the coding interview, so I gave a no-hire recommendation (the person never joined Google, but I don't know if an offer was made or not).
 
+There are also many other people who have shared really valuable advice. [Mekka Okereke](https://twitter.com/mekkaokereke) shared some great advice in [this thread](https://twitter.com/mekkaokereke/status/1135981075086266368), as well as [Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html) (thanks Pascal for reminding me of these posts!).
+
 If you have suggestions, unanswered questions you'd like addressed here, or any other types of comments, feel free to reach out (see footer below).
+
+## Acknowledgements
+
+Thanks to my wonderful colleagues [Pascal Lamblin](https://twitter.com/blip42) and Pierre-Antoine Manzagol for their helpful feedback!
