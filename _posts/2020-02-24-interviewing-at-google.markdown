@@ -7,7 +7,7 @@ categories: interviews google
 ![Google Montreal office](https://www.mtlblog.com/uploads/63590_f3b8f43df35f92bc42438704034c7537b1c60512.jpg_970x400.jpg)
 _The entrance to the Google Montreal office._
 
-A question I get asked a lot is: _How do I get into Google?_
+A question I get asked a lot is: _How do I get a job at Google?_
 
 There are many steps to making this happen, but an essential requirement is passing the interviews; unsurprisingly, this is another question I get asked a lot: _How do I pass the Google interviews?_
 
