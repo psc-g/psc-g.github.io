@@ -135,4 +135,4 @@ If you have suggestions, unanswered questions you'd like addressed here, or any 
 
 ## Acknowledgements
 
-Thanks to my wonderful colleagues [Pascal Lamblin](https://twitter.com/blip42) and Pierre-Antoine Manzagol for their helpful feedback!
+Thanks to my wonderful colleagues [Pascal Lamblin](https://twitter.com/blip42) and [Pierre-Antoine Manzagol](https://twitter.com/PManzagol) for their helpful feedback!
