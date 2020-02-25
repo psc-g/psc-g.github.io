@@ -74,9 +74,9 @@ There's no real Minimal Set of Algorithms & Data Structures To Know, but here ar
 *  **Linked lists**:  What are they? Can you code up a linked list from scratch? What's the complexity for insertion? For deletion? For searching? When would you use a linked list? Are there different types of linked lists?
 *  **Hashing**: What are hash functions? What makes a good hash function? What are collisions? How can you deal with collisions? Average complexity? Worst-case complexity?
 *  **Binary trees**: What are they? Can you code up a binary tree from scratch? What's a binary search tree? What's the complexity for searching? For insertion? For deletion? What does it mean for a tree to be balanced? Write code for balancing a tree. Complexity?
-*  **Dynamic programming**: What is it? When is it useful? Can you use it to solve a problem (you can pick from one of the exercies in your book).
+*  **Dynamic programming**: What is it? When is it useful? Can you use it to solve a problem (you can pick from one of the exercises in your book).
 
-The above list is not a _sufficient_ set of things to know, but I'd say it's a reasonable basis. Of course, the more you know, the better, so if you can code up a red-black tree or a Fibonacci heap from scratch and analyze it's complexity... great!
+The above list is not a _sufficient_ set of things to know, but I'd say it's a reasonable basis. Of course, the more you know, the better, so if you can code up a red-black tree or a Fibonacci heap from scratch and analyze its complexity... great!
 
 It was already hinted in the list above, but you should be able to perform complexity analysis (i.e. big-O) on whatever code you write. I personally almost always ask this question after a candidate finishes writing their code, as it shows they're able to analyze the complexity of their implementation. As I'll detail below, even if you can only provide a naive solution to a problem, it helps a lot if you can analyze it properly.
 
@@ -124,6 +124,6 @@ Phew! You made it through, congratulations again! Timelines vary a fair bit, but
 
 This post ended up being a lot longer than I anticipated, but I really hope it proves useful to you. Although it is written mostly for SWE interviews at Google, most of these suggestions should be applicable to SWE positions at other companies. I interviewed for Shopify a few years ago and I applied all the techniques above; I ended up getting an offer, but declined it as I got invited to join Google Brain (where I am happily working now).
 
-This post should also be somewhat helpful for non-SWE roles. The non-SWE role I am most familiar with is Research Scientist (RS). I have conducted a few research interviews for RS roles, but not enough to be able to provide concrete guidance. What I will say, though, is that even for RS roles you have to pass some coding interviews. I interviewed someone for an RS role who was super strong on the theory but did quite poorly in the coding interview, so I gave a no-hire recommedation (the person never joined Google, but I don't know if an offer was made or not).
+This post should also be somewhat helpful for non-SWE roles. The non-SWE role I am most familiar with is Research Scientist (RS). I have conducted a few research interviews for RS roles, but not enough to be able to provide concrete guidance. What I will say, though, is that even for RS roles you have to pass some coding interviews. I interviewed someone for an RS role who was super strong on the theory but did quite poorly in the coding interview, so I gave a no-hire recommendation (the person never joined Google, but I don't know if an offer was made or not).
 
-If you have suggestions, unanswered questions you'd like addressed here, or any other types of comments, feel free to reach out (see foother below).
+If you have suggestions, unanswered questions you'd like addressed here, or any other types of comments, feel free to reach out (see footer below).
