@@ -15,9 +15,9 @@ While there is no hard and fast rule to pass the Google interviews, I do have so
 
 ## Introduction
 
-_Should I even apply to Google?_ is another common question. The answer is almost always: *yes*! You will never know if you're "good enough" for Google unless you try. And if you do try but don't manage to make it through, I guarantee you will be a stronger programmer and interviewer by the end of it.
+_Should I even apply to Google?_ is another common question. The answer is almost always: *yes*! It will test your limits, and you'll likely learn something about where you could improve! And if you do try but don't manage to make it through, I guarantee you will be a stronger programmer and interviewer by the end of it.
 
-When I was finishing my PhD my mind was set on becoming an academic, but the job market was really bad at the time (circa 2011). On my supervisor's suggestion, I applied to Google. It was the only industry job I applied for, as no other industry job I saw really interested me. But once I decided to apply, I did _a lot_ of preparation for the interview. I am positive I would **not** have passed the interviews if I had taken them the day I applied: the time I spent preparing for the interviews was essential. When I went into the interviews, I felt I was as prepared as I could be. The hard work paid off: I received a job offer to join Google Pittsburgh, and have been working as a SWE at Google since 2012.
+When I was finishing my PhD my mind was set on becoming an academic, but the job market was really bad at the time (circa 2011). On my supervisor's suggestion, I applied to Google. It was the only industry job I applied for, as it was the industry job that stood out to me the most. But once I decided to apply, I did _a lot_ of preparation for the interview. I am positive I would **not** have passed the interviews if I had taken them the day I applied: the time I spent preparing for the interviews was essential. When I went into the interviews, I felt I was as prepared as I could be. The hard work paid off: I received a job offer to join Google Pittsburgh, and have been working as a SWE at Google since 2012.
 
 ![One of my first desks at Google]({{ site.baseurl }}/assets/google_first_desk.jpg)
 _One of my first desks at Google Pittsburgh._
