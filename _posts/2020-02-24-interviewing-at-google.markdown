@@ -7,17 +7,17 @@ categories: interviews google
 ![Google Montreal office](https://www.mtlblog.com/uploads/63590_f3b8f43df35f92bc42438704034c7537b1c60512.jpg_970x400.jpg)
 _The entrance to the Google Montreal office._
 
-A question I get asked a lot is: _How do I get a job at Google?_
+People often ask me: _How do I get a job at Google?_
 
-There are many steps to making this happen, but an essential requirement is passing the interviews; unsurprisingly, this is another question I get asked a lot: _How do I pass the Google interviews?_
+There are many steps to make this happen, but an essential requirement is passing the interviews; unsurprisingly, this is another common question: _How do I pass the Google interviews?_
 
-While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, a lot of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but a lot of it should still be relevant for other positions (like Research Scientist); see at  the end for some thoughts on this. Finally, although the Google interview process is not perfect, I do feel it is a pretty good and objective process.
+While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at  the end for some thoughts on this. Finally, although the Google interview process is not perfect, I do feel it is pretty good and objective.
 
 ## Introduction
 
-_Should I even apply to Google?_ is another question I get asked a lot. The answer is almost always: *yes*! You will never know if you're "good enough" for Google unless you try. And if you do try but don't manage to make it through, I guarantee you will be a stronger programmer and interviewer by the end of it.
+_Should I even apply to Google?_ is another common question. The answer is almost always: *yes*! You will never know if you're "good enough" for Google unless you try. And if you do try but don't manage to make it through, I guarantee you will be a stronger programmer and interviewer by the end of it.
 
-When I was finishing my PhD my mind was set on becoming an academic, but the job market was really bad at the time (circa 2011). On my supervisor's suggestion, I applied to Google. It was the only industry job I applied for, as no other industry job I saw really interested me. But once I decided to apply, I did _a lot_ of preparation for the interview. I am positive I would **not** have passed the interviews if I had taken them the day I applied: the many weeks preparing for the interviews were essential. When I went into the interviews, I felt quite confident I was as prepared as I could be. The hard work paid off: I got a job offer to join Google Pittsburgh, and have been working as a SWE at Google since 2012.
+When I was finishing my PhD my mind was set on becoming an academic, but the job market was really bad at the time (circa 2011). On my supervisor's suggestion, I applied to Google. It was the only industry job I applied for, as no other industry job I saw really interested me. But once I decided to apply, I did _a lot_ of preparation for the interview. I am positive I would **not** have passed the interviews if I had taken them the day I applied: the many weeks preparing for the interviews were essential. When I went into the interviews, I felt quite confident I was as prepared as I could be. The hard work paid off: I received a job offer to join Google Pittsburgh, and have been working as a SWE at Google since 2012.
 
 ![One of my first desks at Google]({{ site.baseurl }}/assets/google_first_desk.jpg)
 _One of my first desks at Google Pittsburgh._
@@ -26,6 +26,7 @@ The rest of this post is based on my experience:
 *  Preparing for these interviews
 *  Working as a SWE at Google
 *  Conducting hundreds of interviews
+*  Conducting dozens of interview workshops
 *  Being a hiring committee member
 *  Many discussions I've had with many people, inside and outside of Google.
 
@@ -61,7 +62,7 @@ It's also really useful to go through sites like [glassdoor](https://www.glassdo
 
 Try writing code on a whiteboard (or on a piece of paper _by hand_ if you don't have access to a chalk/white-board). It is _very_ different to code on a whiteboard, but that is what you will be asked to do at the interview. It's best if you've already had some experience doing it! What I'd recommend is to practice writing a full program on a whiteboard, then code it up in your computer and make sure it compiles/runs in one go. If it doesn't, try again!
 
-It's also extremely useful to practice coding on a whiteboard while someone else is watching, to get used to the potential anxiety response!
+It's also extremely useful to practice coding on a whiteboard while someone else is watching, to get used to the potential anxiety response.
 
 Although a few syntax errors are ok, we do take note if the coding is sloppy and full of syntax errors. It suggests you may not be as familiar with your preferred language.
 
@@ -77,10 +78,11 @@ There's no real Minimal Set of Algorithms & Data Structures To Know, but here ar
 *  **Hashing**: What are hash functions? What makes a good hash function? What are collisions? How can you deal with collisions? Average complexity? Worst-case complexity?
 *  **Binary trees**: What are they? Can you code up a binary tree from scratch? What's a binary search tree? What's the complexity for searching? For insertion? For deletion? What does it mean for a tree to be balanced? Write code for balancing a tree. Complexity?
 *  **Dynamic programming**: What is it? When is it useful? Can you use it to solve a problem (you can pick from one of the exercises in your book).
+*  **Graph algorithms**: Graph traversal. Directed versus undirected graphs. Can you code a graph data structure from scratch? When would you use a graph? What are different ways of modifying graphs?
 
 The above list is not a _sufficient_ set of things to know, but I'd say it's a reasonable basis. Of course, the more you know, the better, so if you can code up a red-black tree or a Fibonacci heap from scratch and analyze its complexity... great!
 
-It was already hinted in the list above, but you should be able to perform complexity analysis (i.e. big-O) on whatever code you write. I personally almost always ask this question after a candidate finishes writing their code, as it shows they're able to analyze the complexity of their implementation. As I'll detail below, even if you can only provide a naive solution to a problem, it helps a lot if you can analyze it properly.
+It was already hinted in the list above, but you should be able to perform complexity analysis (i.e. big-O) on whatever code you write. I personally almost always ask this question after a candidate finishes writing their code, as it shows they're able to analyze the effectiveness of their implementation. As I'll detail below, even if you can only provide a naive solution to a problem, it helps a lot if you can analyze it properly.
 
 ### Personality
 
@@ -99,7 +101,7 @@ Congratulations, you have interviews scheduled! This is already a great achievem
    *  It will be _much_ easier for the interviewer to understand a naive solution than a complex one. And you want the interviewer to understand your solution: you don't get points for tricking/confusing the interviewer!
    *  Walking through a naive solution is a "manual profiler" of your code, helping you identify redundant work and opportunities for optimization (thanks, Pascal, for this point!).
    *  But once again, make sure you tell the interviewer that you're starting with a naive solution.
-*  **It's ok to make simplifying assumptions.** If it helps you think through the problem more clearly, it's totally fine to make simplifying assumptions (e.g. "Can I assume to list is already sorted?"), for reasons similar to the point on naive solutions. This is in fact a great signal, as it shows that you can decompose a problem into parts, and that you can identify those parts that cause more problems. Once you solve the problem with the simplifying assumptions, you can work towards a solution that doesn't require the assumptions; but at least you already got a working solution on the board!
+*  **It's ok to make simplifying assumptions.** If it helps you think through the problem more clearly, it's totally fine to make simplifying assumptions (e.g. "Can I assume the list is already sorted?"), for reasons similar to the point on naive solutions. This is in fact a great signal, as it shows that you can decompose a problem into parts, and that you can identify those parts that cause more problems. Once you solve the problem with the simplifying assumptions, you can work towards a solution that doesn't require the assumptions; but at least you already got a working solution on the board!
 *  **Use test cases.** Come up with a few test cases that you can test on your code. Try to anticipate edge cases (e.g. empty lists, out-of-bounds indices, special characters when you're expecting only letters, etc.). Writing down a few test cases will help you make sure your code is correct, and it will also help convince the interviewer of this! Additionally, having a set of concrete examples on the board is really useful when trying to sort out misunderstandings with the interviewer. The interviewer may even add a few extra test cases to highlight some other edge cases you may have missed.
 *  **It's ok to take a few minutes to gather your thoughts.** Even though I suggested talking through your thought process, don't feel obliged to be talking the whole time, _especially_ if you don't have your thoughts fully organized yet, as it can often lead you astray. Simply say "Can I take a minute or two to collect my thoughts?", and then work things out in your head. The important thing is to let the interviewer know this is what you're doing. If you feel it's taking you too long to collect your thoughts, you may be getting confused by a part of the problem, which brings me to my next point:
 *  **It's ok to ask for help.** If you're feeling stuck, feel free to ask for help, but try to be specific about what is giving you problems. Often it might just be you misunderstood something in the question, you failed to notice a key aspect of the question, or occasionally it can even be that the interviewer forgot to mention an important piece of the question! I've had interviews where the candidate seemed really stuck, but once I gave them a little bit of help, they were able to solve the problem.
@@ -129,10 +131,10 @@ This post ended up being a lot longer than I anticipated, but I really hope it p
 
 This post should also be somewhat helpful for non-SWE roles. The non-SWE role I am most familiar with is Research Scientist (RS). I have conducted a few research interviews for RS roles, but not enough to be able to provide concrete guidance. What I will say, though, is that even for RS roles you have to pass some coding interviews. I interviewed someone for an RS role who was super strong on the theory but did quite poorly in the coding interview, so I gave a no-hire recommendation (the person never joined Google, but I don't know if an offer was made or not).
 
-There are also many other people who have shared really valuable advice. [Mekka Okereke](https://twitter.com/mekkaokereke) shared some great advice in [this thread](https://twitter.com/mekkaokereke/status/1135981075086266368), as well as [Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html) (thanks Pascal for reminding me of these posts!).
+There are also many other people who have shared really valuable advice. [Mekka Okereke](https://twitter.com/mekkaokereke) shared some great advice in [this thread](https://twitter.com/mekkaokereke/status/1135981075086266368), as well as [Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html) (thanks Pascal for reminding me of these posts!). A few people have also suggested [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview) as a good book to study.
 
 If you have suggestions, unanswered questions you'd like addressed here, or any other types of comments, feel free to reach out (see footer below).
 
 ## Acknowledgements
 
-Thanks to my wonderful colleagues [Pascal Lamblin](https://twitter.com/blip42) and [Pierre-Antoine Manzagol](https://twitter.com/PManzagol) for their helpful feedback!
+Thanks to [Pascal Lamblin](https://twitter.com/blip42), [Pierre-Antoine Manzagol](https://twitter.com/PManzagol), Daniel Kenji Toyama, [Marlos C. Machado](https://twitter.com/MarlosCMachado), and Michelle Sinclair for their helpful feedback!
