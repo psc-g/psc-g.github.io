@@ -11,7 +11,7 @@ People often ask me: _How do I get a job at Google?_
 
 An essential requirement is passing the interviews; unsurprisingly, this is another common question: _How do I pass the Google interviews?_
 
-While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at  the end for some thoughts on this. Although the Google interview process is not perfect, I do feel it is pretty good and objective.
+While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at  the end for some thoughts on this. Although the Google interview process is not perfect, I do feel it is pretty good and objective. Whatever the outcome, remember that your self-worth should not be defined by whether you get an offer.
 
 ## Introduction
 
