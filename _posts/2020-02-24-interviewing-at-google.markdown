@@ -4,6 +4,9 @@ title:  "Tips for interviewing at Google"
 date:   2020-02-24 21:36:38 -0500
 categories: interviews google
 ---
+
+_Disclaimer:_ This post reflects my personal views and not those of my employer.
+
 ![Google Montreal office](https://www.mtlblog.com/uploads/63590_f3b8f43df35f92bc42438704034c7537b1c60512.jpg_970x400.jpg)
 _The entrance to the Google Montreal office._
 
@@ -36,7 +39,7 @@ Following the suggestions here won't guarantee you'll get the Google job, but it
 
 You can check out the main [Google careers site](https://careers.google.com/) to find jobs that you feel would be a good fit.
 
-Referrals often help, so if you know someone already at Google, ask them to refer you. If you don't know anyone at Google, you've already applied and haven't heard back in a while, feel free to send me a note with your CV and I'll see if there's something I can do. Note that this still does not guarantee you will get called for an interview. Unfortunately I know very little about how candidates are selected for interviews, and have very little influence on that process.
+Referrals often help, so if you know someone already at Google, ask them to refer you. If you don't know anyone at Google, you've already applied and haven't heard back in a while, check out [my post on tips for preparing your resume](https://psc-g.github.io/resume/google/2020/03/09/preparing-your-resume.html). Note that this still does not guarantee you will get called for an interview. Unfortunately I know very little about how candidates are selected for interviews, and have very little influence on that process.
 
 ## How do I prepare for the Google interview?
 
@@ -70,7 +73,7 @@ Although a few syntax errors are ok, we do take note if the coding is sloppy and
 
 ![Introduction to Algorithms](https://prodimage.images-bn.com/pimages/9780262031417_p0_v1_s550x406.jpg)
 
-The book I used to prepare for this was the book I used in my undergrad: [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms) by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. I'm sure there are many other books you could use for this purpose, but this is the one I already had on my shelf.
+The book I used to prepare for this was the book I used in my undergrad: [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms) by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. I'm sure there are many other books you could use for this purpose, but this is the one I already had on my shelf. Someone suggested that [Introduction to Algorithms: A Creative Approach](https://www.goodreads.com/book/show/105136.Introduction_to_Algorithms) is a good book.
 
 There's no real Minimal Set of Algorithms & Data Structures To Know, but here are a few things you should definitely know about and be pretty comfortable with. Note that this is by no means exhaustive, and if you feel I'm missing something here, let me know!
 *  **Sorting**: Know a few different ways of sorting. When would you pick each? What's their complexity?
@@ -121,7 +124,7 @@ Congratulations, you have interviews scheduled! This is already a great achievem
 Phew! You made it through, congratulations again! Timelines vary a fair bit, but here is roughly what happens now.
 
 *  Each interviewer will write their feedback for you and provide a hire/no-hire recommendation. Interviewers don't get to see the feedback of the other interviewers.
-*  Your packet -- which includes everything: your CV, your interview feedback, past interviews, etc. -- will go through a few hiring committees (but I don't know exactly how many). These are a group of Googlers (none of which interviewed you) that will read through your packet and provide their own hiring recommendations, based on what they read. There will be multiple people reading your packet and providing feedback.
+*  Your packet -- which includes everything: your resume, your interview feedback, past interviews, etc. -- will go through a few hiring committees (but I don't know exactly how many). These are a group of Googlers (none of which interviewed you) that will read through your packet and provide their own hiring recommendations, based on what they read. There will be multiple people reading your packet and providing feedback.
 *  Based on the decisions from the hiring committee(s), there are a few different things that can happen:
    *  You get an offer. Woohoo!
    *  You get called in for extra interviews. This does not necessarily mean you didn't perform strongly enough in your interviews. It can be for a number of different reasons, such as that there's a type of skill that wasn't properly evaluated during your interviews.
@@ -135,6 +138,8 @@ This post ended up being a lot longer than I anticipated, but I really hope it p
 This post should also be somewhat helpful for non-SWE roles. The non-SWE role I am most familiar with is Research Scientist (RS). I have conducted a few research interviews for RS roles, but not enough to be able to provide concrete guidance. What I will say, though, is that even for RS roles you have to pass some coding interviews. I interviewed someone for an RS role who was super strong on the theory but did quite poorly in the coding interview, so I gave a no-hire recommendation (the person never joined Google, but I don't know if an offer was made or not).
 
 There are also many other people who have shared really valuable advice. [Mekka Okereke](https://twitter.com/mekkaokereke) shared some great advice in [this thread](https://twitter.com/mekkaokereke/status/1135981075086266368), as well as [Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html) (thanks Pascal for reminding me of these posts!). A few people have also suggested [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview) as a good book to study.
+
+Google also provides a [tech dev guide](https://techdevguide.withgoogle.com/) which seems quite useful.
 
 If you have suggestions, unanswered questions you'd like addressed here, or any other types of comments, feel free to reach out (see footer below).
 
