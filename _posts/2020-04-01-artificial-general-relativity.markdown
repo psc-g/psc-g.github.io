@@ -13,8 +13,8 @@ allow us to control gravity and spacetime. I present a set of practical approach
 as reasonable baselines for future work.
 
 Here are some experimental evaluations for the CAstro Field Equations (CAFE) introduced in the paper:
-![CAFE Field Equations]({{ site.baseurl }}/assets/cafe_plots.png).
-You can find the open-source code to run these [here]({{ site.baseurl }}/assets/CAFE.ipynb).
+![CAFE Field Equations](https://github.com/psc-g/psc-g.github.io/blob/master/assets/cafe_plots.png).
+You can find the open-source code to run these [here](https://github.com/psc-g/psc-g.github.io/blob/master/assets/CAFE.ipynb).
 
 Read the full article [here]({{ site.baseurl }}/assets/agr.pdf).
 
