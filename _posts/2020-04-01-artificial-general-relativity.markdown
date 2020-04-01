@@ -12,11 +12,11 @@ sounding pretentious with "we") introduce Artificial General Relativity (AGR) wh
 allow us to control gravity and spacetime. I present a set of practical approaches to achieve AGR which serve
 as reasonable baselines for future work.
 
-Here are some experimental evaluations for the CAstro Field Equations (CAFE) introduced in the paper:
-![CAFE Field Equations](https://github.com/psc-g/psc-g.github.io/blob/master/assets/cafe_plots.png).
-You can find the open-source code to run these [here](https://github.com/psc-g/psc-g.github.io/blob/master/assets/CAFE.ipynb).
-
 Read the full article [here]({{ site.baseurl }}/assets/agr.pdf).
+
+You can find the open-source code accompanying this paper [here](https://github.com/psc-g/psc-g.github.io/blob/master/assets/CAFE.ipynb).
+This code was used for the experimental evaluations for the CAstro Field Equations (CAFE) introduced in the paper:
+![CAFE Field Equations](https://github.com/psc-g/psc-g.github.io/blob/master/assets/cafe_plots.png).
 
 I am thrilled to announce this groundbreaking article has been accepted at the competitive, peer-reviewed,
 SigBovik 2020 conference (proceedings [here](http://sigbovik.org/2020/proceedings.pdf)).
