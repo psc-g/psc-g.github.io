@@ -15,7 +15,7 @@ I'm happy to announce that this web service is ready and has been approved for u
 
 I have made my code open-source and have added instructions for how to bring up your own web server with this service. You can find the code and instructions [here](https://github.com/psc-g/coviduci-ec). If you are comfortable with command lines and know Python, you should be able to bring up your own service. If you are from a country/region that could benefit from this, try to get in touch with the ICU units there and offer to bring up this (or a similar) service! It can help a lot.
 
-Feel free to reshare this post, my [tweet](https://twitter.com/pcastr/status/1246456267385843712), or my [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:6652227700100526081/).
+Feel free to reshare this post, my [tweet](https://twitter.com/pcastr/status/1246456267385843712), my [Facebook post](https://www.facebook.com/pcastr/posts/10104507056714147), or my [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:6652227700100526081/).
 
 Stay healthy.
 
@@ -29,6 +29,6 @@ Me complace anunciar que este servicio web está listo y ha sido aprobado para s
 
 He hecho mi código open-source y he agregado instrucciones sobre cómo ustedes pueden abrir su propio servidor web con este servicio. Pueden encontrar el código y las instrucciones [aquí](https://github.com/psc-g/coviduci-ec). Si se sienten cómodos con las líneas de comando y conocen Python, deberían poder abrir su propio servicio. Si ustedes son de un país / región que podría beneficiarse de esto, ¡intente ponerse en contacto con las unidades de la UCI allí y ofrezca traer este servicio (o uno similar)! Puede ayudar mucho.
 
-Siéntase libre de compartir esta publicación, mi [tweet](https://twitter.com/pcastr/status/1246459373616070658), o mi [publicación en LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:6652228053747458048/).
+Siéntase libre de compartir esta publicación, mi [tweet](https://twitter.com/pcastr/status/1246459373616070658), mi [publicación en Facebook](https://www.facebook.com/pcastr/posts/10104507062178197), o mi [publicación en LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:6652228053747458048/).
 
 Manténganse sanos.
