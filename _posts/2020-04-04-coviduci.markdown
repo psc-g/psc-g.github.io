@@ -9,7 +9,7 @@ categories: covid ecuador
 
 _Disclaimer:_ The work discussed in this post was done entirely in a personal capacity, not on behalf of my employer.
 
-In an effort to help the Covid-19 situation in Ecuador, I got in touch with a group of leading ICU physicians to see how I could help. They suggested building a simple web service where ICUs could update patient / beds / equipment / medicine statistics in a more real-time manner, such that policy makers could have access to more up-to-date information for making their decisions.
+In an effort to help the Covid-19 situation in Ecuador, I got in touch with a group of leading ICU physicians (Manuel Jibaja, Nelson Maldonado S., Telmo Fernandez, and others) to see how I could help. They suggested building a simple web service where ICUs could update patient / beds / equipment / medicine statistics in a more real-time manner, such that policy makers could have access to more up-to-date information for making their decisions.
 
 I'm happy to announce that this web service is ready and has been approved for use. Some of the major hospitals are already populating their data. Hopefully this can help provide more accurate data for dealing with this pandemic in Ecuador.
 
@@ -23,7 +23,7 @@ Stay healthy.
 
 _Nota:_ El trabajo discutido en esta publicación se realizó completamente en capacidad personal, no en nombre de mi empleador.
 
-Con la intención de ayudar con la situación de Covid-19 en Ecuador, me puse en contacto con un grupo de los principales doctores de UCIs para ver cómo podía ayudar. Sugirieron crear un servicio web simple en el que las UCI pudieran actualizar las estadísticas de pacientes / camas / insumos / medicamentos en tiempo real, de modo que los líderes del país puedan tener acceso a información más actualizada para tomar sus decisiones.
+Con la intención de ayudar con la situación de Covid-19 en Ecuador, me puse en contacto con un grupo de los principales doctores de UCIs (Manuel Jibaja, Nelson Maldonado S., Telmo Fernandez, y otros) para ver cómo podía ayudar. Sugirieron crear un servicio web simple en el que las UCI pudieran actualizar las estadísticas de pacientes / camas / insumos / medicamentos en tiempo real, de modo que los líderes del país puedan tener acceso a información más actualizada para tomar sus decisiones.
 
 Me complace anunciar que este servicio web está listo y ha sido aprobado para su uso. Algunos de los principales hospitales ya están poblando sus datos. Espero que esto pueda ayudar a proporcionar datos más precisos para enfrentar esta pandemia en Ecuador.
 
