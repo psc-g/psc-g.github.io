@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tips for interviewing at Google"
+title:  "CovidUCI Ecuador"
 date:   2020-02-24 21:36:38 -0500
 categories: covid ecuador
 ---
