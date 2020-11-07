@@ -34,8 +34,10 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   # It will be default to the theme logos if not provided.
-  #logo:
-  #  main: /assets/images/main-logo.png
+  logo:
+    main: /assets/images/psc_emoji.png
+    inverted: /assets/images/psc_emoji.png
+    favicon: /assets/images/psc_emoji.png
   #  inverted: /assets/images/inverted-logo.png
   #  favicon: /assets/images/favicon.png
 
