@@ -1,0 +1,15 @@
+# some information about you
+name: "Pablo Samuel Castro"
+nickname: "psc"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hola, I'm"
+image: "assets/images/psc_gradient.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  twitter: "@pcastr"
+
+# some summary about what you do
+summary:
+  - Researcher
+  - Developer
+  - Musician

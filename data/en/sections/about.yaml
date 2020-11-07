@@ -1,0 +1,55 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Señor Swesearcher
+# your company information
+company:
+  name: Google
+  url: "https://ai.google/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I was born and raised in Quito, Ecuador, and moved to Montreal after high school to study at McGill. I stayed in Montreal for the next 10 years, finished my bachelors, worked at a flight simulator company, and then eventually obtained my masters and PhD at McGill, focusing on Reinforcement Learning under the supervision of Doina Precup and Prakash Panangaden. After my PhD I did a 10-month postdoc in Paris before moving to Pittsburgh to join Google. I have worked at Google for close to 9 years, and am currently a staff research Software Developer in Google Brain in Montreal, focusing on fundamental Reinforcement Learning research, Machine Learning and Creativity, and being a regular advocate for increasing the LatinX representation in the research community. Aside from my interest in coding/AI/math, I am an [active musician](https://www.psctrio.com/), love running (6 marathons so far, including Boston!), and discussing politics and activism.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  #- name: Email
+  #  icon: "fas fa-envelope"
+  #  url: "example@gmail.com"
+  #
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/pcastr"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/psc-g"
+
+  #- name: Stackoverflow
+  #  icon: "fab fa-stack-overflow"
+  #  url: "#"
+
+  #- name: LinkedIn
+  #  icon: "fab fa-linkedin"
+  #  url: "https://www.linkedin.com/in/pablo-samuel-castro-2113641b/"
+
+softSkills:
+- name: CompSci
+  percentage: 33
+  color: blue
+- name: ML
+  percentage: 33
+  color: yellow
+- name: Music
+  percentage: 33
+  color: orange
