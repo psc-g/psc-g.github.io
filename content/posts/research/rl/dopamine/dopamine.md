@@ -1,6 +1,6 @@
 ---
 title: "Dopamine: A framework for flexible value-based reinforcement learning research"
-date: 2020-08-27T08:06:25+06:00
+date: 2018-08-27T08:06:25+06:00
 hero: /posts/research/rl/dopamine/dopamine.png
 description: "Dopamine: A framework for flexible value-based reinforcement learning research"
 menu:
