@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Creativity on psc's website</title><link>https://psc-g.github.io/posts/research/creativity/</link><description>Recent content in Creativity on psc's website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Jun 2019 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/research/creativity/index.xml" rel="self" type="application/rss+xml"/><item><title>ML-Jam: Performing Structured Improvisations with Pre-trained Models</title><link>https://psc-g.github.io/posts/research/creativity/ml-jam/ml-jam/</link><pubDate>Wed, 19 Jun 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ml-jam/ml-jam/</guid><description>This paper, published in the International Conference on Computational Creativity, 2019, explores using pre-trained musical generative models in a collaborative setting for improvisation.
+You can read more details about it in this blog post.
+You can also play with it in this web app!
+If you want to play with the code, it is here.
+Demos Demo video playing with the web app:
+Demo video jamming over Herbie Hancock&amp;rsquo;s Chameleon:</description></item></channel></rss>
