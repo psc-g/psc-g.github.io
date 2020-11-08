@@ -1,6 +1,6 @@
 ---
 title: "JiDiJi: An Experiment in Musical Representation"
-date: 2018-14-01T08:06:25+06:00
+date: 2018-01-14T08:06:25+06:00
 hero: /posts/art/jidiji/jidiji.png
 description: "JiDiJi: An Experiment in Musical Representation"
 menu:
