@@ -12,7 +12,8 @@ menu:
 ---
 
 We photograph ourselves each year on our anniversary.
-Nos tomamos fotos todos los años en nuestro aniversario.
+
+(This page is not optimized for mobile yet)
 
 | Year | Michelle | Pablo Samuel | Sofia | Samuel | Emilia |
 |------|----------|--------------|-------|--------|--------|
