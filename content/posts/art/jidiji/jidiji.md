@@ -1,7 +1,7 @@
 ---
 title: "JiDiJi: An Experiment in Musical Representation"
 date: 2018-01-14T08:06:25+06:00
-hero: /posts/art/jidiji/jidiji.png
+hero: /posts/art/jidiji/zelda.gif
 description: "JiDiJi: An Experiment in Musical Representation"
 menu:
   sidebar:
@@ -77,7 +77,7 @@ To overcome this problem, you can specify the maximum number of simultaneous not
 
 If we take a painting like Renoir's "Luncheon of the Boating Party" and specify a row height of 10, during playback we would get something like:
 
-[{{< img src="/posts/art/jidiji/renoirScreenshot.png" title="Screenshot of Renoir video playback" >}}](/posts/art/jidiji/renoir_playback.mp4)
+[{{< img src="/posts/art/jidiji/renoir_playback.gif" title="Screenshot of Renoir video playback" >}}](/posts/art/jidiji/renoir_playback.mp4)
 
 The red bar moving around represents the pixels currently being "played".
 
@@ -91,15 +91,15 @@ You can play the melodies generated from either method. The pixels in the image 
 
 It's fun to watch the pixels light up as they're getting played. Beethoven's 5th symphony makes it really easy to see where the rhythms fall:
 
-[{{< img src="/posts/art/jidiji/beethoven5Screenshot.png" title="Playback of Beethoven's 5th" >}}](/posts/art/jidiji/beethoven5.mp4)
+[{{< img src="/posts/art/jidiji/beethoven5.gif" title="Playback of Beethoven's 5th" >}}](/posts/art/jidiji/beethoven5.mp4)
 
 Another fun one is Legend of Zelda - Labyrinth (Crystal version):
 
-[{{< img src="/posts/art/jidiji/zeldaScreenshot.png" title="Playback of Zelda" >}}](/posts/art/jidiji/zelda.mp4)
+[{{< img src="/posts/art/jidiji/zelda.gif" title="Playback of Zelda" >}}](/posts/art/jidiji/zelda.mp4)
 
 Of the images I provide, my favourite is the music you get from Michael Creese's "Pointillism Skull", especially the sounds you get in the areas outside of the skull:
 
-[{{< img src="/posts/art/jidiji/pointScreenshot.png" title="Playback of Zelda" >}}](/posts/art/jidiji/point.mp4)
+[{{< img src="/posts/art/jidiji/point.gif" title="Playback of Zelda" >}}](/posts/art/jidiji/point.mp4)
 
 
 ## Unraveling Bolero
