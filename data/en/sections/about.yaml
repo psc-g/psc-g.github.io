@@ -42,14 +42,3 @@ socialLinks:
   #- name: LinkedIn
   #  icon: "fab fa-linkedin"
   #  url: "https://www.linkedin.com/in/pablo-samuel-castro-2113641b/"
-
-softSkills:
-- name: CompSci
-  percentage: 33
-  color: blue
-- name: ML
-  percentage: 33
-  color: yellow
-- name: Music
-  percentage: 33
-  color: orange

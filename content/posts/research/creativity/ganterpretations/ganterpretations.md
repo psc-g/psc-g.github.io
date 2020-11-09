@@ -1,6 +1,6 @@
 ---
 title: "GANterpretations"
-date: 2020-11-11T08:06:25+06:00
+date: 2020-11-08T08:06:25+06:00
 hero: /posts/research/creativity/ganterpretations/gandy.gif
 description: "GANterpretations"
 menu:
