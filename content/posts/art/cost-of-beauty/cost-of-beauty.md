@@ -59,8 +59,9 @@ This is an initial exploration into the idea of leveraging the tension between a
 
 {{< img src="/posts/art/cost-of-beauty/parting.gif" title="Parting video" >}}
 
-
 If you want to read more, you can check out [my white paper](https://cdn.glitch.com/0952ad90-b0ef-40d7-91c3-ecb71b43cd93%2Fcost_of_beauty.pdf?v=1588280008012) for more details.
+
+[Here is the original tweet](https://twitter.com/pcastr/status/1179085879169732608).
 
 ## Disclaimer
 
