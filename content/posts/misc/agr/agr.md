@@ -1,13 +1,13 @@
 ---
 title: "Artificial General Relativity"
 date: 2020-04-01T08:06:25+06:00
-hero: /posts/other/agr/cafe.png
+hero: /posts/misc/agr/cafe.png
 description: Artificial General Relativity
 menu:
   sidebar:
     name: Artificial General Relativity
     identifier: agr
-    parent: other
+    parent: misc
     weight: 10
 ---
 
@@ -19,11 +19,11 @@ sounding pretentious with "we") introduce Artificial General Relativity (AGR) wh
 allow us to control gravity and spacetime. I present a set of practical approaches to achieve AGR which serve
 as reasonable baselines for future work.
 
-Read the full article [here](/posts/other/agr/agr.pdf).
+Read the full article [here](/posts/misc/agr/agr.pdf).
 
 You can find the open-source code accompanying this paper [here](https://github.com/psc-g/psc-g.github.io/blob/master/assets/CAFE.ipynb).
 This code was used for the experimental evaluations for the CAstro Field Equations (CAFE) introduced in the paper:
-{{< img src="/posts/other/agr/cafe_plots.png" title="CAFE Field equations" >}}
+{{< img src="/posts/misc/agr/cafe_plots.png" title="CAFE Field equations" >}}
 
 
 I am thrilled to announce this groundbreaking article has been accepted at the competitive, peer-reviewed,
