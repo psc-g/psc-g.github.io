@@ -1,13 +1,13 @@
 ---
 title: "Tips for preparing your resume"
 date: 2020-02-24T08:06:25+06:00
-hero: /posts/tips/resume/resume_example_1.png
+hero: /posts/mentoring/resume/resume_example_1.png
 description: Tips for preparing your resume
 menu:
   sidebar:
     name: Preparing your resume
     identifier: resume
-    parent: tips
+    parent: mentoring
     weight: 10
 ---
 
@@ -73,7 +73,7 @@ I’m listing these in what I feel is a good order, but you may want to move som
 
 A very rough example of what I mean:
 
-{{< img src="/posts/tips/resume/header_example.png" title="Header example" >}}
+{{< img src="/posts/mentoring/resume/header_example.png" title="Header example" >}}
 
 
 ### Education
@@ -86,7 +86,7 @@ A very rough example of what I mean:
 
 A very rough example of what I mean:
 
-{{< img src="/posts/tips/resume/education_example.png" title="Education example" >}}
+{{< img src="/posts/mentoring/resume/education_example.png" title="Education example" >}}
 
 
 ### Work experience
@@ -99,7 +99,7 @@ A very rough example of what I mean:
 
 A very rough example of what I mean:
 
-{{< img src="/posts/tips/resume/work_experience_example.png" title="Work experience example" >}}
+{{< img src="/posts/mentoring/resume/work_experience_example.png" title="Work experience example" >}}
 
 ### Publications
 
@@ -158,7 +158,7 @@ It is also worth mentioning that I removed any personal information from these e
 
 ### Example 1
 
-{{< img src="/posts/tips/resume/resume_example_1.png" title="Resume example 1" >}}
+{{< img src="/posts/mentoring/resume/resume_example_1.png" title="Resume example 1" >}}
 
 This person has a very good technical background and skill set, was referred by two Googlers, and yet has not been called for an interview. Here are some things I pointed out to them:
 
@@ -177,7 +177,7 @@ This person has a very good technical background and skill set, was referred by 
 
 ### Example 2
 
-{{< img src="/posts/tips/resume/resume_example_2.png" title="Resume example 2" >}}
+{{< img src="/posts/mentoring/resume/resume_example_2.png" title="Resume example 2" >}}
 
 *  This resume is quite cluttered, so it’s hard to know what to focus on.
 *  There is too much information here. Focus on what’s most relevant for _the job you’re applying for_. For example:
@@ -200,7 +200,7 @@ This person has a very good technical background and skill set, was referred by 
 
 ### Example 3
 
-{{< img src="/posts/tips/resume/resume_example_3.png" title="Resume example 3" >}}
+{{< img src="/posts/mentoring/resume/resume_example_3.png" title="Resume example 3" >}}
 
 *  Make sure there are no grammar/spelling mistakes!
 *  There is way too much information here. Most people will not want to read through all that.

@@ -1,20 +1,17 @@
 ---
 title: "Tips for Interviewing at Google"
 date: 2020-02-24T08:06:25+06:00
-hero: /posts/tips/interviewing/google_montreal.jpg
+hero: /posts/mentoring/interviewing/google_montreal.jpg
 description: Tips for Interviewing at Google
 menu:
   sidebar:
     name: Tips for Interviewing at Google
     identifier: interviewing
-    parent: tips
+    parent: mentoring
     weight: 10
 ---
 
 _Disclaimer:_ This post reflects my personal views and not those of my employer.
-
-![Google Montreal office](https://www.mtlblog.com/uploads/63590_f3b8f43df35f92bc42438704034c7537b1c60512.jpg_970x400.jpg)
-_The entrance to the Google Montreal office._
 
 People often ask me: _How do I get a job at Google?_
 
@@ -28,7 +25,7 @@ _Should I even apply to Google?_ is another common question. The answer is almos
 
 When I was finishing my PhD my mind was set on becoming an academic, but the job market was really bad at the time (circa 2011). On my supervisor's suggestion, I applied to Google. It was the only industry job I applied for, as it was the industry job that stood out to me the most. But once I decided to apply, I did _a lot_ of preparation for the interview. I am positive I would **not** have passed the interviews if I had taken them the day I applied: the time I spent preparing for the interviews was essential. When I went into the interviews, I felt I was as prepared as I could be. The hard work paid off: I received a job offer to join Google Pittsburgh, and have been working as a SWE at Google since 2012.
 
-{{< img src="/posts/tips/interviewing/google_first_desk.jpg" title="One of my first desks at Google" >}}
+{{< img src="/posts/mentoring/interviewing/google_first_desk.jpg" title="One of my first desks at Google" >}}
 
 The rest of this post is based on my experience:
 *  Preparing for these interviews
