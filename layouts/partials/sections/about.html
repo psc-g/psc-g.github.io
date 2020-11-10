@@ -11,7 +11,6 @@
 <div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
   <div class="row pt-sm-2 pt-md-4 align-self-center">
     <!-- summary -->
-    <div class="col-sm-6">
       <h3 class="p-1">{{ $author.name }}</h3>
       {{ if .designation }}
       <h5 class="p-1">
@@ -36,7 +35,6 @@
           </li>
           {{ end }}
         </ul>
-      </div>
       {{ if .resume }}
       <a href="{{ .resume | relURL }}" target="#"
         ><button class="btn btn-dark">{{ i18n "resume"}}</button></a
