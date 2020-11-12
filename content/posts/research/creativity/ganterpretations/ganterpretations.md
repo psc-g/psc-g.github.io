@@ -11,9 +11,13 @@ menu:
     weight: 10
 ---
 
-GANterpretations is an idea I published in [this paper](https://github.com/psc-g/ganterpretation/blob/master/ganterpretations.pdf), which was accepted to the [4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020](https://neurips2020creativity.github.io/). The code is available [here](https://github.com/psc-g/ganterpretation).
+GANterpretations is an idea I published in [this paper](https://arxiv.org/abs/2011.05158), which was accepted to the [4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020](https://neurips2020creativity.github.io/). The code is available [here](https://github.com/psc-g/ganterpretation).
 
 At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to "draw" a path in the latent space of a BigGAN.
+
+The following video walks through the process:
+
+{{< youtube j2J8_Q9ZNa8 >}}
 
 ## GANs
 
