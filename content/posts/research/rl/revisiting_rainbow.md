@@ -1,6 +1,6 @@
 ---
 title: "Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research"
-date: 2020-12-03T08:06:25+06:00
+date: 2020-11-26T08:06:25+06:00
 hero: /posts/research/rl/revisiting_rainbow/revisiting_rainbow.png
 description: "Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research"
 menu:
