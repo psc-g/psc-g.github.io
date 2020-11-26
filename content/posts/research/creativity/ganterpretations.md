@@ -40,7 +40,7 @@ We can use any signal in $\mathbb{R}^d$ for our $\alpha$ values, and in the next
 
 ## Spectrograms
 
-Given an audio file (could be the audio extracted from a video file), I use the `specgram` method from `matplotlib` to extract the spectrogram of an audio file. Most audio is in stereo, but I only use the left channel. The extracted spectrogram for the [GANdy example](/posts/research/creativity/ganterpretations/ganterpretations/#the-story-of-gandy) is as follows:
+Given an audio file (could be the audio extracted from a video file), I use the `specgram` method from `matplotlib` to extract the spectrogram of an audio file. Most audio is in stereo, but I only use the left channel. The extracted spectrogram for the [GANdy example](/posts/research/creativity/ganterpretations/#the-story-of-gandy) is as follows:
 
 {{< img src="/posts/research/creativity/ganterpretations/stft.png" title="STFT image" >}}
 

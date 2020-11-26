@@ -31,7 +31,7 @@ publications:
   timeline: "AAAI, 2020"
   repo: https://github.com/google-research/google-research/tree/master/bisimulation_aaai2020
   paper: http://arxiv.org/abs/1911.09291
-  post: /posts/research/rl/scalable/scalable
+  post: /posts/research/rl/scalable
   tags: ["rl", "2020"]
 
 - name: Dopamine, A Research Framework for Deep Reinforcement Learning
@@ -39,14 +39,14 @@ publications:
   timeline: "Preprint, 2018"
   repo: https://github.com/google/dopamine
   paper: https://arxiv.org/abs/1812.06110
-  post: /posts/research/rl/dopamine/dopamine
+  post: /posts/research/rl/dopamine
   tags: ["rl", "2018"]
 
 - name: GANterpretations
   role: Pablo Samuel Castro
   timeline: "Machine Learning for Creativity and Design workshop at NeurIPS, 2020"
   repo: https://github.com/psc-g/ganterpretation
-  post: /posts/research/creativity/ganterpretations/ganterpretations
+  post: /posts/research/creativity/ganterpretations
   tags: ["creativity", "2020"]
 
 - name: Rigging the lottery, Making all tickets winners
@@ -54,7 +54,7 @@ publications:
   timeline: "ICML, 2020"
   repo: https://github.com/google-research/rigl
   paper: https://arxiv.org/abs/1911.11134
-  post: /posts/research/other/rigl/rigl
+  post: /posts/research/other/rigl
   tags: ["ml", "2020"]
 
 - name: A Geometric Perspective on Optimal Representations for Reinforcement Learning
@@ -72,7 +72,7 @@ publications:
 - name: ML-Jam, Performing Structured Improvisations with Pre-trained Models
   role: Pablo Samuel Castro
   timeline: "ICCC, 2019"
-  post: /posts/research/creativity/ml-jam/ml-jam
+  post: /posts/research/creativity/ml-jam
   paper: https://arxiv.org/abs/1904.13285
   repo: https://github.com/psc-g/Psc2
   tags: ["creativity", "2019"]
