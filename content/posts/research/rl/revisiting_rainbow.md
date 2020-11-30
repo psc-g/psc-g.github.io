@@ -1,6 +1,6 @@
 ---
 title: "Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research"
-date: 2020-11-26T08:06:25+06:00
+date: 2020-11-30T08:06:25+06:00
 hero: /posts/research/rl/revisiting_rainbow/revisiting_rainbow.png
 description: "Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research"
 menu:
@@ -15,6 +15,8 @@ _Johan S. Obando-Ceron and Pablo Samuel Castro_
 
 This is a summary of our [paper](https://arxiv.org/) which will be presented in the
 [deep reinforcement learning workshop at NeurIPS 2020](https://sites.google.com/corp/view/deep-rl-workshop-neurips2020/home).
+
+The code is available [here](https://github.com/JohanSamir/revisiting_rainbow).
 
 ## Introduction
 

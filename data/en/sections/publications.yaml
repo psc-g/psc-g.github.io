@@ -26,12 +26,12 @@ buttons:
   filter: "2018"
 
 publications:
-- name: Scalable methods for computing state similarity in deterministic markov decision processes
-  role: Pablo Samuel Castro
-  timeline: "AAAI, 2020"
-  repo: https://github.com/google-research/google-research/tree/master/bisimulation_aaai2020
-  paper: http://arxiv.org/abs/1911.09291
-  post: /posts/research/rl/scalable
+- name: Revisiting Rainbow, Promoting more insightful and inclusive deep reinforcement learning research
+  role: Johan S. Obando-Ceron and Pablo Samuel Castro
+  timeline: "Deep RL workshop at NeurIPS 2020"
+  repo: https://github.com/JohanSamir/revisiting_rainbow
+  paper: http://arxiv.org/
+  post: /posts/research/rl/revisiting_rainbow
   tags: ["rl", "2020"]
 
 - name: Dopamine, A Research Framework for Deep Reinforcement Learning
