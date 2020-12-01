@@ -18,6 +18,8 @@ This is a summary of our [paper](https://arxiv.org/abs/2011.14826) which will be
 
 The code is available [here](https://github.com/JohanSamir/revisiting_rainbow).
 
+You can see the Deep RL talk [here](https://slideslive.com/38941329/revisiting-rainbow-promoting-more-insightful-and-inclusive-deep-reinforcement-learning-research).
+
 ## Introduction
 
 Since the introduction of DQN [Mnih et al., 2015](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning)
