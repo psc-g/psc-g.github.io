@@ -13,7 +13,7 @@ menu:
 
 _Johan S. Obando-Ceron and Pablo Samuel Castro_
 
-This is a summary of our [paper](https://arxiv.org/) which will be presented in the
+This is a summary of our [paper](https://arxiv.org/abs/2011.14826) which will be presented in the
 [deep reinforcement learning workshop at NeurIPS 2020](https://sites.google.com/corp/view/deep-rl-workshop-neurips2020/home).
 
 The code is available [here](https://github.com/JohanSamir/revisiting_rainbow).

@@ -30,7 +30,7 @@ publications:
   role: Johan S. Obando-Ceron and Pablo Samuel Castro
   timeline: "Deep RL workshop at NeurIPS 2020"
   repo: https://github.com/JohanSamir/revisiting_rainbow
-  paper: http://arxiv.org/
+  paper: https://arxiv.org/abs/2011.14826
   post: /posts/research/rl/revisiting_rainbow
   tags: ["rl", "2020"]
 
