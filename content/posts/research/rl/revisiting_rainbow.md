@@ -22,14 +22,14 @@ You can see the Deep RL talk [here](https://slideslive.com/38941329/revisiting-r
 
 ## Introduction
 
-Since the introduction of DQN [Mnih et al., 2015](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning)
+Since the introduction of DQN ([Mnih et al., 2015](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning))
 reinforcement learning has witnessed a dramatic
-increase in research papers [Henderson et al., 2018](https://arxiv.org/abs/1709.06560). A large portion of these papers propose new
+increase in research papers ([Henderson et al., 2018](https://arxiv.org/abs/1709.06560)). A large portion of these papers propose new
 methods that build on the original DQN algorithm and network architecture, often adapting methods
 introduced before DQN to work well with deep networks. New methods are typically evaluated on a set of environments that have now
 become standard, such as the Arcade Learning Environment (ALE)
-[Bellemare et al., 2012](https://arxiv.org/abs/1207.4708) and the control tasks available in MuJoCo and DM control suites
-[Todorov et al., 2012](https://ieeexplore.ieee.org/document/6386109), [Tassa et al., 2020](https://arxiv.org/abs/2006.12983).
+([Bellemare et al., 2012](https://arxiv.org/abs/1207.4708)) and the control tasks available in MuJoCo and DM control suites
+([Todorov et al., 2012](https://ieeexplore.ieee.org/document/6386109)), ([Tassa et al., 2020](https://arxiv.org/abs/2006.12983)).
 
 While these benchmarks have helped to evaluate new methods in a standardized manner, they have
 also implicitly established a minimum amount of computing power in order to be recognized as
@@ -44,7 +44,7 @@ In this work we argue for a need to change the status-quo in evaluating and prop
 exacerbating the barriers to entry for newcomers from underprivileged communities.
 
 We complement
-this argument by revisiting the Rainbow algorithm [Hessel et al., 2018](https://arxiv.org/abs/1710.02298), which proposed a new state
+this argument by revisiting the Rainbow algorithm ([Hessel et al., 2018](https://arxiv.org/abs/1710.02298)), which proposed a new state
 of the art algorithm by combining a number of recent advances, on a set of small- and medium-sized
 tasks. This allows us to conduct a “counterfactual” analysis: would Hessel et al. [2018] have reached
 the same conclusions if they had run on the smaller-scale experiments we investigate here? We extend
