@@ -30,7 +30,7 @@ publications:
   role: Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang
   timeline: "Nature"
   paper: https://www.nature.com/articles/s41586-020-2939-8
-  post: https://medium.com/loon-for-all/drifting-efficiently-through-the-stratosphere-using-deep-reinforcement-learning-c38723ee2e90
+  post: /posts/research/rl/loon
   tags: ["rl", "2020"]
 
 - name: Estimating Policy Functions in Payment Systems using Reinforcement Learning

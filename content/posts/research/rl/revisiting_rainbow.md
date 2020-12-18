@@ -11,6 +11,8 @@ menu:
     weight: 10
 ---
 
+We argue for the value of small- to mid-scale environments in deep RL for increasing scientific insight and help make our community more inclusive.
+
 _Johan S. Obando-Ceron and Pablo Samuel Castro_
 
 This is a summary of our [paper](https://arxiv.org/abs/2011.14826) which will be presented in the
