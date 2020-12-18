@@ -5,7 +5,7 @@ hero: /posts/research/rl/loon/loonAnimation.gif
 description: "Autonomous navigation of stratospheric balloons using reinforcement learning"
 menu:
   sidebar:
-    name: Loon
+    name: Flying balloons with RL
     identifier: loon
     parent: rl
     weight: 10
@@ -14,7 +14,7 @@ menu:
 
 In this work we, quite literally, take reinforcement learning to new heights! Specifically, we use deep reinforcement learning to help control the navigation of stratospheric balloons, whose purpose is to deliver internet to areas with low connectivity. This project is an ongoing collaboration with [Loon](https://loon.com/).
 
-It's been incredibly rewarding to see reinforcement learning deployed successfully in a real setting. It's also been terrific to work alongside such fantastic co-authors:
+It's been incredibly rewarding to see reinforcement learning deployed successfully in a real setting. It's also been terrific to work alongside such fantastic co-authors:\
 _Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang_
 
 ## Paper links
