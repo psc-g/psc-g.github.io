@@ -367,6 +367,27 @@ _Pablo Samuel Castro, Ajit Desai, Han Du, Rodney Garratt, Francisco Rivadeneyra_
 
 {{< img src="/posts/research/rl/2020highlights/boc.jpeg" width="90%" align="center" >}}
 
+<h2>Agence: a dynamic film exploring multi-agent systems and human agency</h2>
+_Dante Camarena†, Pietro Gagliano, Alexander Bakogeorge, Nicholas Counter, Anuj Patel, Casey Blustein, Erin Ray, David Oppenheim, Laura Mingail, Kory W. Matthewson, Pablo Samuel Castro_
+
+[Paper](http://agence.ai/s/AgenceNeurIPSCreativity2020.pdf)
+
+<font color="orange">Yet another exception to my first rule, but I like this work because it is showing
+how you can use RL (and ML in general) in a creative manner and deploy it to users around the world.
+This was showcased at the Venice VR film festival this year, and was accepted as an oral at the NeurIPS
+Machine Learning for Creativity & Design workshop. I also have a small [blog post](/posts/research/creativity/agence/) about it.</font>
+
+Agence is a dynamic and interactive film authored by three parties: 1) the director, who
+establishes the narrative structure and environment, 2) intelligent agents, using reinforcement learning
+or scripted (hierarchical state machines) AI, and 3) the viewer, who can interact with the system to
+affect the simulation. We trained RL agents in a multi-agent fashion to control some (or all, based on
+user choice) of the agents in the film.
+
+<font color="orange">The following video does a great job at explaining more what it's about.</font>
+
+<iframe src="https://player.vimeo.com/video/463920750" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/463920750">The Story Behind Agence - A Dynamic Film</a> from <a href="https://vimeo.com/transformsai">Transitional Forms</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Other
 Finally, I'm including a couple of papers that I thought were proposing something which, to me, seems quite innovative.
 
