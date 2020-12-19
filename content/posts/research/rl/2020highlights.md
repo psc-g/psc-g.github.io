@@ -341,7 +341,7 @@ how RL methods function.
 
 ## RL in the real world
 
-We are all ultimately working towards having our methods become useful in the real world. In this section I present three papers I'm on which do exactly this.
+We are all ultimately working towards having our methods become useful in the real world. In this section I present three papers which do exactly this. I'm only including papers that I'm not just because I'm self-centered, but because I don't follow this literature as well as I probably should.
 
 <h2>Autonomous navigation of stratospheric balloons using reinforcement learning</h2>
 
