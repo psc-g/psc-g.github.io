@@ -35,11 +35,11 @@ One of my most active areas of research is investigating how to build good _repr
 I first begin with some theoretical papers related to representation learning, and then I continue with metrics. I am of the belief that state (or state-action) metrics can help us with the last point and, if done carefully, can yield the other points as well. I begin with some papers that deal with state similarity measures, and transition into more "traditional" representation learning papers, which mostly make use of contrastive losses.
 
 
-<h2>Representations for Stable Off-Policy Reinforcement Learning</h2>
+<h4>Representations for Stable Off-Policy Reinforcement Learning</h4>
 
 _Dibya Ghosh, Marc G. Bellemare_
 
-[Paper](http://proceedings.mlr.press/v119/ghosh20b.html)
+[Paper](http://proceedings.mlr.press/v119/ghosh40b.html)
 
 We formally show that there are indeed nontrivial state representations under which the canonical TD algorithm is stable, even when learning off-policy. We analyze representation learning schemes that are based on the transition matrix of a policy, such as proto-value functions, along three axes: approximation error, stability, and ease of estimation. In the most general case, we show that a Schur basis provides convergence guarantees, but is difficult to estimate from samples. For a fixed reward function, we find that an orthogonal basis of the corresponding Krylov subspace is an even better choice.
 
@@ -47,7 +47,7 @@ We formally show that there are indeed nontrivial state representations under wh
 
 Although positive-definite representations admit amenable optimization properties, such as invariance to reparametrization and monotonic convergence, they can only express value functions that satisfy a growth condition. Under on-policy sampling this growth condition is nonrestrictive, but as the policy deviates from the data distribution, the expressiveness of positive-definite representations reduces greatly.
 
-<h2>Is a Good Representation Sufficient for Sample Efficient Reinforcement Learning?</h2>
+<h4>Is a Good Representation Sufficient for Sample Efficient Reinforcement Learning?</h4>
 
 _Simon S. Du, Sham M. Kakade, Ruosong Wang, Lin F. Yang_
 
@@ -72,7 +72,7 @@ imitation learning.
 
 {{< img src="/posts/research/rl/2020highlights/goodRepresentation.png" width="50%" align="center" >}}
 
-<h2>Scalable methods for computing state similarity in deterministic MDPs</h2>
+<h4>Scalable methods for computing state similarity in deterministic MDPs</h4>
 
 _Pablo Samuel Castro_
 
@@ -84,7 +84,7 @@ _Pablo Samuel Castro_
 You can read all about it in my [post](/posts/research/rl/scalable/).
 </font>
 
-<h2>Learning Invariant Representations for Reinforcement Learning without Reconstruction</h2>
+<h4>Learning Invariant Representations for Reinforcement Learning without Reconstruction</h4>
 
 _Amy Zhang, Rowan McAllister, Roberto Calandra, Yarin Gal, Sergey Levine_
 
@@ -102,7 +102,7 @@ They overcome the deterministic assumption I had to make by noticing that if tra
 
 {{< img src="/posts/research/rl/2020highlights/invariantComparison.png" width="30%" align="center" >}}
 
-<h2>Dynamical Distance Learning for Semi-Supervised and Unsupervised Skill Discovery</h2>
+<h4>Dynamical Distance Learning for Semi-Supervised and Unsupervised Skill Discovery</h4>
 
 _Kristian Hartikainen, Xinyang Geng, Tuomas Haarnoja, Sergey Levine_
 
@@ -118,7 +118,7 @@ supervision.
 
 {{< img src="/posts/research/rl/2020highlights/dynamicalAlgorithm.png" width="50%" align="center" >}}
 
-<h2>State Alignment-based Imitation Learning</h2>
+<h4>State Alignment-based Imitation Learning</h4>
 
 _Fangchen Liu, Zhan Ling, Tongzhou Mu, Hao Su_
 
@@ -130,7 +130,7 @@ framework by a regularized policy update objective.
 
 {{< img src="/posts/research/rl/2020highlights/stateAlignment.png" width="50%" align="center" >}}
 
-<h2>Fast Task Inference with Variational Intrinsic Successor Features</h2>
+<h4>Fast Task Inference with Variational Intrinsic Successor Features</h4>
 
 _Steven Hansen, Will Dabney, Andre Barreto, David Warde-Farley, Tom Van de Wiele, Volodymyr Mnih_
 
@@ -151,7 +151,7 @@ primary limitation. To do so we introduce Variational Intrinsic Successor FeatuR
 {{< img src="/posts/research/rl/2020highlights/fast.png" width="50%" align="center" >}}
 
 
-<h2>Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning</h2>
+<h4>Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning</h4>
 
 _Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare_
 
@@ -163,7 +163,7 @@ _Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare_
 
 {{< img src="/posts/research/rl/2020highlights/psm.png" width="50%" align="center" >}}
 
-<h2>Contrastive Learning of Structured World Models</h2>
+<h4>Contrastive Learning of Structured World Models</h4>
 
 _Thomas Kipf, Elise van der Pol, Max Welling_
 
@@ -179,7 +179,7 @@ _Our formulation of C-SWMs does not take into account stochasticity in environme
 
 {{< img src="/posts/research/rl/2020highlights/cswm.png" width="50%" align="center" >}}
 
-<h2>CURL: Contrastive Unsupervised Representations for Reinforcement Learning</h2>
+<h4>CURL: Contrastive Unsupervised Representations for Reinforcement Learning</h4>
 
 _Michael Laskin, Aravind Srinivas, Pieter Abbeel_
 
@@ -189,7 +189,7 @@ CURL extracts high-level features from raw pixels using contrastive learning and
 
 {{< img src="/posts/research/rl/2020highlights/curl.png" width="50%" align="center" >}}
 
-<h2>Bootstrap Latent-Predictive Representations for Multitask Reinforcement Learning</h2>
+<h4>Bootstrap Latent-Predictive Representations for Multitask Reinforcement Learning</h4>
 
 _Zhaohan Daniel Guo, Bernardo Avila Pires, Bilal Piot, Jean-Bastien Grill, Florent Altché, Remi Munos, Mohammad Gheshlaghi Azar_
 
@@ -201,7 +201,7 @@ PBL builds on multistep predictive representations of future observations, and f
 
 {{< img src="/posts/research/rl/2020highlights/bootstrapArchitecture.png" width="50%" align="center" >}}
 
-<h2>Planning to Explore via Self-Supervised World Models</h2>
+<h4>Planning to Explore via Self-Supervised World Models</h4>
 
 _Ramanan Sekar, Oleh Rybkin, Kostas Daniilidis, Pieter Abbeel, Danijar Hafner, Deepak Pathak_
 
@@ -213,7 +213,7 @@ adaptation to new tasks, which need not be known during exploration. During expl
 
 {{< img src="/posts/research/rl/2020highlights/plan2explore.png" width="50%" align="center" >}}
 
-<h2>Dream to Control: Learning Behaviors by Latent Imagination</h2>
+<h4>Dream to Control: Learning Behaviors by Latent Imagination</h4>
 
 _Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi_
 
@@ -223,7 +223,7 @@ We present Dreamer, a reinforcement learning agent that solves long-horizon task
 
 {{< img src="/posts/research/rl/2020highlights/dreamer.png" width="50%" align="center" >}}
 
-<h2>Model Based Reinforcement Learning for Atari</h2>
+<h4>Model Based Reinforcement Learning for Atari</h4>
 
 _Łukasz Kaiser, Mohammad Babaeizadeh, Piotr Miłos, Błażej Osiński, Roy H Campbell, Konrad Czechowski, Dumitru Erhan, Chelsea Finn, Piotr Kozakowski, Sergey Levine, Afroz Mohiuddin, Ryan Sepassi, George Tucker, Henryk Michalewski_
 
@@ -236,7 +236,7 @@ architecture that yields the best results in our setting.
 
 {{< img src="/posts/research/rl/2020highlights/simple.png" width="50%" align="center" >}}
 
-<h2>Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning </h2>
+<h4>Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning </h4>
 
 _Kimin Lee, Kibok Lee, Jinwoo Shin, Honglak Lee_
 
@@ -249,7 +249,7 @@ robust features invariant across varied and randomized environments. Furthermore
 
 {{< img src="/posts/research/rl/2020highlights/netrand.png" width="50%" align="center" >}}
 
-<h2>Latent World Models For Intrinsically Motivated Exploration</h2>
+<h4>Latent World Models For Intrinsically Motivated Exploration</h4>
 
 _Aleksandr Ermolov, Nicu Sebe_
 
@@ -268,19 +268,19 @@ learned latent space.
 
 I have become very interested in getting a better understanding of how deep networks interact with reinforcement learning. Most of the theory we have is limited to linear function approximators, but it is become increasingly evident that the, often overlooked, design decisions taken when setting up experiments can have a dramatic effect on performance.
 
-<h2>Revisiting Rainbow</h2>
+<h4>Revisiting Rainbow</h4>
 
 _Johan S. Obando-Ceron and Pablo Samuel Castro_
 
 [Paper](https://arxiv.org/abs/2011.14826)
 
-I begin with another exception to the first rule. This is a paper we presented at the latest NeurIPS deep RL workshop. In it, we argue for the value of small- to mid-scale environments in deep RL for increasing scientific insight and help make our community more inclusive.
+<font color="orange">I begin with another exception to the first rule. This is a paper we presented at the latest NeurIPS deep RL workshop. In it, we argue for the value of small- to mid-scale environments in deep RL for increasing scientific insight and help make our community more inclusive.</font>
 
-You can read all the details in [my blog post](/posts/research/rl/revisiting_rainbow/).
+<font color="orange">You can read all the details in [my blog post](/posts/research/rl/revisiting_rainbow/).</font>
 
 {{< img src="/posts/research/rl/revisiting_rainbow/revisiting_rainbow.png" width="100%" align="center" >}}
 
-<h2>Measuring the Reliability of Reinforcement Learning Algorithms</h2>
+<h4>Measuring the Reliability of Reinforcement Learning Algorithms</h4>
 
 _Stephanie C.Y. Chan, Samuel Fishman, Anoop Korattikara, John Canny, Sergio Guadarrama_
 
@@ -293,7 +293,7 @@ statistical tests to enable rigorous comparisons on these metrics.
 
 {{< img src="/posts/research/rl/2020highlights/measuring2.png" width="50%" align="center" >}}
 
-<h2>Revisiting Fundamentals of Experience Replay</h2>
+<h4>Revisiting Fundamentals of Experience Replay</h4>
 
 _William Fedus, Prajit Ramachandran, Rishabh Agarwal, Yoshua Bengio, Hugo Larochelle, Mark Rowland, Will Dabney_
 
@@ -305,7 +305,7 @@ We therefore present a systematic and extensive analysis of experience replay in
 
 {{< img src="/posts/research/rl/2020highlights/revisitingReplay2.png" width="50%" align="center" >}}
 
-<h2>Behaviour Suite for Reinforcement Learning</h2>
+<h4>Behaviour Suite for Reinforcement Learning</h4>
 
 _Ian Osband, Yotam Doron, Matteo Hessel, John Aslanides, Eren Sezener, Andre Saraiva, Katrina McKinney, Tor Lattimore, Csaba Szepesvari, Satinder Singh, Benjamin Van Roy, Richard Sutton, David Silver, Hado Van Hasselt_
 
@@ -315,7 +315,7 @@ This paper introduces the Behaviour Suite for Reinforcement Learning, or bsuite 
 
 {{< img src="/posts/research/rl/2020highlights/bsuite.png" width="50%" align="center" >}}
 
-<h2>Explain Your Move: Understanding Agent Actions Using Specific and Relevant Feature Attribution</h2>
+<h4>Explain Your Move: Understanding Agent Actions Using Specific and Relevant Feature Attribution</h4>
 
 _Nikaash Puri, Sukriti Verma, Piyush Gupta, Dhruv Kayastha, Shripad Deshmukh, Balaji Krishnamurthy, Sameer Singh_
 
@@ -325,7 +325,7 @@ Our proposed approach, SARFA (Specific and Relevant Feature Attribution), genera
 
 {{< img src="/posts/research/rl/2020highlights/sarfa.png" width="90%" align="center" >}}
 
-<h2>Implementation Matters in Deep RL: A Case Study on PPO and TRPO</h2>
+<h4>Implementation Matters in Deep RL: A Case Study on PPO and TRPO</h4>
 
 _Logan Engstrom, Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry_
 
@@ -343,7 +343,7 @@ how RL methods function.
 
 We are all ultimately working towards having our methods become useful in the real world. In this section I present three papers which do exactly this. I'm only including papers that I'm not just because I'm self-centered, but because I don't follow this literature as well as I probably should.
 
-<h2>Autonomous navigation of stratospheric balloons using reinforcement learning</h2>
+<h4>Autonomous navigation of stratospheric balloons using reinforcement learning</h4>
 
 _Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda and Ziyu Wang_
 
@@ -355,7 +355,7 @@ _Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. 
 
 {{< img src="/posts/research/rl/loon/loonAnimation.gif" width="90%" align="center" >}}
 
-<h2>Estimating Policy Functions in Payment Systems using Reinforcement Learning</h2>
+<h4>Estimating Policy Functions in Payment Systems using Reinforcement Learning</h4>
 
 _Pablo Samuel Castro, Ajit Desai, Han Du, Rodney Garratt, Francisco Rivadeneyra_
 
@@ -367,7 +367,7 @@ _Pablo Samuel Castro, Ajit Desai, Han Du, Rodney Garratt, Francisco Rivadeneyra_
 
 {{< img src="/posts/research/rl/2020highlights/boc.jpeg" width="90%" align="center" >}}
 
-<h2>Agence: a dynamic film exploring multi-agent systems and human agency</h2>
+<h4>Agence: a dynamic film exploring multi-agent systems and human agency</h4>
 _Dante Camarena†, Pietro Gagliano, Alexander Bakogeorge, Nicholas Counter, Anuj Patel, Casey Blustein, Erin Ray, David Oppenheim, Laura Mingail, Kory W. Matthewson, Pablo Samuel Castro_
 
 [Paper](http://agence.ai/s/AgenceNeurIPSCreativity2020.pdf)
@@ -391,7 +391,7 @@ user choice) of the agents in the film.
 ## Other
 Finally, I'm including a couple of papers that I thought were proposing something which, to me, seems quite innovative.
 
-<h2>Decentralized Reinforcement Learning: Global Decision-Making via Local Economic Transactions</h2>
+<h4>Decentralized Reinforcement Learning: Global Decision-Making via Local Economic Transactions</h4>
 
 _Michael Chang, Sid Kaushik, S. Matthew Weinberg, Tom Griffiths, Sergey Levine_
 
@@ -401,7 +401,7 @@ We design a mechanism for defining the learning environment of each agent for wh
 
 {{< img src="/posts/research/rl/2020highlights/vickrey.png" width="50%" align="center" >}}
 
-<h2>Munchausen Reinforcement Learning</h2>
+<h4>Munchausen Reinforcement Learning</h4>
 
 _Nino Vieillard, Olivier Pietquin, Matthieu Geist_
 
@@ -416,7 +416,7 @@ little modifications to the original algorithm.
 
 {{< img src="/posts/research/rl/2020highlights/munchausen3.png" width="90%" align="center" >}}
 
-<h2>An operator view of policy gradient methods</h2>
+<h4>An operator view of policy gradient methods</h4>
 
 _Dibya Ghosh, Marlos C. Machado, Nicolas Le Roux_
 
@@ -437,7 +437,7 @@ optimality operator, for example, can be seen as two sides of the same coin.
 
 {{< img src="/posts/research/rl/2020highlights/operator2.png" width="90%" align="center" >}}
 
-<h2>What Can Learned Intrinsic Rewards Capture?</h2>
+<h4>What Can Learned Intrinsic Rewards Capture?</h4>
 
 _Zeyu Zheng, Junhyuk Oh, Matteo Hessel, Zhongwen Xu, Manuel Kroiss, Hado van Hasselt, David Silver, Satinder Singh_
 
