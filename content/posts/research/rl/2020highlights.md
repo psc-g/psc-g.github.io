@@ -22,8 +22,6 @@ Due to time constraints, my process of selection was most likely not the best; i
 
 After having laid out all those disclaimers, hope this list proves useful!
 
-You can see the interview with TWiML below:
-
 ## Metrics / Representations
 
 One of my most active areas of research is investigating how to build good _representations_ for learning. While there is no clear, and globally accepted, definition of what it means to have a good representation, what I take it to mean is:
