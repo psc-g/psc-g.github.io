@@ -20,6 +20,8 @@ Given the size and breadth of the reinforcement learning research, as well as th
 Due to time constraints, my process of selection was most likely not the best; if you feel there are papers I'm omitting here, send them my way and I may add them. They are also presented here in no particular order, and for most I provide only a brief synposis taken from the papers themselves.
 <font color="auburn">Unless written in auburn colour,</font> all texts below are taken from the source papers.
 
+You can listen to the interview and get more details in the [TWiML post](https://twimlai.com/trends-in-reinforcement-learning-with-pablo-samuel-castro/).
+
 After having laid out all those disclaimers, hope this list proves useful!
 
 ## Metrics / Representations
