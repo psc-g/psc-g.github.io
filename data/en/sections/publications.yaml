@@ -123,11 +123,3 @@ publications:
   timeline: "Preprint, 2019"
   paper: "https://arxiv.org/abs/1907.13411"
   tags: ["rl", "2019"]
-
-- name: Pre-2018 work
-  role: Multiple authors
-  timeline: "Pre-2018"
-  url: "https://scholar.google.com/citations?user=jn5r6TsAAAAJ&hl=en"
-  summary: You can see a full list of my publications on my Google Scholar page.
-  tags: ["pre-2018"]
-
