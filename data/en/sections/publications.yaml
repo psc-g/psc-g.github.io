@@ -18,6 +18,8 @@ buttons:
   filter: "creativity"
 - name: General Machine Learning
   filter: "ml"
+- name: 2021
+  filter: "2021"
 - name: 2020
   filter: "2020"
 - name: 2019
@@ -26,6 +28,13 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning
+  role: Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare
+  timeline: "ICLR"
+  paper: https://arxiv.org/abs/2101.05265
+  post: /posts/research/rl/pse
+  tags: ["rl", "2021"]
+
 - name: Autonomous navigation of stratospheric balloons using reinforcement learning
   role: Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang
   timeline: "Nature"
