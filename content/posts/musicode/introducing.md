@@ -11,6 +11,7 @@ menu:
     weight: 10
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jmoFkx0iGB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A musical ode to musical code.
 
@@ -18,4 +19,4 @@ A musical ode to musical code.
 
 Each episode will explore a topic in Computer Science, a topic in Music, and combine them in creative ways.
 
-You will find the code I use for each episode here!
+You can find the code I use for each episode [here](https://github.com/psc-g/musicode)!
