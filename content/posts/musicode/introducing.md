@@ -1,11 +1,11 @@
 ---
-title: "Introducing MUSICOODE"
+title: "Introducing MUSICODE"
 date: 2021-01-24T08:06:25+06:00
-hero: /posts/musicode/banner.png
+hero: /posts/musicode/introducing/banner.png
 description: Introducing MUSICODE
 menu:
   sidebar:
-    name: Introducing
+    name: 0-Introducing
     identifier: introducing
     parent: musicode
     weight: 10
