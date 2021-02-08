@@ -28,6 +28,14 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Metrics and continuity in reinforcement learning
+  role: Charline Le Lan, Marc G. Bellemare, Pablo Samuel Castro
+  timeline: "AAAI"
+  repo: https://github.com/google-research/google-research/tree/master/rl_metrics_aaai2021
+  paper: https://arxiv.org/abs/2102.01514
+  post: /posts/research/rl/metrics_continuity
+  tags: ["rl", "2021"]
+
 - name: Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning
   role: Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare
   timeline: "ICLR"
