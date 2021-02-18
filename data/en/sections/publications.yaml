@@ -87,6 +87,14 @@ publications:
   post: /posts/research/other/rigl
   tags: ["ml", "2020"]
 
+- name: Scalable methods for computing state similarity in deterministic MDPs
+  role: Pablo Samuel Castro
+  timeline: "AAAI, 2020"
+  repo: https://github.com/google-research/google-research/tree/master/bisimulation_aaai2020
+  paper: https://arxiv.org/abs/1911.09291
+  post: /posts/research/other/scalable
+  tags: ["rl", "2020"]
+
 - name: A Geometric Perspective on Optimal Representations for Reinforcement Learning
   role: Marc G. Bellemare, Will Dabney, Robert Dadashi, Adrien Ali Taiga, Pablo Samuel Castro, Nicolas Le Roux, Dale Schuurmans, Tor Lattimore, and Clare Lyle
   timeline: "NeurIPS, 2019"
