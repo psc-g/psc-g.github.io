@@ -53,7 +53,7 @@ I discovered Rufus Wainwright during this period and fell in love with his song 
 
 ## Negative harmony
 
-I was able to get a disklavier which had been a dream of mine for many years. I started playing around with negative harmony:
+I was able to get a [disklavier](https://en.wikipedia.org/wiki/Disklavier) which had been a dream of mine for many years. I started playing around with negative harmony:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CE9qu2E3xNM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
