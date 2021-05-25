@@ -277,6 +277,9 @@ regards to inductive biases used in training RL agents.
 
 {{< img src="/posts/research/rl/revisiting_rainbow/lossOptim.png" title="Loss-Optimizer curves" >}}
 
+Finally, we note that the [Dopamine baseline plots](https://google.github.io/dopamine/baselines/plots.html) now contain
+DQN with Adam and MSE as one of the included baselines.
+
 ## Rainbow flavours
 
 We compare the performance of DQN against all of the Rainbow variants and show
