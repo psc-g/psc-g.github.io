@@ -232,7 +232,7 @@ In the figure below we report the results when repeating the Rainbow experiment
 on M-DQN and M-IQN. In the classic control environments neither of the
 Munchausen variants seem to yield much of an improvement over their base
 agents. In Minatar, while M-DQN does seem to improve over DQN, the same cannot
-be said of M-IQN. We explored combining all the Rainbow components4 with the
+be said of M-IQN. We explored combining all the Rainbow components with the
 Munchausen agents and found that, in the classic control environments, while
 M-Rainbow underperforms relative to its non-Munchausen counterpart, M-IRainbow
 can provide gains. In Minatar, the results vary from game to game, but it
