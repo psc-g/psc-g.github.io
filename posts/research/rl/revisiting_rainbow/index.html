@@ -123,7 +123,8 @@ the interaction of the various components used when training
 RL agents, as was also argued by <a href=https://arxiv.org/abs/2007.06049>Fujimoto et al. (2020)</a> with
 regards to loss functions and non-uniform sampling from
 the replay buffer; as well as by <a href=https://arxiv.org/abs/1907.02908>Hessel et al. (2019)</a> with
-regards to inductive biases used in training RL agents.</p><img src=/posts/research/rl/revisiting_rainbow/lossOptim.png alt="Loss-Optimizer curves"><h2 id=rainbow-flavours>Rainbow flavours</h2><p>We compare the performance of DQN against all of the Rainbow variants and show
+regards to inductive biases used in training RL agents.</p><img src=/posts/research/rl/revisiting_rainbow/lossOptim.png alt="Loss-Optimizer curves"><p>Finally, we note that the <a href=https://google.github.io/dopamine/baselines/plots.html>Dopamine baseline plots</a> now contain
+DQN with Adam and MSE as one of the included baselines.</p><h2 id=rainbow-flavours>Rainbow flavours</h2><p>We compare the performance of DQN against all of the Rainbow variants and show
 the results below. This figure highlight the
 fact that, although Rainbow does outperform DQN, there are important
 differences amongst the various flavours that invite further investigation.</p><img src=/posts/research/rl/revisiting_rainbow/flavours.png alt="Rainbow Flavours"><h2 id=conclusion>Conclusion</h2><p>On a limited computational budget we were able to reproduce, at a high-level, the findings of
