@@ -20,7 +20,7 @@ _Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. 
 ## Paper links
 You can find the official Nature paper [here](https://www.nature.com/articles/s41586-020-2939-8).
 
-A view-only version of the PDF can be accessed[here](https://rdcu.be/cbBRc).
+A view-only version of the PDF can be accessed [here](https://rdcu.be/cbBRc).
 
 ## Blog posts
 Sal Candido, the Loon CTO, wrote [this nice blog post](https://medium.com/loon-for-all/drifting-efficiently-through-the-stratosphere-using-deep-reinforcement-learning-c38723ee2e90) going over what we did.

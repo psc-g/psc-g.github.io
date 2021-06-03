@@ -28,9 +28,17 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Revisiting Rainbow, Promoting more insightful and inclusive deep reinforcement learning research
+  role: Johan S. Obando-Ceron and Pablo Samuel Castro
+  timeline: "ICML, 2021"
+  repo: https://github.com/JohanSamir/revisiting_rainbow
+  paper: https://arxiv.org/abs/2011.14826
+  post: /posts/research/rl/revisiting_rainbow
+  tags: ["rl", "2021"]
+
 - name: Metrics and continuity in reinforcement learning
   role: Charline Le Lan, Marc G. Bellemare, Pablo Samuel Castro
-  timeline: "AAAI"
+  timeline: "AAAI, 2021"
   repo: https://github.com/google-research/google-research/tree/master/rl_metrics_aaai2021
   paper: https://arxiv.org/abs/2102.01514
   post: /posts/research/rl/metrics_continuity
@@ -38,14 +46,14 @@ publications:
 
 - name: Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning
   role: Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare
-  timeline: "ICLR"
+  timeline: "ICLR, 2021"
   paper: https://arxiv.org/abs/2101.05265
   post: /posts/research/rl/pse
   tags: ["rl", "2021"]
 
 - name: Autonomous navigation of stratospheric balloons using reinforcement learning
   role: Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang
-  timeline: "Nature"
+  timeline: "Nature, 2020"
   paper: https://www.nature.com/articles/s41586-020-2939-8
   post: /posts/research/rl/loon
   tags: ["rl", "2020"]
@@ -54,14 +62,6 @@ publications:
   role: Pablo Samuel Castro, Ajit Desai, Han Du, Rodney Garratt, Francisco Rivadeneyra
   timeline: "Best paper at ML for Economic Policy Workshop, NeurIPS 2020"
   paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3743017
-  tags: ["rl", "2020"]
-
-- name: Revisiting Rainbow, Promoting more insightful and inclusive deep reinforcement learning research
-  role: Johan S. Obando-Ceron and Pablo Samuel Castro
-  timeline: "Deep RL workshop at NeurIPS 2020"
-  repo: https://github.com/JohanSamir/revisiting_rainbow
-  paper: https://arxiv.org/abs/2011.14826
-  post: /posts/research/rl/revisiting_rainbow
   tags: ["rl", "2020"]
 
 - name: Dopamine, A Research Framework for Deep Reinforcement Learning
