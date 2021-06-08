@@ -36,7 +36,7 @@ an important subdomain of RL, and with the advent of deep reinforcement
 learning there has been much recent interest in understanding and improving
 the representations learnt by RL agents.
 
-We introduce the _MICo_ (**M**_atching under _**I**_ndependent _**Co**_uplings_)
+We introduce the _MICo_ (**M**_atching under_ **I**_ndependent_ **Co**_uplings_)
 _distance_,  and develop the theory around its computation and estimation,
 making comparisons with existing metrics on the basis of computational and
 statistical efficiency. We empirically demonstrate that
