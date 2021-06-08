@@ -11,12 +11,12 @@ menu:
     weight: 10
 ---
 
-_Pablo Samuel Castro\*, Tyler Kastner\*, Prakash Panangaden, and Mark Rowland_
-
 We present a new behavioural distance over the state space of a Markov
 decision process, and demonstrate the use of this distance as an effective
 means of shaping the learnt representations of deep reinforcement learning
 agents.
+
+_Pablo Samuel Castro\*, Tyler Kastner\*, Prakash Panangaden, and Mark Rowland_
 
 This blogpost is a summary of our [paper](). The code is available
 [here](https://github.com/google-research/google-research/tree/master/mico).
