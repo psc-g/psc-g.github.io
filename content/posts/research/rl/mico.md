@@ -361,6 +361,8 @@ $$|(T^\pi U)(x, y) - (T^\pi U')(x, y)| =  \left|\gamma\sum\_{x', y'}\pi(a|x)\pi(
 
 for any $x,y \in \mathcal{X}$, as required.
 
+<div align="right">$\square$</div>
+
 </details>
 
 The following corollary now follows immediately from Banach's fixed-point theorem and the completeness of $\mathbb{R}^{\mathcal{X}\times\mathcal{X}}$ under the $L^\infty$ norm.
@@ -398,6 +400,8 @@ In this section, we provide a series of results that show that the newly-defined
 
   for all $U \in \mathbb{R}^{\mathcal{X}\times\mathcal{X}}$ and $(x, y) \in \mathcal{X} \times\mathcal{X}$, as required.
 
+<div align="right">$\square$</div>
+
 </details>
 
 Equipped with the above lemma, we can address the three limitations listed [above](#limitations-of-bisimulation-metrics):
@@ -411,6 +415,8 @@ Equipped with the above lemma, we can address the three limitations listed [abov
   <summary>Proof</summary>
 
 Since the operator $T^\pi\_M$ is a $\gamma$-contraction under $L^\infty$, we require $\mathcal{O}(\log(1/\varepsilon) / \log(1/\gamma))$ applications of the operator to obtain an $\varepsilon$-approximation in $L^\infty$. Each iteration of value iteration updates $|\mathcal{X}|^2$ table entries, and the cost of each update is $\mathcal{O}(|\mathcal{X}|^2)$, leading to an overall cost of $O(|\mathcal{X}|^4\log(\varepsilon) / \log(\gamma))$.
+
+<div align="right">$\square$</div>
 
 </details>
 
@@ -434,6 +440,8 @@ max over actions in the bisimulation operator definition.
   Due to the interpretation of the MICo operator $T^\pi\_M$ as the Bellman evaluation operator in an auxiliary MDP, algorithms and associated proofs of correctness for computing the MICo distance online can be straightforwardly derived from standard online algorithms for policy evaluation.
   Under the assumptions of the proposition, the update described is exactly a TD(0) update in the lifted MDP described above. We can therefore appeal to Proposition~4.5 of [Bertsekas and Tsitsiklis [1996]](http://athenasc.com/ndpbook.html) to obtain the result.
   Note that the wide range of online policy evaluation methods incorporating off-policy corrections and multi-step returns, as well as techniques for applying such methods at scale, may also be used.
+
+<div align="right">$\square$</div>
 
 </details>
 
@@ -459,6 +467,8 @@ max over actions in the bisimulation operator definition.
     $$= (T^\pi_M U)(x, y) $$
 
   By symmetry, $V^\pi(y) - V^\pi(x) \leq (T^\pi\_M U)(x, y)$, as required.
+
+<div align="right">$\square$</div>
 
 </details>
 
@@ -536,6 +546,8 @@ This characterisation leads to the following result.
 
   as required.
 
+<div align="right">$\square$</div>
+
 </details>
 
 Note that a state $x \in \mathcal{X}$ has zero self-distance iff the Markov chain induced by $\pi$ initialised at $x$ is deterministic. Indeed, the
@@ -585,6 +597,8 @@ Although we have $|V^{\pi}(x) - V^{\pi}(y)| \leq U^{\pi}(x, y)$, we do not, in g
 
   The MICo distance gives $U(x, x) \approx 1.06$, $U(x, y) \approx 1.82$, and $U(y, y) = 0$, while the reduced MICo distance yields $\Pi U(x, x) = \Pi U(y, y) = 0$, and
   $$\Pi U(x, y) \approx 1.29 < |V(x) - V(y)| = 1.8$$
+
+<div align="right">$\square$</div>
 
 </details>
 
