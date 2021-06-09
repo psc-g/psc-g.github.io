@@ -214,12 +214,18 @@ may have zero distance. Notions of this kind are increasingly common in machine
 learning as researchers develop more computationally tractable versions of
 distances, as with entropy-regularised optimal transport distances
 <a href=https://arxiv.org/abs/1306.0895>[Cuturi, 2013]</a>, which also do not satisfy the axiom of zero
-self-distance.</p><details><summary>Extra details</summary><p>An example of a diffuse metric is the Łukaszyk–Karmowski distance
+self-distance.</p><details><summary>Extra details (including an interactive widget!)</summary><p>An example of a diffuse metric is the Łukaszyk–Karmowski distance
 <a href=https://link.springer.com/article/10.1007/s00466-003-0532-2>[Łukaszyk, 2003]</a>,
 which is used in the MICo metric as the operator between the
 next-state distributions. Given a diffuse metric space $(\mathcal{X}, \rho)$, the Łukaszyk–Karmowski distance $d^{\rho}_{\text{LK}}$ is a diffuse metric on probability measures on $\mathcal{X}$ given by</p><p>$$d^\rho_{\text{LK}}(\mu,\nu)=\mathbb{E}_{x\sim \mu, y\sim \nu}[\rho(x,y)]$$</p><p>This example demonstrates the origin of the name <em>diffuse</em> metrics; the
 non-zero self distances arises from a point being spread across a probability
-distribution.</p><p>The notion of a distance function having non-zero self distance was first
+distribution.</p><p>The following interactive example can help illustrate this notion of <em>diffusion</em>.
+Given a normal distribution $\mu = \mathcal{N}(0.0, \sigma)$ (displayed with the blue line)
+we can draw <em>numPoints</em> samples (pink dots) and compute the self-distance
+$d^\rho_{\text{LK}}(\mu, \mu)$, where $\rho(x, y) := |x - y|$. You can vary <em>stdDev</em> to change
+the $\sigma$ parameter of $\mu$ and observe how the distance changes; in particular, when
+$\sigma = 0$ (i.e. $\mu$ is a Dirac-delta distribution) we have $0$ self-distance.</p><code>numPoints: <input id=numPoints placeholder=100 value=100 onchange=generatePlot() type=number>
+stdDev: <input id=stdDev placeholder=1.0 value=1.0 onchange=generatePlot() type=number></code><div id=graph></div><script>window.PlotlyConfig={MathJaxConfig:'local'}</script><script src=https://cdn.plot.ly/plotly-latest.min.js></script><script src=https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5></script><script src=/posts/research/rl/mico/script.js></script><p>The notion of a distance function having non-zero self distance was first
 introduced by <a href=https://www.dcs.warwick.ac.uk/pmetric/Ma94.pdf>[Matthews, 1994]</a> who called it a <em>partial metric</em>. We
 define it below:</p><blockquote><p><strong>Definition (Partial metric)</strong></p><blockquote><p>Given a set $\mathcal{X}$, a function $d:\mathcal{X}\times \mathcal{X} \to \mathbb{R}$ is a partial metric if</p><ul><li>$x=y \iff d(x,x)=d(y,y)=d(x,y)$ for any $x,y\in \mathcal{X},$</li><li>$d(x,x)\leq d(y,x)$ for any $x,y\in \mathcal{X},$</li><li>$d(x,y)= d(y,x)$ for any $x,y\in \mathcal{X},$</li><li>$d(x,y)\leq d(x,z)+d(y,z)-d(z, z)$ $\forall x,y,z\in \mathcal{X}.$</li></ul></blockquote></blockquote><p>This definition was introduced to recover a proper metric from the distance
 function: that is, given a partial metric $d$, one is guaranteed that
