@@ -1,3 +1,13 @@
+function limits(value, min, max) {
+  if (parseFloat(value) < min || isNaN(parseFloat(value))) {
+    return min;
+  } else if (parseFloat(value) > max) {
+    return max;
+  } else {
+    return value;
+  }
+}
+
 const GaussianData = {
   lineSamples: {x:[], y:[]},
   distanceSamples: {x:[], y:[], distance: 0.0},
@@ -80,8 +90,11 @@ function plot(stdDev) {
 
   const layout = {
     margin: {
-      l: 20, r: 0, b: 0, t: 0, 
+      l: 20, r: 0, b: 20, t: 0, 
       pad:0
+    },
+    xaxis: {
+      range: [-stdDev * 2, stdDev * 2],
     },
     legend: {
         xanchor:"left",
@@ -93,23 +106,3 @@ function plot(stdDev) {
   };
   Plotly.newPlot('graph', [trace1, trace2, trace3], layout, {displayModeBar: false});
 }  
-
-async function computeDistance() {
-  async function train(xs, ys, numIterations) {
-    for (let iter = 0; iter < numIterations; iter++) {
-      // Plot where we are at this step.
-      plot();
-      optimizer.minimize(() => {
-        // Using our estimated coeff, predict all the ys for all the xs 
-        const pred = predict(xs);
-        
-        // Need to return the loss i.e how bad is our prediction from the 
-        // correct answer. The optimizer will then adjust the coefficients
-        // to minimize this loss.
-        return loss(pred, ys);
-      });
-      // Use tf.nextFrame to not block the browser.
-      await tf.nextFrame();
-    }
-  }
-}
