@@ -506,14 +506,14 @@ distribution.
 
 The following interactive example can help illustrate this notion of _diffusion_.
 Given a normal distribution $\mu = \mathcal{N}(0.0, \sigma)$ (displayed with the blue line)
-we can draw _numPoints_ samples (pink dots) and compute the self-distance
+we can draw _numPoints_ samples (pink dots) and estimate the self-distance
 $d^\rho\_{\text{LK}}(\mu, \mu)$, where $\rho(x, y) := |x - y|$. You can vary _stdDev_ to change
 the $\sigma$ parameter of $\mu$ and observe how the distance changes; in particular, when
 $\sigma = 0$ (i.e. $\mu$ is a Dirac-delta distribution) we have $0$ self-distance.
 
 <code>
-  numPoints: <input id="numPoints" placeholder="100" value="100" onchange="generatePlot()" type="number" onkeyup="this.value = limits(this.value, 2, 1000)">
-  stdDev: <input id="stdDev" placeholder="1.0" value="1.0" onchange="generatePlot()" type="number" onkeyup="this.value = limits(this.value, 0.0, 1000.0)">
+  numPoints: <input id="numPoints" placeholder="100" value="100" onchange="generatePlot()" type="text" onkeyup="this.value = limits(this.value, 2, 1000)">
+  stdDev: <input id="stdDev" placeholder="1.0" value="1.0" onchange="generatePlot()" type="text" onkeyup="this.value = limits(this.value, 0.0, 1000.0)">
   <button onclick="generatePlot()">Regenerate samples</button>
 </code>
 <div id="graph"></div>
