@@ -512,8 +512,9 @@ the $\sigma$ parameter of $\mu$ and observe how the distance changes; in particu
 $\sigma = 0$ (i.e. $\mu$ is a Dirac-delta distribution) we have $0$ self-distance.
 
 <code>
-  numPoints: <input id="numPoints" placeholder="100" value="100" onchange="generatePlot()" type="number">
-  stdDev: <input id="stdDev" placeholder="1.0" value="1.0" onchange="generatePlot()" type="number">
+  numPoints: <input id="numPoints" placeholder="100" value="100" onchange="generatePlot()" type="number" onkeyup="this.value = limits(this.value, 2, 1000)">
+  stdDev: <input id="stdDev" placeholder="1.0" value="1.0" onchange="generatePlot()" type="number" onkeyup="this.value = limits(this.value, 0.0, 1000.0)">
+  <button onclick="generatePlot()">Regenerate samples</button>
 </code>
 <div id="graph"></div>
 <script>window.PlotlyConfig = {MathJaxConfig: 'local'}</script>
