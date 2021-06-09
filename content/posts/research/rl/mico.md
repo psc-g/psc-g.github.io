@@ -491,7 +491,7 @@ distances, as with entropy-regularised optimal transport distances
 self-distance.
 
 <details>
-  <summary>Extra details</summary>
+  <summary>Extra details (including an interactive widget!)</summary>
 
 An example of a diffuse metric is the Łukaszyk–Karmowski distance
 [[Łukaszyk, 2003]](https://link.springer.com/article/10.1007/s00466-003-0532-2),
@@ -503,6 +503,23 @@ $$d^\rho\_{\text{LK}}(\mu,\nu)=\mathbb{E}\_{x\sim \mu, y\sim \nu}[\rho(x,y)]$$
 This example demonstrates the origin of the name _diffuse_ metrics; the
 non-zero self distances arises from a point being spread across a probability
 distribution.
+
+The following interactive example can help illustrate this notion of _diffusion_.
+Given a normal distribution $\mu = \mathcal{N}(0.0, \sigma)$ (displayed with the blue line)
+we can draw _numPoints_ samples (pink dots) and compute the self-distance
+$d^\rho\_{\text{LK}}(\mu, \mu)$, where $\rho(x, y) := |x - y|$. You can vary _stdDev_ to change
+the $\sigma$ parameter of $\mu$ and observe how the distance changes; in particular, when
+$\sigma = 0$ (i.e. $\mu$ is a Dirac-delta distribution) we have $0$ self-distance.
+
+<code>
+  numPoints: <input id="numPoints" placeholder="100" value="100" onchange="generatePlot()" type="number">
+  stdDev: <input id="stdDev" placeholder="1.0" value="1.0" onchange="generatePlot()" type="number">
+</code>
+<div id="graph"></div>
+<script>window.PlotlyConfig = {MathJaxConfig: 'local'}</script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5"></script>
+<script src="/posts/research/rl/mico/script.js"></script>
 
 The notion of a distance function having non-zero self distance was first
 introduced by [[Matthews, 1994]](https://www.dcs.warwick.ac.uk/pmetric/Ma94.pdf) who called it a _partial metric_.  We
