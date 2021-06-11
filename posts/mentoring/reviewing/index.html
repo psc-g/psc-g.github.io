@@ -64,7 +64,10 @@ unfair comparisons against baselines, insufficient independent runs, etc.</p><p>
 5 is ok especially if running on expensive environments like the
 <a href=https://arxiv.org/abs/1207.4708>ALE</a>.</li><li>Do their performance curves report variance via confidence intervals, standard
 deviation, or other? If not: ask for them! Is the choice of confidence level
-(e.g. 90%, 95%, etc.) justified?</li><li>Are the authors comparing against reasonable baselines? If not, ask them why!</li><li>If the new algorithm and the baseline share hyperparameters and these were
+(e.g. 90%, 95%, etc.) justified?</li><li>Are the authors comparing against reasonable baselines? If not, ask them why!</li><li>It is common for authors to <strong>bold</strong> the &ldquo;winners&rdquo; in tables (typically their
+method). This should <em>only</em> be done if the confidence intervals between the
+compared methods <em>don&rsquo;t</em> overlap; if they do overlap, then the result is not
+significant and the authors should <em>not</em> be bolding!</li><li>If the new algorithm and the baseline share hyperparameters and these were
 tuned for the new proposed algorithm, were they also tuned for the baseline?
 If not: ask why!</li><li>Is the algorithm/method understandable? Do you feel like you could implement
 it based on the description given? Diagrams/figures can go a long way in
