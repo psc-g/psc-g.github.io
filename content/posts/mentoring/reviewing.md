@@ -145,6 +145,10 @@ Things I look out for in evaluating empirical results are:
    deviation, or other? If not: ask for them! Is the choice of confidence level
    (e.g. 90\%, 95\%, etc.) justified?
 *  Are the authors comparing against reasonable baselines? If not, ask them why!
+*  It is common for authors to **bold** the "winners" in tables (typically their
+   method). This should _only_ be done if the confidence intervals between the
+   compared methods _don't_ overlap; if they do overlap, then the result is not
+   significant and the authors should _not_ be bolding!
 *  If the new algorithm and the baseline share hyperparameters and these were
    tuned for the new proposed algorithm, were they also tuned for the baseline?
    If not: ask why!
