@@ -141,14 +141,18 @@ Things I look out for in evaluating empirical results are:
 *  How many independent runs were used? In my opinion 3 is the bare minimum, but
    5 is ok especially if running on expensive environments like the
    [ALE](https://arxiv.org/abs/1207.4708).
-*  Do their performance curves report variance via confidence intervals, standard
-   deviation, or other? If not: ask for them! Is the choice of confidence level
-   (e.g. 90\%, 95\%, etc.) justified?
+*  Do their performance curves report variance via confidence intervals,
+   standard deviation, or other? If not: ask for them! Is the choice of
+   confidence level (e.g. 90\%, 95\%, etc.) justified? Ask what method they
+   used to compute the confidence intervals; they should probably be using
+   bootstrapping, but that is not what most people use.
 *  Are the authors comparing against reasonable baselines? If not, ask them why!
-*  It is common for authors to **bold** the "winners" in tables (typically their
-   method). This should _only_ be done if the confidence intervals between the
-   compared methods _don't_ overlap; if they do overlap, then the result is not
-   significant and the authors should _not_ be bolding!
+*  It is common for authors to **bold** the "winners" in tables (typically
+   their method). This should _only_ be done if the confidence intervals
+   between the compared methods _don't_ overlap; if they do overlap, then the
+   result is not significant and the authors should _not_ be bolding! Note that
+   non-overlapping confidence intervals is a good first order approximation,
+   but a more rigorous statistical test would really be best.
 *  If the new algorithm and the baseline share hyperparameters and these were
    tuned for the new proposed algorithm, were they also tuned for the baseline?
    If not: ask why!
@@ -179,7 +183,7 @@ less important to the paper's central message.
 
 ## Self-evaluation
 
-> **Do I know this field well enough and do I feel I underrstood the paper well enough?**
+> **Do I know this field well enough and do I feel I understood the paper well enough?**
 
 Please be honest with yourself. It's ok to say you are unfamiliar with the field
 and/or that you were not able to follow the paper; if other reviewers were also
@@ -215,8 +219,13 @@ bad things to avoid, proof techniques, and interesting algorithmic ideas. View
 it as a learning opportunity and as a way to improve our field; you'll want high
 quality reviewers for your own papers!
 
-Finally, I approach reviewing the way I approach interviewing canddiates:
+Finally, I approach reviewing the way I approach interviewing candidates:
 > _Look for reasons to accept the paper, rather than looking for reasons to reject
 the paper._
 
 Thanks, and good luck!
+
+## Acknowledgements
+
+Thanks to Marlos C. Machado and Johan Samir Obando-Ceron for their feedback in
+improving this post!
