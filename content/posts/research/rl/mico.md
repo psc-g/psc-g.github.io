@@ -272,7 +272,7 @@ The metric can be computed via fixed-point
 iteration since the operator $T_K$ is a contraction mapping. The map $T_K$ contracts at rate
 $\gamma$ with respect to the $L^\infty$ norm on $\mathcal{M}$, and therefore
 obtaining an $\varepsilon$-approximation of $d^\sim$ under this norm requires
-$O(\log(1/\varepsilon) / \log(1/\gamma))$ applications of $T_K$ to
+$O(\log(\varepsilon) / \log(\gamma))$ applications of $T_K$ to
 an initial pseudometric $d_0$. The cost of each application of $T_K$
 is dominated by the computation of $|\mathcal{X}|^2|\mathcal{A}|$ $W_d$
 distances for distributions over $\mathcal{X}$, each costing
