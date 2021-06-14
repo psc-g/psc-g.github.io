@@ -414,7 +414,7 @@ Equipped with the above lemma, we can address the three limitations listed [abov
 <details>
   <summary>Proof</summary>
 
-Since the operator $T^\pi\_M$ is a $\gamma$-contraction under $L^\infty$, we require $\mathcal{O}(\log(1/\varepsilon) / \log(1/\gamma))$ applications of the operator to obtain an $\varepsilon$-approximation in $L^\infty$. Each iteration of value iteration updates $|\mathcal{X}|^2$ table entries, and the cost of each update is $\mathcal{O}(|\mathcal{X}|^2)$, leading to an overall cost of $O(|\mathcal{X}|^4\log(\varepsilon) / \log(\gamma))$.
+Since the operator $T^\pi\_M$ is a $\gamma$-contraction under $L^\infty$, we require $\mathcal{O}(\log(\varepsilon) / \log(\gamma))$ applications of the operator to obtain an $\varepsilon$-approximation in $L^\infty$. Each iteration of value iteration updates $|\mathcal{X}|^2$ table entries, and the cost of each update is $\mathcal{O}(|\mathcal{X}|^2)$, leading to an overall cost of $O(|\mathcal{X}|^4\log(\varepsilon) / \log(\gamma))$.
 
 <div align="right">$\square$</div>
 
