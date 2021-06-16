@@ -1,6 +1,6 @@
 ---
 title: "MICo: Learning improved representations via sampling-based state similarity for Markov decision processes"
-date: 2021-06-07T08:06:25+06:00
+date: 2021-06-16T08:06:25+06:00
 hero: /posts/research/rl/mico/banner.png
 description: "MICo: Learning improved representations via sampling-based state similarity for Markov decision processes"
 menu:
@@ -18,7 +18,8 @@ agents.
 
 _Pablo Samuel Castro\*, Tyler Kastner\*, Prakash Panangaden, and Mark Rowland_
 
-This blogpost is a summary of our [paper](). The code is available
+This blogpost is a summary of our [paper](https://arxiv.org/abs/2106.08229).
+The code is available
 [here](https://github.com/google-research/google-research/tree/master/mico).
 
 The following figure gives a nice summary of the empirical gains our new loss
