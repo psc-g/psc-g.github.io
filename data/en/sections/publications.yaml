@@ -28,6 +28,14 @@ buttons:
   filter: "2018"
 
 publications:
+- name: MICo: Learning improved representations via sampling-based state similarity for Markov decision processes
+  role: Pablo Samuel Castro\*, Tyler Kastner\*, Prakash Panangaden, and Mark Rowland
+  timeline: "Preprint, 2021"
+  repo: https://github.com/google-research/google-research/tree/master/mico
+  paper: https://arxiv.org/abs/2106.08229
+  post: /posts/research/rl/mico
+  tags: ["rl", "2021"]
+
 - name: Revisiting Rainbow, Promoting more insightful and inclusive deep reinforcement learning research
   role: Johan S. Obando-Ceron and Pablo Samuel Castro
   timeline: "ICML, 2021"
