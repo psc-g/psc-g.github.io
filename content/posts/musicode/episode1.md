@@ -16,60 +16,11 @@ menu:
 
 The code for this episode is available [here](https://github.com/psc-g/musicode/tree/main/ep1).
 
-## The story
 I originally thought this channel would be a kind of educational channel, where people could learn about both music and computer science in a fun and informal way. [I tweeted asking for suggestions for what to cover first on the CS side](https://twitter.com/pcastr/status/1296122430977716224), and [Kory Mathewson's response](https://twitter.com/korymath/status/1296122717318590465) was my favourite.
 
 On the music side, it was kind of a train-of-thought process. The first thing that came to mind when thinking about the first thing you might learn in music theory was musical notes themselves.
 
 For the creativity bit, I thought I'd use an idea I had already been experimenting with, which was to "record" a performance and then play it back in reverse. The code that I put up actually allows you to also play it back in its negative harmony ([see this thread for an example](https://twitter.com/pcastr/status/1346654481451245569).
-
-## Episode 1: Musical Notes & Computation
-
-Hello world!
-Welcome to musicode, the show where we explore a topic in music, a topic in computer science, and then we combine them in creative ways.
-In this first episode, we will explore two basic concepts: musical notes, and computation!
-
-### Musical notes
-
-What are musical notes?
-They are symbols that represent a sound.
-Now even though there are infinitely many possible sounds,
-in Western music we discretize them into 12 possible pitches: C, C#, D, D#, E, F, G, G#, A, A#, and B.
-Why 12? Math! Way back in the day, Pythagoras played with pieces of string and discovered first that the length of a string is inversely proportional to its frequency; and that if you started with a string of frequency F and added a new string of frequency equl to 3/2 F (or 1.5 * F), when you plucked both of them it sounded nice. It turns out that the 3/2 ratio gives you a perfect 5th above the original note. If we go back to our piano and start on C, a perfect fifth above is a G.
-Now let’s say we start all the way at the bottom of the piano at the lowest C and kept on multiplying by this ratio (pause), we end up right back at C! And how many notes did we pass along the way? You guessed it: Twelve!
-You may be asking yourself: “If there are only twelve pitches, why are there so many keys on your piano?”
-These 12 pitches are arranged into repeating octaves. Each time it repeats, we’re hearing the same original frequency but multiplied by 2!
-In Western notation we arrange these multiple pitches into a staff consisting of five lines, with little circles placed either in between these lines, on the lines, and sometimes outside these five lines.
-Where each little circle is placed tells the performer what note to play on their instrument (pause), and the shape of the note and its stem indicates how long you play it for (pause).
-There are obviously many more important details on musical notation, but these are the most important bits.
-With these tools, composers can dream up new pieces of music, write it down on paper, and get musicians to perform it!
-So musicians are basically transforming symbols on a page into music in your ears.
-And that… is a a great segway into the computer science segment:
-
-### Computation
-
-Wikipedia says “computer science is the study of algorithmic processes and computational machines”, and I agree.
-But what are “algorithmic processes” and “computational machines”? At its most basic level, these “processes” or “machines” take an input and transform it into an output.
-So are professional musicians just “algorithmic processes” or “computational machines”? Well, in a way, they are!
-But, as its name implies, computer science studies and develops these processes to be run on computers.
-Specifically, computer scientists, like myself, build these processes by writing computer programs using special languages like C++ or Python. Just like the circles and lines on a page indicate what notes a musician should play, the code in a file tells a computer what operations to perform.
-There are all sorts of programs one could write.
-We could, for instance, write a program that always says “yes, and” (pause).
-We could also write a program that does nothing! (pause).
-Or we could write a program that just parrots back whatever we send it. (pause)
-None of these programs are very interesting, but of course there are more sophisticated ones like those used in the autopilot systems of airplanes, in your robot vacuum cleaners, and in the webpage where you’re watching this video.
-Basically, most things that are “technological” use computer programs.
-I write programs to do fun things with my fancy piano behind me!
-This type of piano is a Disklavier. It’s just like a regular acoustic piano, but it also has a digital connection. Which means whatever I play can get captured by the computer.
-This keyboard you see on your screen is showing, in real-time, what I’m playing!
-The way I do this is that my computer receives the notes I play, and my program draws them on the screen.
-The awesome thing about this piano is that I can also send it notes to play, and it plays on its own, like this! (pause).
-Remember the parroting program? We can do something like that with the piano, check it out. (pause)
-But we can do something a bit more fun, we can make the program play back what I just played, but backwards! (pause).
-I can also write code to make pretty visualizations for whatever is being played, like this (pause).
-
-### Creativity
-For the last bit of this episode, the creative combination of the two topics, I’ll play a 2-part invention by J.S. Bach, and then my code and my fancy piano will play it back in reverse. Enjoy!
 
 
 ### Acknowledgements
