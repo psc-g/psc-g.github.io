@@ -33,6 +33,7 @@ publications:
   timeline: "Preprint, 2021"
   repo: https://github.com/google-research/rliable
   paper: https://arxiv.org/abs/2108.13264
+  post: /posts/research/rl/precipice
   tags: ["rl", "2021"]
 
 - name: MICo, Learning improved representations via sampling-based state similarity for Markov decision processes
