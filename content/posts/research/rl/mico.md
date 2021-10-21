@@ -1,7 +1,7 @@
 ---
 title: "MICo: Learning improved representations via sampling-based state similarity for Markov decision processes"
-date: 2021-06-16T08:06:25+06:00
-hero: /posts/research/rl/mico/banner.png
+date: 2021-10-21T08:06:25+06:00
+hero: /posts/research/rl/mico/banner.gif
 description: "MICo: Learning improved representations via sampling-based state similarity for Markov decision processes"
 menu:
   sidebar:
@@ -18,15 +18,24 @@ agents.
 
 _Pablo Samuel Castro\*, Tyler Kastner\*, Prakash Panangaden, and Mark Rowland_
 
-This blogpost is a summary of our [paper](https://arxiv.org/abs/2106.08229).
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CWKv2R30c9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<hr>
+
+This blogpost is a summary of our [NeurIPS 2021 paper](https://arxiv.org/abs/2106.08229).
 The code is available
 [here](https://github.com/google-research/google-research/tree/master/mico).
 
 The following figure gives a nice summary of the empirical gains our new loss
 provides, yielding an improvement on all of the
-[Dopamine](https://github.com/google/dopamine) agents.
+[Dopamine](https://github.com/google/dopamine) agents (left), as well as over Soft
+Actor-Critic and the DBC algorithm of [Zhang et al., ICLR 2021](https://arxiv.org/abs/2006.10742) (right).
+In both cases we are reporting the Interquantile Mean as introduced in
+[our Statistical Precipice NeurIPS'21 paper](https://arxiv.org/abs/2108.13264).
 
-{{< img src="/posts/research/rl/mico/human_median.png" width="50%" title="HumanMedian" align="center" >}}
+{{< img src="/posts/research/rl/mico/iqm.png" width="90%" title="IQM" align="center" >}}
 
 ## Introduction
 
@@ -696,6 +705,8 @@ $$\mathcal{L}\_{\alpha}(\xi, \omega) = (1-\alpha)\mathcal{L}\_{\text{TD}}(\xi, \
 
 ### Results
 
+#### ALE experiments
+
 We added the MICo loss to all the JAX agents provided in the [Dopamine library](https://github.com/google/dopamine).
 For all experiments we used the hyperparameter settings provided with Dopamine. We found that a value of $\alpha=0.5$ worked well with quantile-based agents (QR-DQN, IQN, and M-IQN), while a value of $\alpha=0.01$ worked well with DQN and Rainbow. We hypothesise that the difference in scale of the quantile, categorical, and non-distributional loss functions concerned leads to these distinct values of $\alpha$ performing well. 
 We found it important to use the Huber loss to minimize $\mathcal{L}\_{\text{MICo}}$ as this emphasizes greater accuracy for smaller distances as oppoosed to larger distances. We experimented using the MSE loss but found that larger distances tended to overwhelm the optimization process, thereby degrading performance. We evaluated on all 60 Atari 2600 games over 5 seeds.
@@ -728,6 +739,13 @@ The figure below presents the aggregate normalized performance across all games;
 
 {{< img src="/posts/research/rl/mico/joinedNormalized.png" width="80%" title="Human normalized scores" align="center" >}}
 
+#### DM-Control experiments
+
+Additionally, we evaluated the MICo loss on twelve of the [DM-Control suite from pixels environments](https://github.com/deepmind/dm_control). As a base agent we used Soft Actor-Critic (SAC) from [Haarnoja et al.](https://arxiv.org/abs/1812.05905) with the convolutional auto-encoder described by [Yarats et al.](https://arxiv.org/abs/1910.01741). We applied the MICo loss on the output of the auto-encoder (with $\alpha=1e-5$) and maintained all other parameters untouched. Recently, [Zhang et al.](https://arxiv.org/abs/2006.10742) introduced DBC, which learns a dynamics and reward model on the output of the auto-encoder; their bisimulation loss uses the learned dynamics model in the computation of the Kantorovich distance between the next state transitions. We consider two variants of their algorithm: one which learns a stochastic dynamics model (DBC), and one which learns a deterministic dynamics model (DBC-Det). We replaced their bisimulation loss with the MICo loss (which, importantly, does not require a dynamics model) and kept all other parameters untouched. As the figure at the top of post illustrates, the best performance is achieved with SAC augmented with the MICo loss; additionally, replacing the bisimulation loss of DBC with the MICo loss is able to recover the performance of DBC to match that of SAC.
+
+Here we present the learning curves for all the DM-Control environments run.
+
+{{< img src="/posts/research/rl/mico/allDMControl.png" width="80%" title="All DM-Control environments" align="center" >}}
 
 ## Conclusion
 
@@ -740,3 +758,5 @@ The authors would like to thank Gheorghe Comanici, Rishabh Agarwal, Nino
 Vieillard, and Matthieu Geist for their valuable feedback on the paper and
 experiments. Pablo Samuel Castro would like to thank Roman Novak and Jascha
 Sohl-Dickstein for their help in getting angular distances to work stably!
+Finally, the authors would like to thank the reviewers (both ICML'21 and
+NeurIPS'21) for helping make this paper better.

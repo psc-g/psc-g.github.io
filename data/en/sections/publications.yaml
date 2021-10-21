@@ -30,7 +30,7 @@ buttons:
 publications:
 - name: Deep Reinforcement Learning at the Edge of the Statistical Precipice
   role: Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, and Marc G. Bellemare
-  timeline: "Preprint, 2021"
+  timeline: "NeurIPS, 2021"
   repo: https://github.com/google-research/rliable
   paper: https://arxiv.org/abs/2108.13264
   post: /posts/research/rl/precipice
@@ -38,7 +38,7 @@ publications:
 
 - name: MICo, Learning improved representations via sampling-based state similarity for Markov decision processes
   role: Pablo Samuel Castro, Tyler Kastner, Prakash Panangaden, and Mark Rowland
-  timeline: "Preprint, 2021"
+  timeline: "NeurIPS, 2021"
   repo: https://github.com/google-research/google-research/tree/master/mico
   paper: https://arxiv.org/abs/2106.08229
   post: /posts/research/rl/mico
