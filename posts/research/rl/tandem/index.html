@@ -1,0 +1,361 @@
+<!doctype html><html><head><title>The Difficulty of Passive Learning in Deep Reinforcement Learning</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/assets/css/bootstrap.min.css><link rel=stylesheet href=/assets/css/layouts/main.css><link rel=stylesheet href=/assets/css/style.css><link rel=stylesheet href=/assets/css/navigators/navbar.css><link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css><link rel=icon type=image/png href=/assets/images/psc_emoji.png><link rel=stylesheet href=/assets/css/style.css><script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:true,processEnvironments:true},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}};window.addEventListener('load',(event)=>{document.querySelectorAll("mjx-container").forEach(function(x){x.parentElement.classList+='has-jax'})});</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><meta name=description content="The Difficulty of Passive Learningin Deep Reinforcement Learning"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/assets/css/layouts/single.css><link rel=stylesheet href=/assets/css/navigators/sidebar.css><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-XXXXXXXXX-X','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span></button>
+<a class=navbar-brand href=/><img src=/assets/images/psc_emoji.png>psc's website</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"></ul></div></div><img src=/assets/images/psc_emoji.png class=d-none id=main-logo>
+<img src=/assets/images/psc_emoji.png class=d-none id=inverted-logo></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><input type=text placeholder=Search data-search id=search-box><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts data-filter=all>Posts</a></li><div class=subtree><li><i class="fas fa-plus-circle"></i><a href=/posts/mentoring/>Mentoring / Education</a><ul><li><a href=/posts/mentoring/gridworldplayground/>GridWorld Playground</a></li><li><a href=/posts/mentoring/intro-to-rl/>Intro to RL</a></li><li><a href=/posts/mentoring/resume/>Preparing your resume</a></li><li><a href=/posts/mentoring/interviewing/>Tips for Interviewing at Google</a></li><li><a href=/posts/mentoring/reviewing/>Tips for Reviewing Research Papers</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/musicode/>MUSICODE</a><ul><li><i class="fas fa-plus-circle"></i><a href=/posts/musicode/phase1/>Phase 1</a><ul><li><a href=/posts/musicode/phase1/introducing/>0-Introducing</a></li><li><a href=/posts/musicode/phase1/episode1/>1-Musical Note & Computation</a></li><li><a href=/posts/musicode/phase1/episode2/>2-Bits & Semitones</a></li><li><a href=/posts/musicode/phase1/episode3/>3-Leitmotifs & Variables</a></li><li><a href=/posts/musicode/phase1/episode4/>4-Live Coding & Jazz</a></li><li><a href=/posts/musicode/phase1/episode5/>5-Repeats & Loops</a></li></ul></li><li><a href=/posts/musicode/introducing/>Introducing</a></li><li><a href=/posts/musicode/ldd/>Losses, Dissonances, and Distortions</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/art/>Art</a><ul><li><a href=/posts/art/cost-of-beauty/>Cost of Beauty</a></li><li><a href=/posts/art/covid-music/>Covid Music</a></li><li><a href=/posts/art/family/>Family</a></li><li><a href=/posts/art/jidiji/>JiDiJi</a></li><li><a href=/posts/art/musical-aquarium/>Musical Aquarium</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/misc/>Misc</a><ul><li><a href=/posts/misc/agr/>Artificial General Relativity</a></li><li><a href=/posts/misc/origins/>Origins of April Fool's Day</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/posts/research/>Research</a><ul class=active><li><i class="fas fa-plus-circle"></i><a href=/posts/research/other/>Other</a><ul><li><a href=/posts/research/other/rigl/rigl/>RigL</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/posts/research/rl/>RL</a><ul class=active><li><a href=/posts/research/rl/2020highlights/>2020 RL Highlights</a></li><li><a href=/posts/research/rl/pse/>Contrastive Behavioral Similarity Embeddings</a></li><li><a href=/posts/research/rl/dopamine/>Dopamine</a></li><li><a href=/posts/research/rl/loon/>Flying balloons with RL</a></li><li><a href=/posts/research/rl/metrics_continuity/>Metrics & continuity in RL</a></li><li><a href=/posts/research/rl/mico/>MICo</a></li><li><a href=/posts/research/rl/revisiting_rainbow/>Revisiting Rainbow</a></li><li><a href=/posts/research/rl/scalable/>Scalable methods ...</a></li><li><a class=active href=/posts/research/rl/tandem/>Tandem RL</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/research/creativity/>Creativity</a><ul><li><a href=/posts/research/creativity/agence/>Agence, a dynamic film</a></li><li><a href=/posts/research/creativity/ganterpretations/>GANterpretations</a></li><li><a href=/posts/research/creativity/ml-jam/>ML-Jam</a></li></ul></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(https://psc-g.github.io/posts/research/rl/tandem/heldHein.png)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/assets/images/psc_gradient.png><h5 class=author-name>Pablo Samuel Castro</h5><p>October 26, 2021</p></div><div class=title><h1>The Difficulty of Passive Learning in Deep Reinforcement Learning</h1></div><div class=post-content id=post-content><p>We propose and analyze the &ldquo;tandem learning&rdquo; experimental design, where two RL
+agents are learning from identical data streams, but only one interacts with
+the environment to collect the data.</p><p><em>Georg Ostrovski, Pablo Samuel Castro, Will Dabney</em></p><p>This blogpost is a summary of our <a href>NeurIPS 2021 paper</a>.
+We provide two Tandem RL implementations:
+<a href=https://github.com/deepmind/deepmind-research/tree/master/tandem_dqn>this one</a>
+based on the <a href=https://github.com/deepmind/dqn_zoo>DQN Zoo</a>, and
+<a href=https://github.com/google/dopamine/tree/master/dopamine/labs/tandem_dqn>this one</a>
+based on the <a href=https://github.com/google/dopamine>Dopamine library</a>.</p><h2 id=introduction>Introduction</h2><p>Learning to act in an environment purely from observational data (i.e. with no
+environment interaction), usually referred to as offline reinforcement
+learning, has great practical as well as theoretical importance (see
+<a href=https://arxiv.org/abs/2005.01643>this paper</a> for a recent survey).
+In real-world settings like robotics and healthcare, it is motivated by the
+ambition to learn from existing datasets and the high cost of environment
+interaction. Its theoretical appeal is that stationarity of the data
+distribution allows for more straightforward convergence analysis of learning
+algorithms. Moreover, decoupling learning from data generation alleviates one of
+the major difficulties in the empirical analysis of common reinforcement
+learning agents, allowing the targeted study of learning dynamics in isolation
+from their effects on behavior.</p><p>In this paper we draw inspiration from the experimental paradigm introduced in
+the classic <a href=https://psycnet.apa.org/record/1964-03855-001>Held and Hein (1963)</a>
+experiment in psychology. The experiment involved coupling two young animal
+subjects’ movements and visual perceptions to ensure that both receive the same
+stream of visual inputs, while only one can actively shape that stream by
+directing the pair’s movements. By showing that, despite
+identical visual experiences, only the actively moving subject acquired
+adequate visual acuity, the experiment established the importance of active
+locomotion in learning vision.</p><img src=/posts/research/rl/tandem/heldHein.png alt="Held and Hein" width=50% class=center><p>Analogously, we introduce the ‘Tandem RL’
+setup, pairing an ‘active’ and a ‘passive’ agent in a training loop where only
+the active agent drives data generation, while both perform identical learning
+updates from the generated data . By decoupling learning dynamics from its
+impact on data generation, while preserving the non-stationarity of the online
+learning setting, this experimental paradigm promises to be a valuable analytic
+tool for the precise empirical study of RL algorithms.</p><img src=/posts/research/rl/tandem/tandem_gif.gif alt="The Tandem setup" width=90% class=center><p>Holding architectures, losses, and crucially data distribution equal across the
+active and passive agents, or varying them in a controlled manner, we perform a
+detailed empirical analysis of the failure modes of passive (i.e.
+non-interactive, offline) learning, and pinpoint the contributing factors in
+properties of the data distribution, function approximation and learning
+algorithm.</p><h2 id=the-experimental-paradigm-of-tandem-reinforcement-learning>The Experimental Paradigm of Tandem Reinforcement Learning</h2><p>The Tandem RL setting, extending a similar analytic setup in
+<a href=https://arxiv.org/abs/1812.02900>[Fujimoto et al., 2019]</a>,
+consists of two learning agents, one of which (the ‘active agent’)
+performs the usual online training loop of interacting with an environment and
+learning from the generated data, while the other (the ‘passive agent’) learns
+solely from data generated by the active agent, while only interacting with the
+environment for evaluation. We distinguish two experimental paradigms:</p><p><strong>Tandem:</strong> Active and passive agents start with independently initialized
+networks, and train on an identical sequence of training batches in the exact
+same order.</p><p><strong>Forked Tandem:</strong> An agent is trained for a fraction of its total training
+budget. It is then ‘forked’ into active and passive agents, which start out
+with identical network weights. The active agent is ‘frozen’, i.e. receives no
+further training, but continues to generate data from its policy. The passive
+agent is trained on this generated data for the remainder of the training
+budget.</p><img src=/posts/research/rl/tandem/tandem.png alt="The Tandem paradigms" width=90% class=center><h3 id=implementation>Implementation</h3><p>Our basic experimental agent is ‘Tandem DQN’, an active/passive pair of
+Double-DQN agents<a href=https://arxiv.org/abs/1509.06461> [van Hasselt et al., 2016]</a>.
+Most of our experiments are performed on the Atari domain, using the exact
+algorithm and hyperparameters from
+<a href=https://arxiv.org/abs/1509.06461>[van Hasselt et al., 2016]</a>. We use a fixed
+set of four representative games to demonstrate most of our empirical results,
+two of which (Breakout, Pong) can be thought of as easy and largely solved by
+baseline agents, while the others (Seaquest, Space Invaders) have non-trivial
+learning curves and remain challenging. Unless stated otherwise, all results
+show averages over at least 5 seeds, with confidence intervals indicating
+variation over seeds. In comparative plots, <strong>boldface</strong> entries indicate the
+default Tandem DQN configuration, and <span style=color:grey>gray</span>
+lines always correspond to the active agent’s performance.</p><h3 id=the-tandem-effect>The Tandem Effect</h3><p>We begin by reproducing the striking observation in
+<a href=https://arxiv.org/abs/1812.02900>[Fujimoto et al., 2019]</a>
+that the passive learner generally fails to adequately learn from the very data
+stream that is demonstrably sufficient for its architecturally identical active
+counterpart; we refer to this phenomenon as the ‘tandem effect’.</p><img src=/posts/research/rl/tandem/tandemEffect.png alt="The Tandem effect" width=90% class=center><h2 id=analysis-of-the-tandem-effect>Analysis of the Tandem Effect</h2><p>The following three potential contributing factors in the tandem
+effect provide a natural structure to our analysis:</p><p><strong>Bootstrapping (B)</strong> <em>The passive agent’s bootstrapping from poorly estimated
+(in particular, overestimated) values causes any initially small mis-estimation
+to get amplified.</em></p><p><strong>Data Distribution (D)</strong> _Insufficient coverage of sub-optimal actions under
+the active agent’s policy** may lead to their mis-estimation by the passive
+agent. In the case of over-estimation, this may lead to the passive agent’s
+under-performance._</p><p><strong>Function Approximation (F)</strong> <em>A non-linear function approximator used as a
+Q-value function may tend to wrongly extrapolate the values of state-action
+pairs underrepresented in the active agent’s behavior distribution. This
+tendency can be inherent and persistent, in the sense of being independent of
+initialization and not being reduced with increased training on the same data
+distribution.</em></p><p>These proposed contributing factors are not at all mutually exclusive; they may
+interact in causing or exacerbating the tandem effect. Insufficient coverage of
+sub-optimal actions under the active agent’s behavior distribution (D) may lead
+to insufficient constraint on the respective values, which allows for effects
+of erroneous extrapolation by a function approximator (F). Where this results
+in over-estimation, the use of bootstrapping (B) carries the potential to
+‘pollute’ even well-covered state-action pairs by propagating over-estimated
+values (especially via the $\max$ operator in the case of Q-learning). In the
+next sections we empirically study these three factors in isolation, to
+establish their actual roles and relative contributions to the overall
+difficulty of passive learning.</p><h3 id=the-role-of-bootstrapping>The Role of Bootstrapping</h3><p>In the Double-DQN algorithm the bootstrapping updates take the
+form
+$$Q(s, a) \leftarrow r + \gamma \bar{Q}(s', \arg\max_{a'} Q(s', a'))$$</p><p>where $\bar{Q}$ is the target network Q-value function, i.e. a time-delayed copy
+of $Q$.</p><p>Four value functions are involved in the active and passive updates of Tandem
+DQN: $Q_{\color{red} A}, \bar Q_{\color{red} A}, Q_{\color{blue} P}$ and
+$\bar Q_{\color{blue} P}$, where the ${\color{red} A}/{\color{blue} P}$
+subscripts refer to the Q-value functions of the active and passive agents,
+respectively. The use of its own target network by the passive agent makes
+bootstrapping a plausible strong contributor to the tandem effect. To test
+this, we replace the target values and/or policies in the update equation for
+the _passive_ agent, with the values provided by the _active_ agent&rsquo;s
+value functions:</p><p>$$
+Q_P(s,a) \leftarrow \begin{cases}
+r + \gamma \bar Q_{\color{blue} P} (s', \arg\max_{a'} Q_{\color{blue} P} (s',a'))\qquad \text{Vanilla Tandem DQN}\\<br>r + \gamma \bar Q_{\color{red} A} (s', \arg\max_{a'} Q_{\color{blue} P} (s',a'))\qquad \text{Same Target $Q$} \\<br>r + \gamma \bar Q_{\color{blue} P} (s', \arg\max_{a'} Q_{\color{red} A} (s',a'))\qquad \text{Same Target $\pi$} \\<br>r + \gamma \bar Q_{\color{red} A} (s', \arg\max_{a'} Q_{\color{red} A} (s',a'))\qquad \text{Same Target $\pi$&$Q$} \\<br>\end{cases}
+$$</p><p>The use of the active value functions as targets reduces the active-passive gap
+by only a small amount. Note that when both active target values and policy are
+used, both networks are receiving <em>an identical sequence of targets</em> for their
+update computations, a sequence that suffices for the active agent to learn a
+successful policy. Strikingly, despite this the tandem effect appears largely
+preserved: in all but the easiest games (e.g. Pong) the passive agent fails to
+learn effectively.</p><img src=/posts/research/rl/tandem/target.png alt="Variations of the target" width=90% class=center>
+<details><summary>Expand to see more results</summary><p>To more precisely understand the effect of bootstrapping with respect to a
+potential value overestimation by the passive agent, we also show the values
+of the passive networks in the above experiment compared to those of the
+respective active networks. As hypothesised, we observe that the vanilla
+tandem setting leads to significant value over-estimation, and that indeed
+bootstrapping plays a substantial role in amplifying the effect: passive
+networks trained using the active network’s bootstrap targets do not
+over-estimate compared to the active network at all.</p><img src=/posts/research/rl/tandem/overEstimation.png alt="Q-value over-estimation" width=90% class=center></details><p>These findings indicate that a simple notion of value over-estimation itself is not the fundamental
+cause of the tandem effect, and that <strong>(B) plays an amplifying, rather than causal role</strong>. Additional
+evidence for this is provided below, where the tandem effect occurs in a purely supervised setting</p><h3 id=the-role-of-the-data-distribution>The Role of the Data Distribution</h3><p>The critical role of the data distribution for offline learning is well
+established. Here we extend past analysis empirically, by investigating how
+properties of the data distribution (e.g. stochasticity, stationarity, the size
+and diversity of the dataset, and its proximity to the passive agent’s own
+behavior distribution) affect its suitability for passive learning.
+without bootstrapping.</p><h4 id=the-exploration-parameter>The exploration parameter</h4><p>A simple way to affect the data distribution’s state-action coverage
+(albeit in a blunt and uniform way) is by varying the exploration parameter ε of the active agent’s
+$\epsilon$-greedy behavior policy (for training, not for evaluation). Note that a higher $\epsilon$ parameter affects the
+active agent’s own training performance, as its ability to navigate environments requiring precise
+control is reduced. We therefore report the relative passive performance (i.e. as a
+fraction of the active agent’s performance, which itself also varies across parameters),
+with absolute performance plots included in the (hidden) detail section below.
+We observe that the relative passive performance is indeed substantially
+improved when the active behavior policy’s stochasticity (and as a consequence
+its coverage of non-argmax actions along trajectories) is increased, and
+conversely it reduces with a greedier behavior policy, <strong>providing evidence for
+the role of (D)</strong>.</p><img src=/posts/research/rl/tandem/epsilonGreedy.png alt="Variations of $\epsilon$-greedy" width=90% class=center>
+<details><summary>Expand to see absolute performance plots</summary>
+<img src=/posts/research/rl/tandem/epsilonGreedyAbsolute.png alt="Variations of $\epsilon$-greedy absolute" width=90% class=center></details><h4 id=sticky-actions>Sticky actions</h4><p>An alternative potential source of stochasticity is the environment itself, e.g. the use
+of ‘sticky actions’ in Atari <a href=https://arxiv.org/abs/1709.06009>[Machado et al., 2018]</a>:
+with fixed probability, an agent action is ignored (and the previous action
+repeated instead). This type of environment-side stochasticity should not be
+expected to cause new actions to appear in the behavior data, and indeed it
+shows no substantial impact on the tandem effect.</p><img src=/posts/research/rl/tandem/stickyActions.png alt="Evaluating with sticky actions" width=90% class=center><h4 id=replay-size>Replay size</h4><p>Our results contrast with the strong offline RL results in
+<a href=https://arxiv.org/abs/1907.04543>[Agarwal et al., 2020]</a>. We hypothesize that
+the difference is due to the vastly different dataset size (full training of
+200M transitions vs. replay buffer of 1M). Interpolating between the tandem
+and the offline RL setting from
+<a href=https://arxiv.org/abs/1907.04543>[Agarwal et al., 2020]</a>, we increase the replay
+buffer size, thereby giving the passive agent access to somewhat larger data
+diversity and state-action coverage (this does not affect the active agent’s
+training as the active agent is constrained to only sample from the most recent
+1M replay samples, as in the baseline variant). A larger replay buffer somewhat
+mitigates the passive agent’s under-performance, though it appears to
+mostly slow down rather than prevent the passive agent from eventually
+under-performing its active counterpart substantially.</p><img src=/posts/research/rl/tandem/replaySizes.png alt="Evaluating with different replay sizes" width=90% class=center>
+<details><summary>Expand to see experiments on classic control environments</summary><p>As we suspect that a sufficient replay buffer size may depend on the
+effective state-space size of an environment, we also perform analogous
+experiments on the (much smaller) classic control domains; results remain
+qualitatively the same.</p><img src=/posts/research/rl/tandem/replaySizesCC.png alt="Evaluating with different replay sizes with classic control environments" width=90% class=center></details><p>Note that for a fixed dataset size, sample diversity can take different forms.
+Many samples from a single policy may provide better coverage of states on, or
+near, policy-typical trajectories. Meanwhile, a larger collection of policies,
+with fewer samples per policy, provides better coverage of many trajectories at
+the expense of lesser coverage of small deviations from each. To disentangle
+the impact of these modalities, while also shedding light on the role of
+stationarity of the distribution, we next switch to the ‘Forked Tandem’
+variation of the experimental paradigm.</p><h4 id=fixed-policy>Fixed policy</h4><p>Upon forking, the frozen active policy is executed to produce training data for
+the passive agent, which begins its training initialized with the active
+network’s weights. Note that this constitutes a stronger variant of the tandem
+experiment. At the time of forking, the agents do not merely share analogous
+architectures and equal ‘data history’, but also identical network weights
+(whereas in the simple tandem setting, the agents were distinguished by
+independently initialized networks). Moreover, the data used for passive
+training can be thought of as a ‘best-case scenario’: generated by a single
+fixed policy, identical to the passive policy at the beginning of passive
+training. Strikingly, the tandem effect is not only preserved but even
+exacerbated in this setting: after forking, passive performance
+decays rapidly in all but the easiest games, despite starting from a
+near-optimally performing initialization. This re-frames the tandem effect as
+not merely the difficulty of passively learning to act, but even to passively
+maintain performance. Instability appears to be inherent in the very learning
+process itself, providing strong support to the hypothesis that an <strong>interplay
+between (D) and (F) is critical to the tandem effect</strong>.</p><img src=/posts/research/rl/tandem/forkedTandem.png alt="Forked tandem experiments" width=90% class=center>
+<details><summary>Expand to see experiments with stochasticity</summary><p>We additionally show that similarly to the regular tandem setting,
+stochasticity of the active policy <em>after forking</em> influences the passive
+agent’s ability to maintain performance.</p><img src=/posts/research/rl/tandem/forkedTandemStochastic.png alt="Forked tandem with stochasticity" width=90% class=center></details><h4 id=fixed-replay>Fixed replay</h4><p>A variation on the above experiments is to freeze the <em>replay buffer</em> while
+continuing to train the passive policy from this fixed dataset. Instead of a
+stream of samples from a single policy, this fixed data distribution now
+contains a fixed number of samples from a training process of the length of the
+replay buffer, i.e. from a number of different policies. The collapse of
+passive performance here is less rapid, yet qualitatively
+similar.</p><img src=/posts/research/rl/tandem/forkedTandemReplay.png alt="Forked tandem experiments with fixed replay" width=90% class=center>
+<details><summary>Expand to see extra experiments</summary><p>We present yet another variant of this experiment with similar results,
+showing that the effect is robust to minor variations in the exact way of
+fixing the data distribution of a learning agent. In the
+‘groundhog day’ variation, active vs. passive performance. After forking, the
+active agent trains for a full iteration (1M environment steps), and is then
+reset to its initial network parameters at the time of forking, repeatedly
+for the remaining number of iterations.</p><img src=/posts/research/rl/tandem/groundhogDay.png alt="Forked tandem with stochasticity" width=90% class=center></details><p>These experiments provide <strong>strong evidence for the importance of (D)</strong>: a
+larger replay buffer, containing samples from more diverse policies, can be
+expected to provide an improved coverage of (currently) non-greedy actions,
+reducing the tandem effect. While the forked tandem begins passive learning
+with the seemingly advantageous high-performing initialization, state-action
+coverage is critically limited in this case. In the frozen-policy case, a large
+number of samples from the very same $\epsilon$-greedy policy can be expected
+to provide very little coverage of non-greedy actions, while in the
+frozen-replay case, a smaller number of samples from multiple policies can be
+expected to only do somewhat better in this regard. In both cases the tandem
+effect is highly pronounced.</p><h4 id=on-policy-evaluation>On-policy evaluation</h4><p>The strength of the last two experiments lies in the observation that, since
+active and passive networks have identical parameter values at the beginning of
+passive training, their divergence cannot be attributed to small initial
+differences getting amplified by training on an inadequate data distribution.
+With so many factors held fixed, the collapse of passive performance when
+trained on the very data distribution produced by its own initial policy begs
+the question whether off-policy Q-learning itself is to blame for this failure
+mode, e.g. via statistical over-estimation bias introduced by the max operator.
+Here we provide a negative answer, by performing on-policy
+evaluation with SARSA:</p><img src=/posts/research/rl/tandem/sarsa.png alt="SARSA experiments" width=90% class=center><p>And purely supervised regression on the Monte-Carlo returns. In the top row, we
+report active vs. passive control performance, and in the bottom row average
+absolute Monte-Carlo error. The Monte-Carlo error is minimized effectively by
+the passive training, while the control performance of the resulting
+$\epsilon$-greedy policy collapses completely.</p><img src=/posts/research/rl/tandem/monteCarlo.png alt="Monte Carlo experiments" width=90% class=center><p>While evaluation succeeds, in the sense of minimizing evaluation error on the
+given behavior distribution, atypical action values under the behavior policy
+suffer substantial estimation error, resulting in occasional over-estimation.
+The resulting ε-greedy control policy under-performs the initial policy at
+forking time as catastrophically as in the other forked tandem experiments.
+<strong>Strengthening the roles of (D) and (F) while further weakening that of (B)</strong>,
+these observations point to an inherent instability of offline learning,
+different from that of Baird’s famous example or the infamous ‘Deadly Triad’;
+an instability that results purely from erroneous extrapolation by the function
+approximator, when the utilized data distribution does not provide adequate
+coverage of relevant state-action pairs.</p><h4 id=self-generated-data>Self-generated data</h4><p>Our final empirical question in this section is ‘How much data <em>generated by
+the passive agent</em> is needed to correct for the tandem effect?’. While a full
+investigation of this question exceeds the scope of this paper and is left for
+future work, the tandem setup lends itself to a simple experiment: both agents
+interact with the environment and fill individual replay buffers, one of them
+(for simplicity still referred to as ‘passive’) however learns from data
+stochastically mixed from both replay buffers. As shown below, even a moderate
+amount (10%-20%) of ‘own’ data yields a substantial reduction of the tandem
+effect, while a 50/50 mixture completely eliminates it.</p><img src=/posts/research/rl/tandem/selfGenerated.png alt="Self-generated data experiments" width=90% class=center><h3 id=the-role-of-function-approximation>The Role of Function Approximation</h3><p>We structure our investigation of the role of function approximation in the
+tandem effect into two categories: the <em>optimization</em> process and the <em>function
+class</em> used.</p><h4 id=optimization>Optimization</h4><p>We used RMSProp in our experiments, but recent papers (such as my recent
+<a href=/posts/research/rl/revisiting_rainbow>Revisiting Rainbow paper</a>) demonstrated
+that Adam yields better performance. We show that while both active and passive
+agents perform better with Adam, the tandem effect itself is unaffected by the
+choice of optimizer.</p><img src=/posts/research/rl/tandem/adam.png alt="Experiments with Adam" width=90% class=center><p>Another plausible hypothesis is that the passive network suffers from
+under-fitting and requires more updates on the same data to attain comparable
+performance to the active learner. Varying the number of passive agent updates
+per active agent update step, we find that more updates worsen the performance
+of the passive agent. This rejects insufficient training as a possible cause,
+and further <strong>supports the role of (D)</strong>.</p><img src=/posts/research/rl/tandem/updates.png alt="Experiments with number of updates" width=90% class=center><h4 id=function-class>Function class</h4><p>Given that the active and passive agents share an identical network architecture,
+the passive agent’s under-performance cannot be explained by an insufficiently expressive function
+approximator. Performing the tandem experiment with pure regression of the passive network’s
+outputs towards the active network’s (a variant of <em>network distillation</em>), instead
+of TD based training, we observe that the performance gap is indeed vastly reduced and in some
+games closed entirely; however, strikingly, it remains in some.</p><img src=/posts/research/rl/tandem/regression.png alt="Regression experiments" width=90% class=center><p>Next, we vary the function class of both networks by varying the depth and
+width of the utilized Q-networks on a set of Classic Control tasks. As we can
+see below, the magnitude of the active-passive performance gap appears
+negatively correlated with network width, which is <strong>in line with (F)</strong>: an
+increase in network capacity results in less pressure towards over-generalizing
+to infrequently seen action values and an ultimately smaller tandem effect. On
+the other hand, the gap seems to correlate positively with network depth. We
+speculate that this may relate to the finding that deeper networks tend to be
+biased towards simpler (e.g. lower rank) solutions, which may suffer from
+increased over-generalization.</p><img src=/posts/research/rl/tandem/netArch.png alt="Varying network architecture" width=90% class=center><p>Finally, we investigate varying the function class of <em>only the passive network</em>
+by sharing the weights of the first $k$k (out of $5$) layers of active and
+passive networks, while constraining the passive network to only update the
+remaining top $5 − k$ layers, and using the ‘representation’ at layer $k$ acquired
+through active learning only. This reduces the ‘degrees of freedom’ of the
+passive agent, which we hypothesize reduces its potential for divergence.
+Indeed, as we see below, passive performance correlates
+strongly with the number of tied layers, with the variant for which only the
+linear output layer is trained passively performing on par with the active
+agent.</p><img src=/posts/research/rl/tandem/tied.png alt="Experiment tying layers" width=90% class=center><br><p>A similar result is obtained in the forked tandem setting:</p><img src=/posts/research/rl/tandem/forkedTied.png alt="Forked experiment tying layers" width=90% class=center><p>This finding provides a strong indirect <strong>hint towards (F)</strong>: with only
+part of the network’s layers being trained passively, much of its
+‘generalization capacity’ is shared between active and passive agents. States
+that are not aggregated by the shared bottom layers (only affected by active
+training) have to be ‘erroneously’ aggregated by the remaining top layers of
+the network for over-generalization to occur.</p><h2 id=applications-of-the-tandem-setting>Applications of the Tandem Setting</h2><p>In addition to being valuable for studying the challenges in offline RL, we
+propose that the Tandem RL setting provides analytic capabilities that make it
+a useful tool in the empirical analysis of general (online) reinforcement
+learning algorithms. At its core, the tandem setting aims to decouple learning
+dynamics from its impact on behavior and the data distribution, which are
+inseparably intertwined in the online setting. While classic offline RL
+achieves a similar effect, as an analytic tool it has the potential downside of
+typically using a stationary distribution. Tandem RL, on the other hand,
+presents the passive agent with a data distribution which realistically
+represents the type of non-stationarity encountered in an online learning
+process, while still holding that distribution independent from the learning
+dynamics being studied. This allows Tandem RL to be used to study, e.g., the
+impact of variations in the learning algorithm on the quality of a learned
+representation, without having to control for the indirect confounding effect
+of a different behavior causing a different data distribution.</p><p>While extensive examples of this exceed the scope of this paper, we provide a
+single such experiment, testing <a href=https://arxiv.org/abs/1710.10044>QR-DQN</a>
+as a passive learning algorithm (the active agent being a Double-DQN). This is
+motivated by the observation of
+<a href=https://arxiv.org/abs/1907.04543>Agarwal et al. [2020]</a>, that QR-DQN outperforms
+DQN in the offline setting. QR-DQN indeed appears to be a nontrivially
+different passive learning algorithm, significantly better in some games, while
+curiously worse in others.</p><img src=/posts/research/rl/tandem/qrdqn.png alt="QR-DQN as passive agent" width=90% class=center><h2 id=discussion-and-conclusion>Discussion and Conclusion</h2><p>At a high level, our work can be viewed as investigating the issue of
+(in)compatibility between the data distribution used to train a function
+approximator and the data distribution relevant in its evaluation. While in
+supervised learning, <em>generalization</em> can be viewed as the problem of transfer
+from a training to a (given) test distribution, the fundamental challenge for
+control in reinforcement learning is that the test distribution is <em>created</em> by
+the very outcome of learning itself, the learned policy. The various
+difficulties of learning to act from offline data alone throw into focus the
+role of interactivity in the learning process: only by continuously interacting
+with the environment does an agent gradually ‘unroll’ the very data on which
+its performance will be evaluated.</p><p>This need not be an obstacle in the case of <em>exact</em> (i.e. tabular) functions:
+with sufficient data, extrapolation error can be avoided entirely. In the case
+of function approximation however, as small errors compound rapidly into a
+difference in the underlying state distribution, significant divergence and, as
+this and past work demonstrates, ultimately catastrophic under-performance can
+occur. Function approximation plays a two-fold role here: (1) being an
+approximation, it allows deviations in the <em>outputs</em>; (2) as the learned
+quantity, it is (especially in the non-linear case) highly sensitive to
+variations in the <em>input distribution</em>. When evaluated for control after offline
+training, these two roles combine in a way that is ‘unexplored’ by the training
+process: minor <em>output</em> errors cause a drift in behavior, and thereby a drift in
+the test distribution.</p><p>While related, this challenge is subtly different from the well-known
+divergence issues of off-policy learning with function approximation,
+demonstrated by Baird’s famous counterexample and conceptualized as the Deadly
+Triad. While these depend on bootstrapping as a mechanism to cause a
+feedback-loop resulting in value divergence, our results show that the offline
+learning challenge persists even without bootstrapping, as small differences in
+behavior cause a drift in the ‘test distribution’ itself. Instead of a
+<em>training-time</em> output drift caused by bootstrapping, the central role is taken
+by a <em>test-time</em> drift of the state distribution caused by the interplay of
+function approximation and a fixed data distribution (as opposed to dynamically
+self-generated data).</p><p>Our empirical work highlights the importance of interactivity and ‘learning
+from your own mistakes’ in learning control. Starting out as an investigation
+of the challenges in offline reinforcement learning, it also provides a
+particular viewpoint on the classical online reinforcement learning case.
+Heuristic explanations for highly successful deep RL algorithms like DQN, based
+on intuitions from (e.g.) approximate policy iteration, need to be viewed with
+caution in light of the apparent hardness of a policy improvement step based on
+approximate policy evaluation with a function approximator.</p><p>Finally, the forked tandem experiments show that even high-performing
+initializations are not robust to a collapse of control performance, when
+trained under their own (<em>but fixed!</em>) behavior distribution. Not just <em>learning
+to act</em>, but even <em>maintaining performance</em> appears hard in this setting. This
+provides an intuition that we distill into the following working conjecture:</p><blockquote><p><strong>Conjecture</strong></p><blockquote><p><em>The dynamics of deep reinforcement learning for control are unstable on
+(almost) any</em> <em><strong>fixed</strong></em> <em>data distribution</em>.</p></blockquote></blockquote><p>Expanding on the classical on- vs. off-policy dichotomy, we propose that
+indefinitely training on <em>any fixed</em> data distribution, without strong explicit
+regularization or additional inductive bias, gives rise to ‘exploitation of
+gaps in the data’ by a function approximator, akin to the over-fitting
+occurring when over-training on a fixed dataset in supervised learning.
+Interaction, i.e. generating at least moderate amounts of one’s own experience,
+appears to be a powerful, and for the most part <em>necessary</em>, regularizer and
+stabilizer for learning to act, by creating a dynamic equilibrium between
+optimization of a function approximator and its own data-generation process.</p><h2 id=acknowledgements>Acknowledgements</h2><p>We would like to thank Hado van Hasselt and Joshua Greaves for feedback on an early draft of this
+paper, and Zhongwen Xu for an unpublished related piece of work at DeepMind that inspired some
+of our experiments. We also thank Clare Lyle, David Abel, Diana Borsa, Doina Precup, John Quan,
+Marc G. Bellemare, Mark Rowland, Michal Valko, Remi Munos, Rishabh Agarwal, Tom Schaul
+and Yaroslav Ganin, and many other colleagues at DeepMind and Google Brain for the numerous
+discussions that helped shape this research.</p></div><div class=btn-improve-page><a href=https://github.com/psc-g/psc-g.github.io/edit/master/content/posts/research/rl/tandem.md><i class="fas fa-code-branch"></i>Improve this page</a></div><hr><div class="row next-prev-navigator"><div class="col-md-12 next-article"><a href=/posts/research/rl/mico/ class="btn btn-outline-info"><span>Next <i class="fas fa-chevron-circle-right"></i></span><br><span>MICo: Learning improved representations via sampling-based state similarity for Markov decision processes</span></a></div></div><hr><div id=disqus_thread></div><script type=text/javascript>(function(){if(window.location.hostname=="localhost")return;var dsq=document.createElement("script");dsq.type="text/javascript";dsq.async=true;var disqus_shortname="does-not-exist";dsq.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the
+<a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#introduction>Introduction</a></li><li><a href=#the-experimental-paradigm-of-tandem-reinforcement-learning>The Experimental Paradigm of Tandem Reinforcement Learning</a><ul><li><a href=#implementation>Implementation</a></li><li><a href=#the-tandem-effect>The Tandem Effect</a></li></ul></li><li><a href=#analysis-of-the-tandem-effect>Analysis of the Tandem Effect</a><ul><li><a href=#the-role-of-bootstrapping>The Role of Bootstrapping</a></li><li><a href=#the-role-of-the-data-distribution>The Role of the Data Distribution</a><ul><li><a href=#the-exploration-parameter>The exploration parameter</a></li><li><a href=#sticky-actions>Sticky actions</a></li><li><a href=#replay-size>Replay size</a></li><li><a href=#fixed-policy>Fixed policy</a></li><li><a href=#fixed-replay>Fixed replay</a></li><li><a href=#on-policy-evaluation>On-policy evaluation</a></li><li><a href=#self-generated-data>Self-generated data</a></li></ul></li><li><a href=#the-role-of-function-approximation>The Role of Function Approximation</a><ul><li><a href=#optimization>Optimization</a></li><li><a href=#function-class>Function class</a></li></ul></li></ul></li><li><a href=#applications-of-the-tandem-setting>Applications of the Tandem Setting</a></li><li><a href=#discussion-and-conclusion>Discussion and Conclusion</a></li><li><a href=#acknowledgements>Acknowledgements</a></li></ul></nav></div></div></section></div><footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=#about>About</a></li><li class=nav-item><a class=smooth-scroll href=#recent-posts>Recent Posts</a></li><li class=nav-item><a class=smooth-scroll href=#publications>Publications</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><span><a href=https://twitter.com/@pcastr target=_blank>Twitter <i class="fab fa-twitter"></i></a></span></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=#><img src=/assets/images/inverted-logo.png>
+Toha</a></div><div class="col-md-4 text-center">© 2020 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/>Powered by
+<img src=/assets/images/hugo-logo-wide.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/assets/js/jquery-3.4.1.min.js></script><script src=/assets/js/popper.min.js></script><script src=/assets/js/bootstrap.min.js></script><script src=/assets/js/navbar.js></script><script src=/assets/js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script><script src=/assets/js/single.js></script><script>hljs.initHighlightingOnLoad();</script></body></html>
