@@ -72,10 +72,10 @@ stream that is demonstrably sufficient for its architecturally identical active
 counterpart; we refer to this phenomenon as the ‘tandem effect’.</p><img src=/posts/research/rl/tandem/tandemEffect.png alt="The Tandem effect" width=90% class=center><h2 id=analysis-of-the-tandem-effect>Analysis of the Tandem Effect</h2><p>The following three potential contributing factors in the tandem
 effect provide a natural structure to our analysis:</p><p><strong>Bootstrapping (B)</strong> <em>The passive agent’s bootstrapping from poorly estimated
 (in particular, overestimated) values causes any initially small mis-estimation
-to get amplified.</em></p><p><strong>Data Distribution (D)</strong> _Insufficient coverage of sub-optimal actions under
-the active agent’s policy** may lead to their mis-estimation by the passive
+to get amplified.</em></p><p><strong>Data Distribution (D)</strong> <em>Insufficient coverage of sub-optimal actions under
+the active agent’s policy may lead to their mis-estimation by the passive
 agent. In the case of over-estimation, this may lead to the passive agent’s
-under-performance._</p><p><strong>Function Approximation (F)</strong> <em>A non-linear function approximator used as a
+under-performance.</em></p><p><strong>Function Approximation (F)</strong> <em>A non-linear function approximator used as a
 Q-value function may tend to wrongly extrapolate the values of state-action
 pairs underrepresented in the active agent’s behavior distribution. This
 tendency can be inherent and persistent, in the sense of being independent of
