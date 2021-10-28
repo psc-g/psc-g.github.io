@@ -127,7 +127,7 @@ effect provide a natural structure to our analysis:
 to get amplified._
 
 **Data Distribution (D)** _Insufficient coverage of sub-optimal actions under
-the active agent’s policy** may lead to their mis-estimation by the passive
+the active agent’s policy may lead to their mis-estimation by the passive
 agent. In the case of over-estimation, this may lead to the passive agent’s
 under-performance._
 
