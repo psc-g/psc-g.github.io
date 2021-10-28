@@ -17,7 +17,7 @@ the environment to collect the data.
 
 _Georg Ostrovski, Pablo Samuel Castro, Will Dabney_
 
-This blogpost is a summary of our [NeurIPS 2021 paper]().
+This blogpost is a summary of our [NeurIPS 2021 paper](https://arxiv.org/abs/2110.14020).
 We  provide  two  Tandem  RL  implementations:
 [this one](https://github.com/deepmind/deepmind-research/tree/master/tandem_dqn)
 based on the [DQN Zoo](https://github.com/deepmind/dqn_zoo), and
@@ -106,6 +106,9 @@ show averages over at least 5 seeds, with confidence intervals indicating
 variation over seeds.  In comparative plots, **boldface** entries indicate the
 default Tandem DQN configuration, and <span style="color:grey">gray</span>
 lines always correspond to the active agent’s performance.
+
+See the [top of the post](/posts/research/rl/tandem) for links to the source
+code.
 
 ### The Tandem Effect
 
