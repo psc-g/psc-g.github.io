@@ -11,9 +11,10 @@ menu:
     weight: 10
 ---
 
-We propose and analyze the "tandem learning" experimental design, where two RL
-agents are learning from identical data streams, but only one interacts with
-the environment to collect the data.
+We propose the "tandem learning" experimental design, where two RL agents are
+learning from identical data streams, but only one interacts with the
+environment to collect the data. We use this experiment design to study the
+empirical challenges of offline reinforcement learning.
 
 _Georg Ostrovski, Pablo Samuel Castro, Will Dabney_
 
@@ -157,14 +158,16 @@ difficulty of passive learning.
 
 In the Double-DQN algorithm the bootstrapping updates take the
 form
-$$Q(s, a) \leftarrow r + \gamma \bar{Q}(s', \arg\max_{a'} Q(s', a'))$$
+$$
+Q(s, a) \leftarrow r + \gamma \bar{Q}(s', \arg\max_{a'} Q(s', a'))
+$$
 
 where $\bar{Q}$ is the target network Q-value function, i.e. a time-delayed copy
 of $Q$.
 
 Four value functions are involved in the active and passive updates of Tandem
-DQN: $Q_{\color{red} A}, \bar Q_{\color{red} A}, Q_{\color{blue} P}$ and
-$\bar Q_{\color{blue} P}$, where the ${\color{red} A}/{\color{blue} P}$
+DQN: $Q\_{\color{red} A}, \bar Q\_{\color{red} A}, Q\_{\color{blue} P}$ and
+$\bar Q\_{\color{blue} P}$, where the ${\color{red} A}/{\color{blue} P}$
 subscripts refer to the Q-value functions of the active and passive agents,
 respectively.  The use of its own target network by the passive agent makes
 bootstrapping a plausible strong contributor to the tandem effect.  To test
@@ -192,21 +195,16 @@ learn effectively.
 {{< img src="/posts/research/rl/tandem/target.png" width="90%" title="Variations of the target" align="center" >}}
 
 
-<details>
-  <summary>Expand to see more results</summary>
+To more precisely understand the effect of bootstrapping with respect to a
+potential value overestimation by the passive agent, we also show the values of
+the passive networks in the above experiment compared to those of the
+respective active networks. As hypothesised, we observe that the vanilla tandem
+setting leads to significant value over-estimation, and that indeed
+bootstrapping plays a substantial role in amplifying the effect: passive
+networks trained using the active network’s bootstrap targets do not
+over-estimate compared to the active network at all.
 
-  To more precisely understand the effect of bootstrapping with respect to a
-  potential value overestimation by the passive agent, we also show the values
-  of the passive networks in the above experiment compared to those of the
-  respective active networks. As hypothesised, we observe that the vanilla
-  tandem setting leads to significant value over-estimation, and that indeed
-  bootstrapping plays a substantial role in amplifying the effect: passive
-  networks trained using the active network’s bootstrap targets do not
-  over-estimate compared to the active network at all.
-
-  {{< img src="/posts/research/rl/tandem/overEstimation.png" width="90%" title="Q-value over-estimation" align="center" >}}
-</details>
-
+{{< img src="/posts/research/rl/tandem/overEstimation.png" width="90%" title="Q-value over-estimation" align="center" >}}
 
 These findings indicate that a simple notion of value over-estimation itself is not the fundamental
 cause of the tandem effect, and that **(B) plays an amplifying, rather than causal role**. Additional
@@ -343,13 +341,17 @@ similar.
 <details>
   <summary>Expand to see extra experiments</summary>
 
-  We present yet another variant of this experiment with similar results,
-  showing that the effect is robust to minor variations in the exact way of
-  fixing the data distribution of a learning agent. In the
-  ‘groundhog day’ variation, active vs. passive performance. After forking, the
-  active agent trains for a full iteration (1M environment steps), and is then
-  reset to its initial network parameters at the time of forking, repeatedly
-  for the remaining number of iterations.
+  We devise an experiment attempting to combine both: instead of freezing the
+  active policy after forking, we continue training it (and filling the replay
+  buffer), however after each iteration of 1M steps, the active network is
+  reset to its parameter values at forking time. Effectively this produces a
+  data stream that can be viewed as producing _samples of the training process_
+  of a single iteration, a variant that we refer to as the ‘Groundhog day’
+  experiment. This setting combines the multiplicity of data-generating
+  policies with the property of an unbounded dataset being presented to the
+  passive agent. Indeed we observe that the groundhog day setting improves
+  passive performance over the fixed-policy setting, while not clearly changing
+  the outcome in comparison to the fixed-replay setting.
 
   {{< img src="/posts/research/rl/tandem/groundhogDay.png" width="90%" title="Forked tandem with stochasticity" align="center" >}}
 
@@ -369,24 +371,24 @@ effect is highly pronounced.
 
 #### On-policy evaluation
 
-The strength of the last two experiments lies in the observation that, since
-active and passive networks have identical parameter values at the beginning of
-passive training, their divergence cannot be attributed to small initial
-differences getting amplified by training on an inadequate data distribution.
-With so many factors held fixed, the collapse of passive performance when
-trained on the very data distribution produced by its own initial policy begs
-the question whether off-policy Q-learning itself is to blame for this failure
-mode, e.g. via statistical over-estimation bias introduced by the max operator.
-Here we provide a negative answer, by performing on-policy
-evaluation with SARSA:
+The strength of the forked tandem experiments lies in the observation that,
+since active and passive networks have identical parameter values at the
+beginning of passive training, their divergence cannot be attributed to small
+initial differences getting amplified by training on an inadequate data
+distribution.  With so many factors held fixed, the collapse of passive
+performance when trained on the very data distribution produced by its own
+initial policy begs the question whether off-policy Q-learning itself is to
+blame for this failure mode, e.g. via statistical over-estimation bias
+introduced by the max operator.  Here we provide a negative answer, by
+performing on-policy evaluation with SARSA:
 
 {{< img src="/posts/research/rl/tandem/sarsa.png" width="90%" title="SARSA experiments" align="center" >}}
 
-And purely supervised regression on the Monte-Carlo returns. In the top row, we
-report active vs. passive control performance, and in the bottom row average
-absolute Monte-Carlo error. The Monte-Carlo error is minimized effectively by
-the passive training, while the control performance of the resulting
-$\epsilon$-greedy policy collapses completely.
+We also perform purely supervised regression on the Monte-Carlo returns. In the
+top row, we report active vs. passive control performance, and in the bottom
+row average absolute Monte-Carlo error. The Monte-Carlo error is minimized
+effectively by the passive training, while the control performance of the
+resulting $\epsilon$-greedy policy collapses completely.
 
 {{< img src="/posts/research/rl/tandem/monteCarlo.png" width="90%" title="Monte Carlo experiments" align="center" >}}
 
@@ -466,7 +468,7 @@ increased over-generalization.
 {{< img src="/posts/research/rl/tandem/netArch.png" width="90%" title="Varying network architecture" align="center" >}}
 
 Finally, we investigate varying the function class of _only the passive network_
-by sharing the weights of the first $k$k (out of $5$) layers of active and
+by sharing the weights of the first $k$ (out of $5$) layers of active and
 passive networks, while constraining the passive network to only update the
 remaining top $5 − k$ layers, and using the ‘representation’ at layer $k$ acquired
 through active learning only. This reduces the ‘degrees of freedom’ of the
@@ -574,8 +576,7 @@ trained under their own (_but fixed!_) behavior distribution.  Not just _learnin
 to act_, but even _maintaining performance_ appears hard in this setting. This
 provides an intuition that we distill into the following working conjecture:
 
-> **Conjecture**
->> _The dynamics of deep reinforcement learning for control are unstable on
+> **Conjecture:** _The dynamics of deep reinforcement learning for control are unstable on
 (almost) any_ ***fixed*** _data distribution_.
 
 Expanding on the classical on- vs. off-policy dichotomy, we propose that
