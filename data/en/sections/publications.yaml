@@ -40,7 +40,7 @@ publications:
   role: Georg Ostrovski, Pablo Samuel Castro, Will Dabney
   timeline: "NeurIPS, 2021"
   repo: https://github.com/deepmind/deepmind-research/tree/master/tandem_dqn
-  paper: http://
+  paper: https://arxiv.org/abs/2110.14020
   post: /posts/research/rl/tandem
   tags: ["rl", "2021"]
 
