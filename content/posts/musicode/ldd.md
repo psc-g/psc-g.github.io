@@ -16,7 +16,9 @@ the training of a machine learning model.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qjg0bt5hgi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I will be (re)writing the code for this performance during a livestream, [check it out here!](https://youtu.be/U_US0fts-4Q).
+I will be presenting this [paper](https://arxiv.org/abs/2111.05128) at the 5th Machine Learning for Creativity and Design Workshop at NeurIPS 2021.
+
+The code is available [here](https://github.com/psc-g/musicode/tree/main/ldd).
 
 ## Introduction
 In recent years, there has been a growing interest in using machine learning

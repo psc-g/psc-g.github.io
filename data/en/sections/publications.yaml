@@ -52,6 +52,14 @@ publications:
   post: /posts/research/rl/precipice
   tags: ["rl", "2021"]
 
+- name: Losses, Dissonances, and Distortions
+  role: Pablo Samuel Castro
+  timeline: "Machine Learning for Creativity and Design workshop at NeurIPS, 2021"
+  repo: https://github.com/psc-g/musicode/tree/main/ldd
+  paper: https://arxiv.org/abs/2111.05128
+  post: /posts/musicode/ldd/
+  tags: ["creativity", "2021"]
+
 - name: Revisiting Rainbow, Promoting more insightful and inclusive deep reinforcement learning research
   role: Johan S. Obando-Ceron and Pablo Samuel Castro
   timeline: "ICML, 2021"
