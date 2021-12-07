@@ -25,7 +25,7 @@ _Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, and Marc 
 
 This blogpost is a summary of our
 [NeurIPS 2021 paper](https://arxiv.org/abs/2108.13264) (winner of an
-[outstanding paper award](https://blog.neurips.cc/2021/11/30/announcing-the-neurips-2021-award-recipients/).
+[outstanding paper award](https://blog.neurips.cc/2021/11/30/announcing-the-neurips-2021-award-recipients/)).
 The code is available
 [here](https://github.com/google-research/rliable).
 
