@@ -20,6 +20,10 @@ I will be presenting this [paper](https://arxiv.org/abs/2111.05128) at the 5th M
 
 The code is available [here](https://github.com/psc-g/musicode/tree/main/ldd).
 
+You can see an "expainody" video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lKWgfdDmGik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introduction
 In recent years, there has been a growing interest in using machine learning
 models for creative purposes. In most cases, this is with the use of large
