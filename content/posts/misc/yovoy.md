@@ -55,7 +55,7 @@ Have fun!
 
 <code>
   <label for="oddPalindrome">Odd-numbered palindrome</label>
-  <input type="checkbox" id="oddPalindrome" name="oddPalindrome" value="oddPalindrome" checked=True><br>
+  <input type="checkbox" id="oddPalindrome" name="oddPalindrome" value="oddPalindrome" checked=True onclick="generatePalindrome()"><br>
   <label for="text">Starter string</label><br>
   <textarea id="text" value="" type="textArea" onInput="generatePalindrome()" rows=4 cols=50 placeholder="Write the start of your palindrome here!"></textarea>
 
