@@ -659,7 +659,7 @@ Despite the independent couplings, $\Pi U^{\pi}$ performs on par with $\pi$-bisi
 ## Empirical evaluation
 
 Having developed a greater understanding of the properties inherent to the representations produced by the MICo loss, we evaluate it on the [Arcade Learning Environment](https://jair.org/index.php/jair/article/view/10819).
-The code necessary to run these experiments is [available on GitHub](\\https://github.com/google-research/google-research/tree/master/mico).
+The code necessary to run these experiments is [available on GitHub](https://github.com/google-research/google-research/tree/master/mico).
 We will first describe the regular network and training setup for these agents so as to facilitate the description of our loss.
 
 <details>
