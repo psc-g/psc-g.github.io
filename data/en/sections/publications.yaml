@@ -28,6 +28,13 @@ buttons:
   filter: "2018"
 
 publications:
+- name: A general class of surrogate functions for stable and efficient reinforcement learning
+  role: Sharan Vaswani, Olivier Bachem, Simone Totaro, Robert Mueller, Shivam Garg, Matthieu Geist, Marlos C. Machado, Pablo Samuel Castro, and Nicolas Le Roux
+  timeline: "AISTATS, 2022"
+  repo: https://github.com/svmgrg/fma-pg
+  paper: https://arxiv.org/abs/2108.05828
+  tags: ["rl", "2022"]
+
 - name: MICo, Learning improved representations via sampling-based state similarity for Markov decision processes
   role: Pablo Samuel Castro, Tyler Kastner, Prakash Panangaden, and Mark Rowland
   timeline: "NeurIPS, 2021"
