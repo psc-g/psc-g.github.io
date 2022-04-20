@@ -17,11 +17,11 @@ my friend Ralph Crewe gently forced me to start doing them.
 Although I'm not still at his level, I've been working on them
 daily and getting noticeably better.
 
-In doing so I've come to realize they are a fantastic mechanism for generally
-capable problem-solving, and in this post would like to explain the various
-types of challenges they present. I'll be using past NYT crossword puzzles as
-examples (they're all at least a week old so should hopefully not be spoilers
-for anyone).
+In doing so I've come to realize they are a fantastic mechanism for testing
+generally capable problem-solving, and in this post would like to explain the
+various types of challenges they present. I'll be using past NYT crossword
+puzzles as examples (they're all at least a week old so should hopefully not be
+spoilers for anyone).
 
 I hope this post inspires you in some way, be it to think of
 new challenges for generally capable models/agents or (even better!)
