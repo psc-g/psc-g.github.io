@@ -35,6 +35,7 @@ publications:
   timeline: "ICML, 2022"
   repo: https://github.com/google-research/rigl/tree/master/rigl/rl
   paper: https://arxiv.org/abs/2206.10369
+  post: /posts/research/rl/sparse_rl
   tags: ["rl", "2022"]
 
 - name: A general class of surrogate functions for stable and efficient reinforcement learning
