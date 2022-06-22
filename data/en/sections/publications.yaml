@@ -30,6 +30,13 @@ buttons:
   filter: "2018"
 
 publications:
+- name: The State of Sparse Training in Deep Reinforcement Learning
+  role: Laura Graesser*, Utku Evci*, Erich Elsen, and Pablo Samuel Castro
+  timeline: "ICML, 2022"
+  repo: https://github.com/google-research/rigl/tree/master/rigl/rl
+  paper: https://arxiv.org/abs/2206.10369
+  tags: ["rl", "2022"]
+
 - name: A general class of surrogate functions for stable and efficient reinforcement learning
   role: Sharan Vaswani, Olivier Bachem, Simone Totaro, Robert Mueller, Shivam Garg, Matthieu Geist, Marlos C. Machado, Pablo Samuel Castro, and Nicolas Le Roux
   timeline: "AISTATS, 2022"
