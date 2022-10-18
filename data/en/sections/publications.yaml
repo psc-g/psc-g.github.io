@@ -30,6 +30,13 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress 
+  role: Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, Marc G. Bellemare
+  timeline: "NeurIPS, 2022"
+  repo: https://github.com/google-research/reincarnating_rl
+  paper: https://arxiv.org/abs/2206.01626
+  tags: ["rl", "2022"]
+
 - name: The State of Sparse Training in Deep Reinforcement Learning
   role: Laura Graesser*, Utku Evci*, Erich Elsen, and Pablo Samuel Castro
   timeline: "ICML, 2022"
