@@ -30,7 +30,7 @@ buttons:
   filter: "2018"
 
 publications:
-- name: Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress 
+- name: Reincarnating Reinforcement Learning, Reusing Prior Computation to Accelerate Progress 
   role: Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, Marc G. Bellemare
   timeline: "NeurIPS, 2022"
   repo: https://github.com/google-research/reincarnating_rl
