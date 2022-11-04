@@ -118,7 +118,7 @@ We may sometimes also be interested in the value of performing action $a$ from s
 $Q^{\pi}(s, a) = R(s, a) + \gamma\mathbb{E}\_{s'\sim P(s, a)}[V^{\pi}(s')]$
 
 ### Optimal policies and value functions
-The goal of the agent is to find a policy $\pi^*$ that dominates all other policies: $V^* := V^{\pi^*} \geq V^{\pi}$ for all $\pi$. It turns out that there is always a deterministic policy that achieves the optimum. The Bellman optimality equations express this via the recurrence:
+The goal of the agent is to find a policy $\pi^\*$ that dominates all other policies: $V^* := V^{\pi^*} \geq V^{\pi}$ for all $\pi$. It turns out that there is always a deterministic policy that achieves the optimum. The Bellman optimality equations express this via the recurrence:
 
 $V^\*(s) = \max\_{a\in\mathcal{A}}\left[R(s, a) + \gamma\sum\_{s'\in\mathcal{S}} P(s, a)(s')V^*(s')\right]$
 
