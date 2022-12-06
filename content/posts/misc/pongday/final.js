@@ -85,10 +85,13 @@ function draw() {
 
   // Check if the ball hits the left or right edge
   if (ballX < 0) {
+    maybePlaySound("F#2", 0.3);
     rightScore++;
     ballX = width / 2;
     ballY = height / 2;
   } else if (ballX > width) {
+    maybePlaySound("D5", 0.3);
+    maybePlaySound("G4", 0.3);
     leftScore++;
     ballX = width / 2;
     ballY = height / 2;
