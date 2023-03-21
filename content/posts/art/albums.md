@@ -17,7 +17,7 @@ I've been in bands since I was 12. In a parallel universe I'm a full-time musici
 
 With my good friend Esteban Nichols, we recorded this jazz fusion album during 2022. It was challenging because Esteban (and Matías) recorded in Quito, Ecuador, while I recorded in Ottawa! I'm quite proud that this album was made with 100% Ecuadorians. I hope you enjoy the tunes!
 
-**Listen to the album** in [Spotify](), [Apple Music](https://music.apple.com/us/album/amorfo/1675917522), [YouTubeMusic](https://music.youtube.com/playlist?list=OLAK5uy_luF1t-IbgYBuLcX9VDTz-LzJr3EoHQBt0&feature=share).
+**Listen to the album** in [Spotify](https://open.spotify.com/album/6IIhHIpJlLm1K2qIyUQHws?si=9KP4r4JLQ-eJBSjYmcENkw), [Apple Music](https://music.apple.com/us/album/amorfo/1675917522), [YouTubeMusic](https://music.youtube.com/playlist?list=OLAK5uy_luF1t-IbgYBuLcX9VDTz-LzJr3EoHQBt0&feature=share).
 
 **Track listing**
 1. red carpet (p.s. castro)
