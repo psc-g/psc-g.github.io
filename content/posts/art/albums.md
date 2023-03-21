@@ -13,7 +13,7 @@ menu:
 
 I've been in bands since I was 12. In a parallel universe I'm a full-time musician :D. This page collects the albums I've released so far, in reverse chronological order. Enjoy!
 
-## gregor samsa - amorfo
+## gregor samsa - amorfo (2023)
 
 With my good friend Esteban Nichols, we recorded this jazz fusion album during 2022. It was challenging because Esteban (and Matías) recorded in Quito, Ecuador, while I recorded in Ottawa! I'm quite proud that this album was made with 100% Ecuadorians. I hope you enjoy the tunes!
 
@@ -37,7 +37,7 @@ With my good friend Esteban Nichols, we recorded this jazz fusion album during 2
 {{< img src="/posts/art/albums/amorfoBack.png" height=400" >}}
 
 
-## psc trio - brave new world
+## psc trio - brave new world (2018)
 
 My good friend Claudio Palomares (with whom I played in ecos de portoalegre) encouraged me to start a jazz trio with some of the songs I had been writing. This was the product! This trio was quite active in Montreal until COVID ruined it all :(.
 
@@ -58,7 +58,7 @@ My good friend Claudio Palomares (with whom I played in ecos de portoalegre) enc
 {{< img src="/posts/art/albums/pscTrio.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/pscTrioBack.png" height=400" >}}
 
-## ecos de portoalegre - ecos de portoalegre
+## ecos de portoalegre - ecos de portoalegre (2009)
 
 It was such a blast to play live with this 7-person latin jazz band, our highlight was at one of the big outside stages in the Montreal International Jazz Fest in 2008! It was such a joy to share the compositions with Claudio Palomares.
 
@@ -91,7 +91,7 @@ It was such a blast to play live with this 7-person latin jazz band, our highlig
 {{< img src="/posts/art/albums/ecos.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/ecosBack.jpeg" height=400" >}}
 
-## Jai Gurú - Jai Gurú
+## Jai Gurú - Jai Gurú (2002)
 
 My first full-length album! This rock/funk album was recorded with friends I made in my first year at McGill University, and they are still some of my best friends to this day!
 
@@ -123,7 +123,7 @@ Click on each of the songs to listen to the track.
 {{< img src="/posts/art/albums/jaiGuru.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/jaiGuruBack.jpeg" height=400" >}}
 
-## Cártel - demo
+## Cártel - demo (1996)
 
 This was my first band during high school, in Quito, Ecuador. The friends I made there still remain some of my closest to this day. We won second place in a city-wide battle of the bands with my song "Mi Realidad" (incorrectly named in the picture below), which gave me a scholarship for my last year of high school. Right before I left to Canada, we recorded a demo. Click on each track to listen.
 
