@@ -28,6 +28,11 @@ With my good friend Esteban Nichols, we recorded this jazz fusion album during 2
 1. florie (e. nichols / p.s. castro)
 1. woland (p.s. castro)
 
+**Lineup**
+Esteban Nichols - Drums
+Matías Alvear - Bass
+Pablo Samuel Castro - Keys, Guitars, Eurorack modules, programming
+
 {{< img src="/posts/art/albums/amorfoCover.png" height=400" >}}
 {{< img src="/posts/art/albums/amorfoBack.png" height=400" >}}
 
@@ -44,6 +49,11 @@ My good friend Claudio Palomares (with whom I played in ecos de portoalegre) enc
 1. mancuspias (p.s. castro)
 1. solipair (p.s. castro)
 1. brave new world (p.s. castro)
+
+**Lineup**
+Claudio Palomares - Drums
+Olivier Hebert - Bass
+Pablo Samuel Castro - Piano
 
 {{< img src="/posts/art/albums/pscTrio.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/pscTrioBack.png" height=400" >}}
@@ -66,6 +76,18 @@ It was such a blast to play live with this 7-person latin jazz band, our highlig
 1. rumba pa' fidel (c. palomares)
 1. sigue cantando (p.s. castro)
 
+**Lineup**
+Anamaría González - Vocals
+Pablo Samuel Castro - Piano, Rhodes, guitars, and backing vocals
+Claudio Palomares - Drums
+Daniel Iturralde - Congas, bongos, percussions, and backing vocals
+David Carbonneau - Trumpet
+Matthieu Van Vliet - Trombone
+Olivier Hebert - Bass
+Hugo Larenas - Cuatro and tiple
+Diego Espinosa - Vocals on "nubladito"
+Papo Ross - Backing vocals
+
 {{< img src="/posts/art/albums/ecos.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/ecosBack.jpeg" height=400" >}}
 
@@ -73,21 +95,30 @@ It was such a blast to play live with this 7-person latin jazz band, our highlig
 
 My first full-length album! This rock/funk album was recorded with friends I made in my first year at McGill University, and they are still some of my best friends to this day!
 
-I need to find a way to convert burn the CD, so online listening to come later :P.
+Click on each of the songs to listen to the track.
 
 **Track listing**
-1. all is not lost (m. tetrault)
-1. middle man (p.s. castro)
-1. not his fault (m. tetrault)
-1. meant to be (m. tetrault, f. dagher, p.s. castro)
-1. feed my lust (p.s. castro)
-1. stranger (m. tetrault)
-1. wide eyes (f. dagher)
-1. dewdrop (f. dagher, p.s. castro)
-1. wild child (m. tetrault, f. dagher)
-1. somedays (f. dagher)
-1. don't mess it up (m. tetrault, f. dagher)
-1. rise up (m. tetrault)
+1. [all is not lost](https://drive.google.com/file/d/1jiGsyJ24QPaeH9w8q5rH8QLVRtzvjmpL/view?usp=share_link) (m. tetrault)
+1. [middle man](https://drive.google.com/file/d/1Wu67-bB-as4rex6HgZocKmZsJ28H3W8y/view?usp=share_link) (p.s. castro)
+1. [not his fault](https://drive.google.com/file/d/1r3S_kxBddl3CCCCA4I63i9_s1OjthGG6/view?usp=share_link) (m. tetrault)
+1. [meant to be](https://drive.google.com/file/d/1GksfsS-0d2XzE7HlKthKkiiAni5zfVxY/view?usp=share_link) (m. tetrault, f. dagher, p.s. castro)
+1. [feed my lust](https://drive.google.com/file/d/10pNUUaO2zBYMKG-UDP1okkh6rWARbAtT/view?usp=share_link) (p.s. castro)
+1. [stranger](https://drive.google.com/file/d/1B2qgy3PFeeTUpubIJk5tgqn1g0dKr05-/view?usp=share_link) (m. tetrault)
+1. [wide eyes](https://drive.google.com/file/d/1x1i7cWWhC-Uf7Uxz78XZC2xSaqdpG-k8/view?usp=share_link) (f. dagher)
+1. [dewdrop](https://drive.google.com/file/d/1jIGAEx06xmdbJhfgthTK7vY1bFlVizCK/view?usp=share_link) (f. dagher, p.s. castro)
+1. [wild child](https://drive.google.com/file/d/1RMfJjKyztRDCRIKsvfCACjQg7GPknk1W/view?usp=share_link) (m. tetrault, f. dagher)
+1. [somedays](https://drive.google.com/file/d/1LXfUioz1SHOEMX0BHeu3V7pjqDVt-ybS/view?usp=share_link) (f. dagher)
+1. [don't mess it up](https://drive.google.com/file/d/1kecL2Y9EkU0tEIaNIGDyEUzV3QsREMSV/view?usp=share_link) (m. tetrault, f. dagher)
+1. [rise up](https://drive.google.com/file/d/1fyVrpYf7_vGzhwWazSoZ8xOnuVoHDVPF/view?usp=share_link) (m. tetrault)
+
+**Lineup**
+Marc Tetrault - Vocals
+Fadi Dagher - Vocals, Guitars, saxophone, percussion
+Pablo Samuel Castro - Guitars, Rhodes, percussion, backing vocals
+Hugo Chaput - Bass
+Daniel Gregoire - Drums
+Catherine Sabourin - Trombone
+Pierre-Luc Labelle - Trumpet
 
 {{< img src="/posts/art/albums/jaiGuru.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/jaiGuruBack.jpeg" height=400" >}}
@@ -96,8 +127,17 @@ I need to find a way to convert burn the CD, so online listening to come later :
 
 This was my first band during high school, in Quito, Ecuador. The friends I made there still remain some of my closest to this day. We won second place in a city-wide battle of the bands with my song "Mi Realidad" (incorrectly named in the picture below), which gave me a scholarship for my last year of high school. Right before I left to Canada, we recorded a demo. Click on each track to listen.
 
+**Track listing**
 1. [Nos siguen buscando](https://drive.google.com/file/d/11m6goV3YfqreZoRTVKr6LWRE94MO89js/view?usp=share_link) (p.s. castro)
 1. [Tres](https://drive.google.com/file/d/1EpBTY2i7BuGsAvW2VwXxaV09kpjorAXz/view?usp=share_link) (p.s. castro, r. lalama)
 1. [Mi realidad](https://drive.google.com/file/d/1gbyfBD6mmu3PjzIoNvaSIpuj8UkDJlfU/view?usp=share_link) (p.s. castro)
+
+**Lineup**
+Roberto Lalama - Vocals
+Pablo Samuel Castro - Guitars, backing vocals
+Cristóbal Jaramillo - Guitars
+Felipe Durini - Bass
+Daniel Espinosa - Keyboards, harmonica, backing vocals
+Emil Klein - Drums
 
 {{< img src="/posts/art/albums/cartel.jpeg" height=400" >}}
