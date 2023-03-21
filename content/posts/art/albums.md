@@ -29,9 +29,9 @@ With my good friend Esteban Nichols, we recorded this jazz fusion album during 2
 1. woland (p.s. castro)
 
 **Lineup**
-Esteban Nichols - Drums
-Matías Alvear - Bass
-Pablo Samuel Castro - Keys, Guitars, Eurorack modules, programming
+*  Esteban Nichols - Drums
+*  Matías Alvear - Bass
+*  Pablo Samuel Castro - Keys, Guitars, Eurorack modules, programming
 
 {{< img src="/posts/art/albums/amorfoCover.png" height=400" >}}
 {{< img src="/posts/art/albums/amorfoBack.png" height=400" >}}
@@ -51,9 +51,9 @@ My good friend Claudio Palomares (with whom I played in ecos de portoalegre) enc
 1. brave new world (p.s. castro)
 
 **Lineup**
-Claudio Palomares - Drums
-Olivier Hebert - Bass
-Pablo Samuel Castro - Piano
+*  Claudio Palomares - Drums
+*  Olivier Hebert - Bass
+*  Pablo Samuel Castro - Piano
 
 {{< img src="/posts/art/albums/pscTrio.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/pscTrioBack.png" height=400" >}}
@@ -77,16 +77,16 @@ It was such a blast to play live with this 7-person latin jazz band, our highlig
 1. sigue cantando (p.s. castro)
 
 **Lineup**
-Anamaría González - Vocals
-Pablo Samuel Castro - Piano, Rhodes, guitars, and backing vocals
-Claudio Palomares - Drums
-Daniel Iturralde - Congas, bongos, percussions, and backing vocals
-David Carbonneau - Trumpet
-Matthieu Van Vliet - Trombone
-Olivier Hebert - Bass
-Hugo Larenas - Cuatro and tiple
-Diego Espinosa - Vocals on "nubladito"
-Papo Ross - Backing vocals
+*  Anamaría González - Vocals
+*  Pablo Samuel Castro - Piano, Rhodes, guitars, and backing vocals
+*  Claudio Palomares - Drums
+*  Daniel Iturralde - Congas, bongos, percussions, and backing vocals
+*  David Carbonneau - Trumpet
+*  Matthieu Van Vliet - Trombone
+*  Olivier Hebert - Bass
+*  Hugo Larenas - Cuatro and tiple
+*  Diego Espinosa - Vocals on "nubladito"
+*  Papo Ross - Backing vocals
 
 {{< img src="/posts/art/albums/ecos.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/ecosBack.jpeg" height=400" >}}
@@ -112,13 +112,13 @@ Click on each of the songs to listen to the track.
 1. [rise up](https://drive.google.com/file/d/1fyVrpYf7_vGzhwWazSoZ8xOnuVoHDVPF/view?usp=share_link) (m. tetrault)
 
 **Lineup**
-Marc Tetrault - Vocals
-Fadi Dagher - Vocals, Guitars, saxophone, percussion
-Pablo Samuel Castro - Guitars, Rhodes, percussion, backing vocals
-Hugo Chaput - Bass
-Daniel Gregoire - Drums
-Catherine Sabourin - Trombone
-Pierre-Luc Labelle - Trumpet
+*  Marc Tetrault - Vocals
+*  Fadi Dagher - Vocals, Guitars, saxophone, percussion
+*  Pablo Samuel Castro - Guitars, Rhodes, percussion, backing vocals
+*  Hugo Chaput - Bass
+*  Daniel Gregoire - Drums
+*  Catherine Sabourin - Trombone
+*  Pierre-Luc Labelle - Trumpet
 
 {{< img src="/posts/art/albums/jaiGuru.jpeg" height=400" >}}
 {{< img src="/posts/art/albums/jaiGuruBack.jpeg" height=400" >}}
@@ -133,11 +133,11 @@ This was my first band during high school, in Quito, Ecuador. The friends I made
 1. [Mi realidad](https://drive.google.com/file/d/1gbyfBD6mmu3PjzIoNvaSIpuj8UkDJlfU/view?usp=share_link) (p.s. castro)
 
 **Lineup**
-Roberto Lalama - Vocals
-Pablo Samuel Castro - Guitars, backing vocals
-Cristóbal Jaramillo - Guitars
-Felipe Durini - Bass
-Daniel Espinosa - Keyboards, harmonica, backing vocals
-Emil Klein - Drums
+*  Roberto Lalama - Vocals
+*  Pablo Samuel Castro - Guitars, backing vocals
+*  Cristóbal Jaramillo - Guitars
+*  Felipe Durini - Bass
+*  Daniel Espinosa - Keyboards, harmonica, backing vocals
+*  Emil Klein - Drums
 
 {{< img src="/posts/art/albums/cartel.jpeg" height=400" >}}
