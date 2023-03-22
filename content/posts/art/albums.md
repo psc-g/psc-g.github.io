@@ -136,7 +136,7 @@ This was my first band during high school, in Quito, Ecuador. The friends I made
 *  Roberto Lalama - Vocals
 *  Pablo Samuel Castro - Guitars, backing vocals
 *  Cristóbal Jaramillo - Guitars
-*  Felipe Durini - Bass
+*  Felipe "String" Durini - Bass
 *  Daniel Espinosa - Keyboards, harmonica, backing vocals
 *  Emil Klein - Drums
 
