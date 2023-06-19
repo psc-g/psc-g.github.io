@@ -18,6 +18,8 @@ buttons:
   filter: "creativity"
 - name: General Machine Learning
   filter: "ml"
+- name: 2023
+  filter: "2023"
 - name: 2022
   filter: "2022"
 - name: 2021
@@ -30,6 +32,27 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Bigger, Better, Faster, Human-level Atari with human-level efficiency
+  role: Max Schwarzer, Johan Obando-Ceron, Aaron Courville, Marc Bellemare, Rishabh Agarwal, Pablo Samuel Castro
+  timeline: "ICML, 2023"
+  repo: https://github.com/google-research/google-research/tree/master/bigger_better_faster
+  paper: https://arxiv.org/abs/2305.19452
+  tags: ["rl", "2023"]
+
+- name: The dormant neuron phenomenon in deep reinforcement learning
+  role: Ghada Sokar, Rishabh Agarwal, Pablo Samuel Castro, Utku Evci
+  timeline: "ICML, 2023"
+  repo: https://github.com/google/dopamine/tree/master/dopamine/labs/redo
+  paper: https://arxiv.org/abs/2302.12902
+  tags: ["rl", "2023"]
+
+- name: Proto-Value Networks, Scaling Representation Learning with Auxiliary Tasks
+  role: Jesse Farebrother, Joshua Greaves, Rishabh Agarwal, Charline Le Lan, Ross Goroshin, Pablo Samuel Castro, Marc G. Bellemare
+  timeline: "ICLR, 2023"
+  repo: https://github.com/google-research/google-research/tree/master/pvn
+  paper: https://openreview.net/forum?id=oGDKSt9JrZi
+  tags: ["rl", "2023"]
+
 - name: Reincarnating Reinforcement Learning, Reusing Prior Computation to Accelerate Progress 
   role: Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, Marc G. Bellemare
   timeline: "NeurIPS, 2022"
