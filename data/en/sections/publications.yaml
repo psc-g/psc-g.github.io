@@ -32,6 +32,13 @@ buttons:
   filter: "2018"
 
 publications:
+- name: A Kernel Perspective on Behavioural Metrics for Markov Decision Processes
+  role: Pablo Samuel Castro, Tyler Kastner, Prakash Panangaden, Mark Rowland
+  timeline: "TMLR, 2023"
+  repo: https://github.com/google-research/google-research/tree/master/ksme
+  paper: https://openreview.net/forum?id=nHfPXl1ly7
+  tags: ["rl", "2023"]
+
 - name: Bigger, Better, Faster, Human-level Atari with human-level efficiency
   role: Max Schwarzer, Johan Obando-Ceron, Aaron Courville, Marc Bellemare, Rishabh Agarwal, Pablo Samuel Castro
   timeline: "ICML, 2023"
