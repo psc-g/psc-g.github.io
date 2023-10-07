@@ -51,6 +51,7 @@ publications:
   timeline: "ICML, 2023"
   repo: https://github.com/google/dopamine/tree/master/dopamine/labs/redo
   paper: https://arxiv.org/abs/2302.12902
+  post: /posts/research/rl/redo
   tags: ["rl", "2023"]
 
 - name: Proto-Value Networks, Scaling Representation Learning with Auxiliary Tasks
