@@ -13,6 +13,19 @@ menu:
 
 I've been in bands since I was 12. In a parallel universe I'm a full-time musician :D. This page collects the albums I've released so far, in reverse chronological order. Enjoy!
 
+## the 45s - #1 (2024)
+
+With my good friend Jean-Simon Diallo we started a new project where we release 45s (i.e. singles) consisting of two songs, one written by him and one by me. He does the singing, I do the production and play the instruments. Enjoy!
+
+**Listen to the album** via any platform [here](https://songwhip.com/the-45s/45-1).
+
+**Track listing**
+1. The Water Flowing (p.s. castro)
+1. Bombshit (j.s. diallo)
+
+{{< img src="/posts/art/albums/45s.png" height=400" >}}
+
+
 ## gregor samsa - amorfo (2023)
 
 With my good friend Esteban Nichols, we recorded this jazz fusion album during 2022. It was challenging because Esteban (and Matías) recorded in Quito, Ecuador, while I recorded in Ottawa! I'm quite proud that this album was made with 100% Ecuadorians. I hope you enjoy the tunes!
