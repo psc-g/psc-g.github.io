@@ -1,9 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Misc on psc's website</title><link>https://psc-g.github.io/posts/misc/</link><description>Recent content in Misc on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 05 Dec 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>PongDay</title><link>https://psc-g.github.io/posts/misc/pongday/</link><pubDate>Mon, 05 Dec 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/pongday/</guid><description>I learned on the radio that last November 29th marked the 50th anniversary of the classic arcade game Pong. This game is particularly meaningful for those of us that do RL research, as it is one of the games that is part of the Arcade Learning Environment, one of the most popular benchmarks. Pong is probably the easiest game of the whole suite, so we often use it as a test to make sure our agents are learning.</description></item><item><title>Crosswords: A General Intelligence Challenge?</title><link>https://psc-g.github.io/posts/misc/crosswords/</link><pubDate>Tue, 19 Apr 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/crosswords/</guid><description>I have become obsessed with crossword puzzles, specifically the NYT crosswords, since my friend Ralph Crewe gently forced me to start doing them. Although I&amp;rsquo;m not still at his level, I&amp;rsquo;ve been working on them daily and getting noticeably better.
-In doing so I&amp;rsquo;ve come to realize they are a fantastic mechanism for testing generally capable problem-solving, and in this post would like to explain the various types of challenges they present.</description></item><item><title>yovoy</title><link>https://psc-g.github.io/posts/misc/yovoy/</link><pubDate>Mon, 07 Mar 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/yovoy/</guid><description>What is a palindrome? A palindrome is a phrase that reads the same way from left to right, and right to left. The rules are that all characters must be used in both directions, but punctuation, capitalization, and spaces can be ignored.
-¡Las mismas reglas en español!
-Some well-known Palindromes:
-A man, a plan, a canal, Panama!
-Do geese see god?
-Yo, banana boy!
-Unos palíndromos en español:
-Dábale arroz a la zorra el abad.</description></item><item><title>Origins of April Fool's Day</title><link>https://psc-g.github.io/posts/misc/origins/</link><pubDate>Thu, 01 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/origins/</guid><description/></item><item><title>Artificial General Relativity</title><link>https://psc-g.github.io/posts/misc/agr/</link><pubDate>Wed, 01 Apr 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/agr/</guid><description>We (well, I) introduce a New Field In Science which we (I mean I) call Artificial General Relativity. We (here I really mean &amp;ldquo;we&amp;rdquo;) have all heard of General Relativity and how it revolutionized our understanding of the world around us. Einstein&amp;rsquo;s work, although pivotal, failed in one crucial aspect: although it allowed us to describe gravity and spacetime, it did not allow us to control them. In this paper I (switching to &amp;ldquo;I&amp;rdquo; to avoid sounding pretentious with &amp;ldquo;we&amp;rdquo;) introduce Artificial General Relativity (AGR) which, when achieved, will allow us to control gravity and spacetime.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Misc on psc's website</title><link>https://psc-g.github.io/posts/misc/</link><description>Recent content in Misc on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 05 Dec 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>PongDay</title><link>https://psc-g.github.io/posts/misc/pongday/</link><pubDate>Mon, 05 Dec 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/pongday/</guid><description>&lt;p>I learned on the radio that last November 29th marked the 50th anniversary of the classic arcade game Pong. This game is particularly meaningful for those of us that do RL research, as it is one of the games that is part of the &lt;a href="https://jair.org/index.php/jair/article/view/10819">Arcade Learning Environment&lt;/a>, one of the most popular benchmarks. Pong is probably the easiest game of the whole suite, so we often use it as a test to make sure our agents are learning. Learning curves below are for agents trained with the &lt;a href="https://github.com/google/dopamine">Dopamine&lt;/a> framework.&lt;/p></description></item><item><title>Crosswords: A General Intelligence Challenge?</title><link>https://psc-g.github.io/posts/misc/crosswords/</link><pubDate>Tue, 19 Apr 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/crosswords/</guid><description>&lt;p>I have become obsessed with crossword puzzles, specifically
+&lt;a href="https://www.nytimes.com/crosswords">the NYT crosswords&lt;/a>, since
+my friend Ralph Crewe gently forced me to start doing them.
+Although I&amp;rsquo;m not still at his level, I&amp;rsquo;ve been working on them
+daily and getting noticeably better.&lt;/p>
+&lt;p>In doing so I&amp;rsquo;ve come to realize they are a fantastic mechanism for testing
+generally capable problem-solving, and in this post would like to explain the
+various types of challenges they present. I&amp;rsquo;ll be using past NYT crossword
+puzzles as examples (they&amp;rsquo;re all at least a week old so should hopefully not be
+spoilers for anyone).&lt;/p></description></item><item><title>yovoy</title><link>https://psc-g.github.io/posts/misc/yovoy/</link><pubDate>Mon, 07 Mar 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/yovoy/</guid><description>&lt;h1 id="what-is-a-palindrome">What is a palindrome?&lt;/h1>
+&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Palindrome">palindrome&lt;/a> is a phrase that reads
+the same way from left to right, and right to left. The rules are that all characters
+must be used in both directions, but punctuation, capitalization, and spaces can be
+ignored.&lt;/p>
+&lt;p>¡Las mismas reglas en español!&lt;/p>
+&lt;p>Some well-known Palindromes:&lt;/p>
+&lt;blockquote>
+&lt;p>A man, a plan, a canal, Panama!&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Do geese see god?&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Yo, banana boy!&lt;/p>
+&lt;/blockquote>
+&lt;p>Unos palíndromos en español:&lt;/p>
+&lt;blockquote>
+&lt;p>Dábale arroz a la zorra el abad.&lt;/p></description></item><item><title>Origins of April Fool's Day</title><link>https://psc-g.github.io/posts/misc/origins/</link><pubDate>Thu, 01 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/origins/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe></description></item><item><title>Artificial General Relativity</title><link>https://psc-g.github.io/posts/misc/agr/</link><pubDate>Wed, 01 Apr 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/agr/</guid><description>&lt;p>We (well, I) introduce a New Field In Science which we (I mean I) call Artificial General Relativity. We
+(here I really mean &amp;ldquo;we&amp;rdquo;) have all heard of General Relativity and how it revolutionized our understanding of
+the world around us. Einstein&amp;rsquo;s work, although pivotal, failed in one crucial aspect: although it allowed us to
+describe gravity and spacetime, it did not allow us to control them. In this paper I (switching to &amp;ldquo;I&amp;rdquo; to avoid
+sounding pretentious with &amp;ldquo;we&amp;rdquo;) introduce Artificial General Relativity (AGR) which, when achieved, will
+allow us to control gravity and spacetime. I present a set of practical approaches to achieve AGR which serve
+as reasonable baselines for future work.&lt;/p></description></item></channel></rss>

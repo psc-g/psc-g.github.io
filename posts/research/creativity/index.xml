@@ -1,8 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Creativity on psc's website</title><link>https://psc-g.github.io/posts/research/creativity/</link><description>Recent content in Creativity on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 01 Dec 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/research/creativity/index.xml" rel="self" type="application/rss+xml"/><item><title>Agence: a dynamic film exploring multi-agent systems and human agency</title><link>https://psc-g.github.io/posts/research/creativity/agence/</link><pubDate>Tue, 01 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/agence/</guid><description>Agence is a dynamic and interactive film authored by three parties: 1) the director, who establishes the narrative structure and environment, 2) intelligent agents, using reinforcement learning or scripted (hierarchical state machines) AI, and 3) the viewer, who can interact with the system to affect the simulation. We trained RL agents in a multi-agent fashion to control some (or all, based on user choice) of the agents in the film. You can download the game at the Agence website.</description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>GANterpretations is an idea I published in this paper, which was accepted to the 4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020. The code is available here.
-At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.
-The following video walks through the process:</description></item><item><title>ML-Jam: Performing Structured Improvisations with Pre-trained Models</title><link>https://psc-g.github.io/posts/research/creativity/ml-jam/</link><pubDate>Wed, 19 Jun 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ml-jam/</guid><description>This paper, published in the International Conference on Computational Creativity, 2019, explores using pre-trained musical generative models in a collaborative setting for improvisation.
-You can read more details about it in this blog post.
-You can also play with it in this web app!
-If you want to play with the code, it is here.
-Demos Demo video playing with the web app:
-Demo video jamming over Herbie Hancock&amp;rsquo;s Chameleon:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Creativity on psc's website</title><link>https://psc-g.github.io/posts/research/creativity/</link><description>Recent content in Creativity on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 01 Dec 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/research/creativity/index.xml" rel="self" type="application/rss+xml"/><item><title>Agence: a dynamic film exploring multi-agent systems and human agency</title><link>https://psc-g.github.io/posts/research/creativity/agence/</link><pubDate>Tue, 01 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/agence/</guid><description>&lt;p>Agence is a dynamic and interactive film authored by three parties: 1) the
+director, who establishes the narrative structure and environment, 2)
+intelligent agents, using reinforcement learning or scripted (hierarchical
+state machines) AI, and 3) the viewer, who can interact with the system to
+affect the simulation. We trained RL agents in a multi-agent fashion to control
+some (or all, based on user choice) of the agents in the film. You can download
+the game at &lt;a href="https://www.agence.ai/">the Agence website&lt;/a>.&lt;/p></description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>&lt;p>GANterpretations is an idea I published in &lt;a href="https://arxiv.org/abs/2011.05158">this paper&lt;/a>, which was accepted to the &lt;a href="https://neurips2020creativity.github.io/">4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020&lt;/a>. The code is available &lt;a href="https://github.com/psc-g/ganterpretation">here&lt;/a>.&lt;/p>
+&lt;p>At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.&lt;/p>
+&lt;p>The following video walks through the process:&lt;/p>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="gans">GANs&lt;/h2>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">GANs&lt;/a> are generative models trained to reproduce images from a given dataset. The way GANs work is they are trained to learn a &lt;em>latent space&lt;/em> $ Z\in\mathbb{R}^d $, where each point $ z\in Z $ generates a unique image $ G(z) $, where $ G $ is the &lt;em>generator&lt;/em> of the GAN. When trained properly, these latent spaces are learned in a structured manner, where nearby points generate similar images.&lt;/p></description></item><item><title>ML-Jam: Performing Structured Improvisations with Pre-trained Models</title><link>https://psc-g.github.io/posts/research/creativity/ml-jam/</link><pubDate>Wed, 19 Jun 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ml-jam/</guid><description>&lt;p>This &lt;a href="https://arxiv.org/abs/1904.13285">paper&lt;/a>, published in the &lt;a href="http://computationalcreativity.net/iccc2019/">International Conference on Computational Creativity, 2019&lt;/a>, explores using pre-trained musical generative models in a collaborative setting for improvisation.&lt;/p>
+&lt;p>You can read more details about it in &lt;a href="https://magenta.tensorflow.org/mljam">this blog post&lt;/a>.&lt;/p>
+&lt;p>You can also play with it in &lt;a href="https://ml-jam.glitch.me/">this web app&lt;/a>!&lt;/p>
+&lt;p>If you want to play with the code, it is &lt;a href="https://github.com/psc-g/Psc2">here&lt;/a>.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>Demo video playing with the web app:&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/CUrdnAwfHgQ">&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/mljam.gif"
+ 
+ alt="ML-Jam demo"
+ 
+ 
+ 
+ 
+ 
+>
+&lt;/a>&lt;/p>
+&lt;p>Demo video jamming over Herbie Hancock&amp;rsquo;s Chameleon:&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/Pd46_EIlfy4">&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/chameleon.png"
+ 
+ alt="Chameleon demo"
+ 
+ 
+ 
+ 
+ 
+>
+&lt;/a>&lt;/p>
+&lt;p>Demo video over free improvisation:&lt;/p></description></item></channel></rss>

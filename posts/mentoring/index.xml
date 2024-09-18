@@ -1,17 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mentoring / Education on psc's website</title><link>https://psc-g.github.io/posts/mentoring/</link><description>Recent content in Mentoring / Education on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 03 Oct 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/mentoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducción a los Transformers</title><link>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</link><pubDate>Mon, 03 Oct 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</guid><description>Como parte de la RIIAA en Quito, di una introducción a los Transformers, que es la arquitectura detrás de avances como GPT-3, Music Transformer, Parti, y muchos otros.
-Grabación Pueden ver la grabación aquí:
-Materiales Aquí pueden acceder a los diferentes materiales que mencioné durante el curso:
-Las diapositivas que usé en el curso Write with Transformers de Hugging Face (GPT-2) Eleuther GPT-J-6B, que es mucho mejor modelo que el GPT-2 de Hugging Face El colab simple sobre bigrams El colab de Flax sobre LSTMs El excelente the Illustrated Transformer de Jay Alammar, en el cual basé la descripción de Transformers.</description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>The thread I wrote at the start of perf season at Google seemed to resonate with lots of people, so I decided to put a slightly extended version of it in blog-post form.
-What is perf? In brief, &amp;ldquo;perf&amp;rdquo; season at Google is when we evaluate our performance over the last few months, in the form of a self-assessment, and our peers provide their assessments on how they perceive our performance.</description></item><item><title>Tips for Reviewing Research Papers</title><link>https://psc-g.github.io/posts/mentoring/reviewing/</link><pubDate>Thu, 10 Jun 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/reviewing/</guid><description>The NeurIPS 2021 review period is about to begin, and there will likely be lots of complaining about the quality of reviews when they come out (I&amp;rsquo;m often guilty of this type of complaint).
-I decided to write a post describing how I approach paper-reviewing, in the help that it can be useful for others (especially those who are new to reviewing) in writing high quality reviews.
-I&amp;rsquo;m mostly an RL researcher, so a lot of the tips below are mostly from my experience reading RL papers.</description></item><item><title>Introduction to reinforcement learning</title><link>https://psc-g.github.io/posts/mentoring/intro-to-rl/</link><pubDate>Wed, 14 Oct 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/intro-to-rl/</guid><description>This post is based on this colab.
-You can also watch a video where I go through the basics here.
-Pueden ver un video (en español) donde presento el material aquí.
-Introduction Reinforcement learning methods are used for sequential decision making in uncertain environments. It is typically framed as an agent (the learner) interacting with an environment which provides the agent with reinforcement (positive or negative), based on the agent&amp;rsquo;s decisions.</description></item><item><title>GridWorld Playground</title><link>https://psc-g.github.io/posts/mentoring/gridworldplayground/</link><pubDate>Mon, 16 Mar 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/gridworldplayground/</guid><description>GridWorld playground!
-I made a website where you can
-Draw your own GridWorlds Play around with hyperparameters while agent is training Transfer values between agents &amp;ldquo;Teleport&amp;rdquo; the agent to help it during learning Hope you find it useful and fun!</description></item><item><title>Tips for Interviewing at Google</title><link>https://psc-g.github.io/posts/mentoring/interviewing/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/interviewing/</guid><description>Disclaimer: This post reflects my personal views and not those of my employer.
-People often ask me: How do I get a job at Google?
-An essential requirement is passing the interviews; unsurprisingly, this is another common question: How do I pass the Google interviews?
-While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself).</description></item><item><title>Tips for preparing your resume</title><link>https://psc-g.github.io/posts/mentoring/resume/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/resume/</guid><description>Disclaimer: This post reflects my personal views and not those of my employer.
-In my previous post providing tips for interviewing at Google, I included the sentence “If you don’t know anyone at Google, you’ve already applied and haven’t heard back in a while, feel free to send me a note with your CV and I’ll see if there’s something I can do.”
-I received a number of requests from people who had applied but never heard back.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mentoring / Education on psc's website</title><link>https://psc-g.github.io/posts/mentoring/</link><description>Recent content in Mentoring / Education on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 03 Oct 2022 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/posts/mentoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducción a los Transformers</title><link>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</link><pubDate>Mon, 03 Oct 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</guid><description>&lt;p>Como parte de la &lt;a href="https://www.riiaa.org/riiaa5-quito">RIIAA en Quito&lt;/a>, di una introducción a los Transformers, que es la arquitectura detrás de avances como GPT-3, Music Transformer, Parti, y muchos otros.&lt;/p>
+&lt;h2 id="grabación">Grabación&lt;/h2>
+&lt;p>Pueden ver la grabación aquí:&lt;/p>
+&lt;center>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/W28CACYxnus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;/center>
+&lt;h2 id="materiales">Materiales&lt;/h2>
+&lt;p>Aquí pueden acceder a los diferentes materiales que mencioné durante el curso:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1nvUn5w1e01bzjFtuaZ50SZb773QEqxgwzlCa-X7XrfY/edit?usp=sharing">Las diapositivas&lt;/a> que usé en el curso&lt;/li>
+&lt;li>&lt;a href="https://transformer.huggingface.co/">Write with Transformers&lt;/a> de Hugging Face (GPT-2)&lt;/li>
+&lt;li>&lt;a href="https://6b.eleuther.ai/">Eleuther GPT-J-6B&lt;/a>, que es mucho mejor modelo que el GPT-2 de Hugging Face&lt;/li>
+&lt;li>El &lt;a href="https://colab.research.google.com/drive/1psXc1nRmPCY6H7o7bBEY7ZvP68vZSVnN?usp=sharing">colab simple sobre bigrams&lt;/a>&lt;/li>
+&lt;li>El &lt;a href="https://colab.research.google.com/github/google/flax/blob/main/examples/seq2seq/seq2seq.ipynb">colab de Flax sobre LSTMs&lt;/a>&lt;/li>
+&lt;li>El excelente &lt;a href="https://jalammar.github.io/illustrated-transformer/">the Illustrated Transformer&lt;/a> de Jay Alammar, en el cual basé la descripción de Transformers.&lt;/li>
+&lt;li>&lt;a href="http://nlp.seas.harvard.edu/annotated-transformer/">The Annotated Transformer&lt;/a>&lt;/li>
+&lt;li>El &lt;a href="https://parti.research.google/">blog post de Parti&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>&lt;p>&lt;a href="https://twitter.com/pcastr/status/1496344364389388289">The thread I wrote&lt;/a> at
+the start of perf season at Google seemed to resonate with
+lots of people, so I decided to put a slightly extended version of it in
+blog-post form.&lt;/p>
+&lt;img src="https://psc-g.github.io/posts/mentoring/cme/thread.png"
+ 
+ alt="Original Twitter Thread"
+ 
+ 
+ 
+ 
+ 
+ class="center"
+ 
+>
+
+&lt;h2 id="what-is-perf">What is perf?&lt;/h2>
+&lt;p>In brief, &amp;ldquo;perf&amp;rdquo; season at Google is when we evaluate our performance over the
+last few months, in the form of a self-assessment, and our peers provide
+their assessments on how they perceive our performance. The general
+purpose of this exercise is to receive feedback on how to grow as an
+engineer/researcher/employee, but it is also the process through which you can
+get promoted (by nominating yourself).&lt;/p></description></item><item><title>Tips for Reviewing Research Papers</title><link>https://psc-g.github.io/posts/mentoring/reviewing/</link><pubDate>Thu, 10 Jun 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/reviewing/</guid><description>&lt;p>The &lt;a href="https://neurips.cc/">NeurIPS 2021&lt;/a> review period is about to begin, and
+there will likely be lots of complaining about the quality of reviews when they
+come out (I&amp;rsquo;m often guilty of this type of complaint).&lt;/p>
+&lt;p>I decided to write a post describing how I approach paper-reviewing, in the help
+that it can be useful for others (especially those who are new to reviewing) in
+writing high quality reviews.&lt;/p>
+&lt;p>I&amp;rsquo;m mostly an RL researcher, so a lot of the tips below are mostly from my
+experience reading RL papers. I think many of the ideas are applicable more
+generally, but I acknowledge some may be more RL-specific.&lt;/p></description></item><item><title>Introduction to reinforcement learning</title><link>https://psc-g.github.io/posts/mentoring/intro-to-rl/</link><pubDate>Wed, 14 Oct 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/intro-to-rl/</guid><description>&lt;p>This post is based on &lt;a href="https://colab.research.google.com/github/psc-g/intro_to_rl/blob/master/Introduction_to_reinforcement_learning.ipynb#scrollTo=XVrlWe2YPpXt">this colab&lt;/a>.&lt;/p>
+&lt;p>You can also watch a video where I go through the basics &lt;a href="https://youtu.be/xMZE-9WECQE">here&lt;/a>.&lt;/p>
+&lt;p>Pueden ver un video (en español) donde presento el material &lt;a href="https://youtu.be/ZOaA4svJH3U">aquí&lt;/a>.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Reinforcement learning methods are used for sequential decision making in uncertain environments. It is typically framed as an agent (the learner) interacting with an environment which provides the agent with reinforcement (positive or negative), based on the agent&amp;rsquo;s decisions. The agent leverages this reinforcement to update its behaviour in an aim to get closer to acting optimally. In interacting with the uncertain environment, the agent is also learning about the dynamics of the underlying system.&lt;/p></description></item><item><title>GridWorld Playground</title><link>https://psc-g.github.io/posts/mentoring/gridworldplayground/</link><pubDate>Mon, 16 Mar 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/gridworldplayground/</guid><description>&lt;p>GridWorld playground!&lt;/p>
+&lt;p>I made &lt;a href="https://gridworld-playground.glitch.me">a website&lt;/a> where you can&lt;/p>
+&lt;ul>
+&lt;li>Draw your own GridWorlds&lt;/li>
+&lt;li>Play around with hyperparameters while agent is training&lt;/li>
+&lt;li>Transfer values between agents&lt;/li>
+&lt;li>&amp;ldquo;Teleport&amp;rdquo; the agent to help it during learning&lt;/li>
+&lt;/ul>
+&lt;p>Hope you find it useful and fun!&lt;/p>
+&lt;p>&lt;a href="https://gridworld-playground.glitch.me">&lt;img src="https://psc-g.github.io/posts/mentoring/gridworldPlayground/gridWorldPlayground.gif"
+ 
+ alt="GridWorld Playground"
+ 
+ 
+ 
+ 
+ 
+ class="center"
+ 
+>
+&lt;/a>&lt;/p></description></item><item><title>Tips for Interviewing at Google</title><link>https://psc-g.github.io/posts/mentoring/interviewing/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/interviewing/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> This post reflects my personal views and not those of my employer.&lt;/p>
+&lt;p>People often ask me: &lt;em>How do I get a job at Google?&lt;/em>&lt;/p>
+&lt;p>An essential requirement is passing the interviews; unsurprisingly, this is another common question: &lt;em>How do I pass the Google interviews?&lt;/em>&lt;/p>
+&lt;p>While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at the end for some thoughts on this. Although the Google interview process is not perfect, I do feel it is pretty good and objective. Whatever the outcome, remember that your self-worth should not be defined by whether you get an offer.&lt;/p></description></item><item><title>Tips for preparing your resume</title><link>https://psc-g.github.io/posts/mentoring/resume/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/resume/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> This post reflects my personal views and not those of my employer.&lt;/p>
+&lt;p>In my &lt;a href="https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html">previous post&lt;/a> providing tips for interviewing at Google, I included the sentence “If you don’t know anyone at Google, you’ve already applied and haven’t heard back in a while, feel free to send me a note with your CV and I’ll see if there’s something I can do.”&lt;/p>
+&lt;p>I received a number of requests from people who had applied but never heard back. In most of these cases, I spotted issues with their resumes, which may or may not explain why they never heard back. In an effort to help others who are getting ready to apply for a job, I decided to write a new blog post with tips on how to prepare your resume for application.&lt;/p></description></item></channel></rss>
