@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/sections/achievements.css" | relURL }}"/>
 
     <!-- Add Google Analytics if enabled in configuration -->
-    {{ if site.GoogleAnalytics }}
+    {{ if site.Config.Services.GoogleAnalytics.ID }}
         {{ template "_internal/google_analytics.html" . }}
     {{ end }}
   </head>

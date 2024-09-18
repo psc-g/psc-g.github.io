@@ -69,7 +69,7 @@
         {{ partial "navigators/next-prev-navigator.html" . }}
       <hr />
       <!-- Add Disqus forum  -->
-      {{ if site.DisqusShortname }}
+      {{ if site.Config.Services.Disqus.Shortname }}
           {{ partial "disqus.html" . }}
       {{ end }}
       </div>

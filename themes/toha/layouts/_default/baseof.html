@@ -9,7 +9,7 @@
     {{ block "header" . }} {{ end }}
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
-    {{ if site.GoogleAnalytics }}
+    {{ if site.Config.Services.GoogleAnalytics.ID }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
   </head>

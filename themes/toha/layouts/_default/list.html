@@ -9,7 +9,7 @@
 
 {{ define "sidebar" }}
   {{ $blogHome:="#" }}
-  {{ if site.IsMultiLingual }}
+  {{ if hugo.IsMultilingual }}
     {{ $blogHome = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) "posts") }}
   {{ end }}
 
