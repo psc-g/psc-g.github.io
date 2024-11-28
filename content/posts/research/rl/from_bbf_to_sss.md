@@ -78,6 +78,8 @@ There is a growing body of work exploring alternate architectures for deep RL ag
 *   [Mixtures of Experts Unlock Parameter Scaling for Deep RL](https://openreview.net/forum?id=X9VMhfFxwn)
 *   [Don't flatten, tokenize! Unlocking the key to SoftMoE's efficacy in deep RL](https://arxiv.org/abs/2410.01930)
 
+The first two, which explore sparse architectures, suggest that **we can get away with smaller networks!**
+
 ### Variable horizons
 
 In BBF we used a receding update horizon and an increasing discount factor. Why was this useful?
