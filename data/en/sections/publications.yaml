@@ -34,49 +34,56 @@ buttons:
   filter: "2018"
 
 publications:
+- name: CALE - Continuous Arcade Learning Environment
+  role: Jesse Farebrother, Pablo Samuel Castro
+  timeline: "NeurIPS, 2024"
+  repo: https://github.com/Farama-Foundation/Arcade-Learning-Environment
+  paper: https://arxiv.org/abs/2410.23810
+  tags: ["rl", "2024"]
+
 - name: On the consistency of hyper-parameter selection in value-based deep reinforcement learning
   role: Johan Obando-Ceron, João G.M. Araújo, Aaron Courville, Pablo Samuel Castro
-  timeline: "RLC"
+  timeline: "RLC, 2024"
   repo: https://consistent-hparams.streamlit.app/
   paper: https://arxiv.org/abs/2406.17523
   tags: ["rl", "2024"]
 
 - name: Mixture of Experts in a Mixture of RL settings
   role: Timon Willi, Johan Obando-Ceron, Jakob Foerster, Karolina Dziugaite, Pablo Samuel Castro
-  timeline: "RLC"
+  timeline: "RLC, 2024"
   paper: https://arxiv.org/abs/2406.18420
   tags: ["rl", "2024"]
 
 - name: In value-based deep reinforcement learning, a pruned network is a good network
   role: Johan Obando-Ceron, Aaron Courville, Pablo Samuel Castro
-  timeline: "ICML"
+  timeline: "ICML, 2024"
   repo: https://github.com/google/dopamine/
   paper: https://arxiv.org/abs/2402.12479
   tags: ["rl", "2024"]
 
 - name: Mixtures of experts unlock parameter scaling for deep RL
   role: Johan Obando-Ceron, Ghada Sokar, Timon Willi, Clare Lyle, Jesse Farebrother, Jakob Foerster, Gintare Karolina Dziugaite, Doina Precup, Pablo Samuel Castro
-  timeline: "ICML"
+  timeline: "ICML, 2024"
   repo: https://github.com/google/dopamine/tree/master/dopamine/labs/moes
   paper: https://arxiv.org/abs/2402.08609
   tags: ["rl", "2024"]
 
 - name: Stop Regressing - Training Value Functions via Classification for Scalable Deep RL
   role: Jesse Farebrother, Jordi Orbay, Quan Vuong, Adrien Ali Taïga, Yevgen Chebotar, Ted Xiao, Alex Irpan, Sergey Levine, Pablo Samuel Castro, Aleksandra Faust, Aviral Kumar, Rishabh Agarwal
-  timeline: "ICML"
+  timeline: "ICML, 2024"
   paper: https://arxiv.org/abs/2403.03950
   tags: ["rl", "2024"]
 
 - name: Small batch deep reinforcement learning
   role: Johan Obando Ceron, Marc Bellemare, Pablo Samuel Castro
-  timeline: "NeurIPS"
+  timeline: "NeurIPS, 2023"
   repo: https://github.com/google/dopamine
   paper: https://proceedings.neurips.cc/paper_files/paper/2023/hash/528388f1ad3a481249a97cbb698d2fe6-Abstract-Conference.html
   tags: ["rl", "2023"]
 
 - name: Minigrid & miniworld - Modular & customizable reinforcement learning environments for goal-oriented tasks
   role: Maxime Chevalier-Boisvert, Bolun Dai, Mark Towers, Rodrigo Perez-Vicente, Lucas Willems, Salem Lahlou, Suman Pal, Pablo Samuel Castro, Jordan Terry
-  timeline: "NeurIPS Datasets & Benchmarks"
+  timeline: "NeurIPS, 2023"
   repo: https://minigrid.farama.org/
   paper: https://proceedings.neurips.cc/paper_files/paper/2023/hash/e8916198466e8ef218a2185a491b49fa-Abstract-Datasets_and_Benchmarks.html
   tags: ["rl", "2023"]
@@ -93,6 +100,7 @@ publications:
   timeline: "ICML, 2023"
   repo: https://github.com/google-research/google-research/tree/master/bigger_better_faster
   paper: https://arxiv.org/abs/2305.19452
+  post: /posts/research/rl/from_bbf_to_sss
   tags: ["rl", "2023"]
 
 - name: The dormant neuron phenomenon in deep reinforcement learning
