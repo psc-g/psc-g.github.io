@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>psc's website</title><link>https://psc-g.github.io/</link><description>Recent content on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 19 Jun 2023 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>The Dormant Neuron Phenomenon in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/redo/</link><pubDate>Mon, 19 Jun 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/redo/</guid><description>&lt;p>We identify the dormant neuron phenomenon in deep reinforcement learning, where an agent&amp;rsquo;s network suffers from an increasing number of inactive neurons, thereby affecting network expressivity.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>psc's website</title><link>https://psc-g.github.io/</link><description>Recent content on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Nov 2024 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>From "Bigger, Better, Faster" to "Smaller, Sparser, Stranger"</title><link>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</link><pubDate>Wed, 27 Nov 2024 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</guid><description>&lt;p>This is a post based on a talk I gave a few times in 2023. I had been meaning to put it in blog post form for over a year but kept putting it off&amp;hellip; I guess better late than never. I think some of the ideas still hold, so hope some of you find it useful!&lt;/p>
+&lt;h2 id="bigger-better-faster">Bigger, better, faster&lt;/h2>
+&lt;p>In the &lt;a href="https://www.nature.com/articles/nature14236">seminal DQN paper&lt;/a>, Mnih et al. demonstrated that reinforcement learning, when combined with neural networks as function approximators, could learn to play Atari 2600 games at superhuman levels. The DQN agent learned to do this over 200 million environment frames, which is roughly equivalent to 1000 hours of human gameplay&amp;hellip;&lt;/p></description></item><item><title>The Dormant Neuron Phenomenon in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/redo/</link><pubDate>Mon, 19 Jun 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/redo/</guid><description>&lt;p>We identify the dormant neuron phenomenon in deep reinforcement learning, where an agent&amp;rsquo;s network suffers from an increasing number of inactive neurons, thereby affecting network expressivity.&lt;/p>
 &lt;p>&lt;em>Ghada Sokar, Rishabh Agarwal, Pablo Samuel Castro*, Utku Evci*&lt;/em>&lt;/p>
 &lt;hr>
 &lt;p>This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2302.12902">ICML 2023 paper&lt;/a>.
@@ -407,18 +409,18 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Year&lt;/th>
- &lt;th style="text-align: left">Michelle&lt;/th>
- &lt;th style="text-align: left">Pablo Samuel&lt;/th>
- &lt;th style="text-align: left">Sofia&lt;/th>
- &lt;th style="text-align: left">Samuel&lt;/th>
- &lt;th style="text-align: left">Emilia&lt;/th>
+ &lt;th>Year&lt;/th>
+ &lt;th>Michelle&lt;/th>
+ &lt;th>Pablo Samuel&lt;/th>
+ &lt;th>Sofia&lt;/th>
+ &lt;th>Samuel&lt;/th>
+ &lt;th>Emilia&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">2006&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2006.jpg"
+ &lt;td>2006&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2006.jpg"
  
  
  width="150"
@@ -430,7 +432,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2006.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2006.jpg"
  
  
  width="150"
@@ -442,13 +444,13 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2007&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2007.jpg"
+ &lt;td>2007&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2007.jpg"
  
  
  width="150"
@@ -460,7 +462,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2007.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2007.jpg"
  
  
  width="150"
@@ -472,7 +474,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2007.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2007.jpg"
  
  
  width="150"
@@ -484,12 +486,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2008&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2008.jpg"
+ &lt;td>2008&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2008.jpg"
  
  
  width="150"
@@ -501,7 +503,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2008.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2008.jpg"
  
  
  width="150"
@@ -513,7 +515,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2008.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2008.jpg"
  
  
  width="150"
@@ -525,12 +527,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2009&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2009.jpg"
+ &lt;td>2009&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2009.jpg"
  
  
  width="150"
@@ -542,7 +544,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2009.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2009.jpg"
  
  
  width="150"
@@ -554,7 +556,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2009.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2009.jpg"
  
  
  width="150"
@@ -566,12 +568,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2010&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2010.jpg"
+ &lt;td>2010&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2010.jpg"
  
  
  width="150"
@@ -583,7 +585,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2010.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2010.jpg"
  
  
  width="150"
@@ -595,7 +597,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2010.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2010.jpg"
  
  
  width="150"
@@ -607,12 +609,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2011&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2011.jpg"
+ &lt;td>2011&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2011.jpg"
  
  
  width="150"
@@ -624,7 +626,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2011.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2011.jpg"
  
  
  width="150"
@@ -636,7 +638,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2011.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2011.jpg"
  
  
  width="150"
@@ -648,7 +650,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2011.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2011.jpg"
  
  
  width="150"
@@ -660,11 +662,11 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2012&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2012.jpg"
+ &lt;td>2012&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2012.jpg"
  
  
  width="150"
@@ -676,7 +678,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2012.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2012.jpg"
  
  
  width="150"
@@ -688,7 +690,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2012.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2012.jpg"
  
  
  width="150"
@@ -700,7 +702,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2012.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2012.jpg"
  
  
  width="150"
@@ -712,11 +714,11 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2013&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2013.jpg"
+ &lt;td>2013&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2013.jpg"
  
  
  width="150"
@@ -728,7 +730,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2013.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2013.jpg"
  
  
  width="150"
@@ -740,7 +742,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2013.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2013.jpg"
  
  
  width="150"
@@ -752,7 +754,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2013.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2013.jpg"
  
  
  width="150"
@@ -764,11 +766,11 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2014&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2014.jpg"
+ &lt;td>2014&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2014.jpg"
  
  
  width="150"
@@ -780,7 +782,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2014.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2014.jpg"
  
  
  width="150"
@@ -792,7 +794,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2014.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2014.jpg"
  
  
  width="150"
@@ -804,7 +806,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2014.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2014.jpg"
  
  
  width="150"
@@ -816,259 +818,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2014.jpg"
- 
- 
- width="150"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2015&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2015.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2015.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2015.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2015.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2015.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2016&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2016.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2016.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2016.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2016.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2016.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2017&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2017.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2017.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2017.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2017.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2017.jpg"
- 
- 
- width="140"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2018&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2018.jpg"
- 
- 
- width="150"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2018.jpg"
- 
- 
- width="150"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2018.jpg"
- 
- 
- width="150"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2018.jpg"
- 
- 
- width="150"
- 
- 
- height="190"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2018.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2014.jpg"
  
  
  width="150"
@@ -1082,8 +832,260 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2019&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2019.jpg"
+ &lt;td>2015&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2015.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2015.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2015.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2015.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2015.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2016&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2016.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2016.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2016.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2016.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2016.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2017&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2017.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2017.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2017.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2017.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2017.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2018&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2018.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2018.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2018.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2018.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2018.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="190"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2019&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2019.jpg"
  
  
  width="150"
@@ -1095,7 +1097,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2019.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2019.jpg"
  
  
  width="150"
@@ -1107,7 +1109,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2019.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2019.jpg"
  
  
  width="150"
@@ -1119,7 +1121,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2019.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2019.jpg"
  
  
  width="150"
@@ -1131,7 +1133,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2019.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2019.jpg"
  
  
  width="150"
@@ -1145,8 +1147,8 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2020&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2020.jpg"
+ &lt;td>2020&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2020.jpg"
  
  
  width="140"
@@ -1158,7 +1160,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2020.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2020.jpg"
  
  
  width="140"
@@ -1170,7 +1172,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2020.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2020.jpg"
  
  
  width="140"
@@ -1182,7 +1184,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2020.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2020.jpg"
  
  
  width="140"
@@ -1194,70 +1196,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2020.jpg"
- 
- 
- width="140"
- 
- 
- height="200"
- 
- 
- 
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2021&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2021.jpg"
- 
- 
- width="140"
- 
- 
- height="200"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2021.jpg"
- 
- 
- width="140"
- 
- 
- height="200"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2021.jpg"
- 
- 
- width="140"
- 
- 
- height="200"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2021.jpg"
- 
- 
- width="140"
- 
- 
- height="200"
- 
- 
- 
->
-&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2021.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2020.jpg"
  
  
  width="140"
@@ -1271,8 +1210,8 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2022&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2022.jpg"
+ &lt;td>2021&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2021.jpg"
  
  
  width="140"
@@ -1284,7 +1223,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2022.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2021.jpg"
  
  
  width="140"
@@ -1296,7 +1235,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2022.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2021.jpg"
  
  
  width="140"
@@ -1308,7 +1247,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2022.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2021.jpg"
  
  
  width="140"
@@ -1320,7 +1259,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2022.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2021.jpg"
  
  
  width="140"
@@ -1334,8 +1273,8 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2023&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/ms-2023.jpg"
+ &lt;td>2022&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2022.jpg"
  
  
  width="140"
@@ -1347,7 +1286,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/psc-2023.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2022.jpg"
  
  
  width="140"
@@ -1359,7 +1298,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sec-2023.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2022.jpg"
  
  
  width="140"
@@ -1371,7 +1310,7 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/sac-2023.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2022.jpg"
  
  
  width="140"
@@ -1383,7 +1322,70 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
 >
 &lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://psc-g.github.io/posts/art/family/enc-2023.jpg"
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2022.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2023&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2023.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2023.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2023.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2023.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2023.jpg"
  
  
  width="140"
