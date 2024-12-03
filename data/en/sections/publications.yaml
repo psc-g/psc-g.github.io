@@ -39,6 +39,7 @@ publications:
   timeline: "NeurIPS, 2024"
   repo: https://github.com/Farama-Foundation/Arcade-Learning-Environment
   paper: https://arxiv.org/abs/2410.23810
+  post: /posts/research/rl/atari_defense
   tags: ["rl", "2024"]
 
 - name: On the consistency of hyper-parameter selection in value-based deep reinforcement learning
@@ -46,6 +47,7 @@ publications:
   timeline: "RLC, 2024"
   repo: https://consistent-hparams.streamlit.app/
   paper: https://arxiv.org/abs/2406.17523
+  post: /posts/research/rl/atari_defense
   tags: ["rl", "2024"]
 
 - name: Mixture of Experts in a Mixture of RL settings
