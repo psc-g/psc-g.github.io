@@ -58,17 +58,12 @@ ignored.&lt;/p>
 &lt;p>¡Las mismas reglas en español!&lt;/p>
 &lt;p>Some well-known Palindromes:&lt;/p>
 &lt;blockquote>
-&lt;p>A man, a plan, a canal, Panama!&lt;/p>
-&lt;/blockquote>
+&lt;p>A man, a plan, a canal, Panama!&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>Do geese see god?&lt;/p>
-&lt;/blockquote>
+&lt;p>Do geese see god?&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>Yo, banana boy!&lt;/p>
-&lt;/blockquote>
-&lt;p>Unos palíndromos en español:&lt;/p>
-&lt;blockquote>
-&lt;p>Dábale arroz a la zorra el abad.&lt;/p></description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>&lt;p>&lt;a href="https://twitter.com/pcastr/status/1496344364389388289">The thread I wrote&lt;/a> at
+&lt;p>Yo, banana boy!&lt;/p>&lt;/blockquote>
+&lt;p>Unos palíndromos en español:&lt;/p></description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>&lt;p>&lt;a href="https://twitter.com/pcastr/status/1496344364389388289">The thread I wrote&lt;/a> at
 the start of perf season at Google seemed to resonate with
 lots of people, so I decided to put a slightly extended version of it in
 blog-post form.&lt;/p>
@@ -184,7 +179,7 @@ recording some things as home, where the unifying motive was to challenge
 myself in some way. Singing is not my musical forte, so a lot of these involve
 me singing (sorry!).&lt;/p></description></item><item><title>Episode 3: Leitmotifs &amp; Variables</title><link>https://psc-g.github.io/posts/musicode/phase1/episode3/</link><pubDate>Thu, 11 Mar 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode3/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o4qUKFHPPnw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep3">here&lt;/a>.&lt;/p>
-&lt;p>I had it in my head that the third episode would talk about &lt;a href="https://en.wikipedia.org/wiki/Variable_(computer_science)">variables&lt;/a> in the section about Computer Science. Originally I thought the musical would be about chords, but it didn&amp;rsquo;t quite fit well with variables. Then I thought about key signatures, thinking that these are kind of like variables in the sense that you can shift any song into different pitches just by changing key signatures; but again, I wasn&amp;rsquo;t very content with the connection. While walking Lucy (my dog) one day it hit me that &lt;a href="https://en.wikipedia.org/wiki/Leitmotif">leitmotifs&lt;/a> are actually quite similar to variables in the sense that you can reference them at any point, and they hold a particular &amp;ldquo;value&amp;rdquo; when called.&lt;/p></description></item><item><title>Episode 2: Bits &amp; Semitones</title><link>https://psc-g.github.io/posts/musicode/phase1/episode2/</link><pubDate>Sun, 07 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode2/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_d4M1gthsXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;p>I had it in my head that the third episode would talk about &lt;a href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables&lt;/a> in the section about Computer Science. Originally I thought the musical would be about chords, but it didn&amp;rsquo;t quite fit well with variables. Then I thought about key signatures, thinking that these are kind of like variables in the sense that you can shift any song into different pitches just by changing key signatures; but again, I wasn&amp;rsquo;t very content with the connection. While walking Lucy (my dog) one day it hit me that &lt;a href="https://en.wikipedia.org/wiki/Leitmotif">leitmotifs&lt;/a> are actually quite similar to variables in the sense that you can reference them at any point, and they hold a particular &amp;ldquo;value&amp;rdquo; when called.&lt;/p></description></item><item><title>Episode 2: Bits &amp; Semitones</title><link>https://psc-g.github.io/posts/musicode/phase1/episode2/</link><pubDate>Sun, 07 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode2/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_d4M1gthsXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep2">here&lt;/a>.&lt;/p>
 &lt;p>The idea for doing something with bits seemed kind of natural to me as a second episode. After covering what &amp;ldquo;computation&amp;rdquo; is, why not cover what computers actually &amp;ldquo;see&amp;rdquo; when they run computations?&lt;/p>
 &lt;p>Given that bits are what makes up everything inside a computer&amp;rsquo;s software, I wanted a musical topic that was inside every type of music (at least in Western music). Initially I was thinking of doing scales, but as I was developing this idea it dawned on me that there is a very close relationship between semitones and tones (or between half-steps and whole-steps) and the zeros and ones of the binary system.&lt;/p></description></item><item><title>Metrics and continuity in reinforcement learning</title><link>https://psc-g.github.io/posts/research/rl/metrics_continuity/</link><pubDate>Wed, 03 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/metrics_continuity/</guid><description>&lt;p>In this work we investigate the notion of &amp;ldquo;state similarity&amp;rdquo; in Markov decision processes. This concept is central to generalization in RL with function approximation.&lt;/p>
@@ -245,12 +240,8 @@ some (or all, based on user choice) of the agents in the film. You can download
 the game at &lt;a href="https://www.agence.ai/">the Agence website&lt;/a>.&lt;/p></description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>&lt;p>GANterpretations is an idea I published in &lt;a href="https://arxiv.org/abs/2011.05158">this paper&lt;/a>, which was accepted to the &lt;a href="https://neurips2020creativity.github.io/">4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020&lt;/a>. The code is available &lt;a href="https://github.com/psc-g/ganterpretation">here&lt;/a>.&lt;/p>
 &lt;p>At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.&lt;/p>
 &lt;p>The following video walks through the process:&lt;/p>
-
-
- 
- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;h2 id="gans">GANs&lt;/h2>
@@ -1451,6 +1442,69 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
 >
 &lt;/td>
  &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2024.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2025&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2025.JPG"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2025.JPG"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2025.JPG"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2025.jpg"
+ 
+ 
+ width="140"
+ 
+ 
+ height="200"
+ 
+ 
+ 
+>
+&lt;/td>
+ &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2025.JPG"
  
  
  width="140"

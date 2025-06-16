@@ -7,12 +7,8 @@ some (or all, based on user choice) of the agents in the film. You can download
 the game at &lt;a href="https://www.agence.ai/">the Agence website&lt;/a>.&lt;/p></description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>&lt;p>GANterpretations is an idea I published in &lt;a href="https://arxiv.org/abs/2011.05158">this paper&lt;/a>, which was accepted to the &lt;a href="https://neurips2020creativity.github.io/">4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020&lt;/a>. The code is available &lt;a href="https://github.com/psc-g/ganterpretation">here&lt;/a>.&lt;/p>
 &lt;p>At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.&lt;/p>
 &lt;p>The following video walks through the process:&lt;/p>
-
-
- 
- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;h2 id="gans">GANs&lt;/h2>
