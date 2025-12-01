@@ -1,72 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>psc's website</title><link>https://psc-g.github.io/</link><description>Recent content on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 02 Dec 2024 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>In Defense of Atari - the ALE is not 'solved'!</title><link>https://psc-g.github.io/posts/research/rl/atari_defense/</link><pubDate>Mon, 02 Dec 2024 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/atari_defense/</guid><description>&lt;p>This post is based on a talk I gave at the &lt;a href="https://autorlworkshop.github.io/">AutoRL workshop in ICML 2024&lt;/a>, which unfortunately was not recorded.&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Reinforcement Learning (RL) has been used successfully in a number of challenging tasks, such as &lt;a href="https://deepmind.google/research/breakthroughs/alphago/">beating world champions at Go&lt;/a>, &lt;a href="https://www.nature.com/articles/s41586-021-04301-9">controlling tokamak plasmas for nuclear fusion&lt;/a>, &lt;a href="https://www.nature.com/articles/s41586-021-03544-w">optimized chip placement&lt;/a>, and &lt;a href="https://www.nature.com/articles/s41586-020-2939-8">controlling stratospheric balloons&lt;/a>. All these successes have leveraged years of research and expertise and, importantly, rely on the combination of RL algorithms with deep neural networks (as proposed in the seminal &lt;a href="https://www.nature.com/articles/nature14236">DQN paper&lt;/a>).&lt;/p></description></item><item><title>From "Bigger, Better, Faster" to "Smaller, Sparser, Stranger"</title><link>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</link><pubDate>Wed, 27 Nov 2024 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</guid><description>&lt;p>This is a post based on a talk I gave a few times in 2023. I had been meaning to put it in blog post form for over a year but kept putting it off&amp;hellip; I guess better late than never. I think some of the ideas still hold, so hope some of you find it useful!&lt;/p>
-&lt;h2 id="bigger-better-faster">Bigger, better, faster&lt;/h2>
-&lt;p>In the &lt;a href="https://www.nature.com/articles/nature14236">seminal DQN paper&lt;/a>, Mnih et al. demonstrated that reinforcement learning, when combined with neural networks as function approximators, could learn to play Atari 2600 games at superhuman levels. The DQN agent learned to do this over 200 million environment frames, which is roughly equivalent to 1000 hours of human gameplay&amp;hellip;&lt;/p></description></item><item><title>The Dormant Neuron Phenomenon in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/redo/</link><pubDate>Mon, 19 Jun 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/redo/</guid><description>&lt;p>We identify the dormant neuron phenomenon in deep reinforcement learning, where an agent&amp;rsquo;s network suffers from an increasing number of inactive neurons, thereby affecting network expressivity.&lt;/p>
-&lt;p>&lt;em>Ghada Sokar, Rishabh Agarwal, Pablo Samuel Castro*, Utku Evci*&lt;/em>&lt;/p>
-&lt;hr>
-&lt;p>This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2302.12902">ICML 2023 paper&lt;/a>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>psc's website</title><link>https://psc-g.github.io/</link><description>Recent content on psc's website</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 02 Dec 2024 08:06:25 +0600</lastBuildDate><atom:link href="https://psc-g.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>In Defense of Atari - the ALE is not 'solved'!</title><link>https://psc-g.github.io/posts/research/rl/atari_defense/</link><pubDate>Mon, 02 Dec 2024 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/atari_defense/</guid><description>&lt;p&gt;This post is based on a talk I gave at the &lt;a href="https://autorlworkshop.github.io/"&gt;AutoRL workshop in ICML 2024&lt;/a&gt;, which unfortunately was not recorded.&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Reinforcement Learning (RL) has been used successfully in a number of challenging tasks, such as &lt;a href="https://deepmind.google/research/breakthroughs/alphago/"&gt;beating world champions at Go&lt;/a&gt;, &lt;a href="https://www.nature.com/articles/s41586-021-04301-9"&gt;controlling tokamak plasmas for nuclear fusion&lt;/a&gt;, &lt;a href="https://www.nature.com/articles/s41586-021-03544-w"&gt;optimized chip placement&lt;/a&gt;, and &lt;a href="https://www.nature.com/articles/s41586-020-2939-8"&gt;controlling stratospheric balloons&lt;/a&gt;. All these successes have leveraged years of research and expertise and, importantly, rely on the combination of RL algorithms with deep neural networks (as proposed in the seminal &lt;a href="https://www.nature.com/articles/nature14236"&gt;DQN paper&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>From "Bigger, Better, Faster" to "Smaller, Sparser, Stranger"</title><link>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</link><pubDate>Wed, 27 Nov 2024 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/from_bbf_to_sss/</guid><description>&lt;p&gt;This is a post based on a talk I gave a few times in 2023. I had been meaning to put it in blog post form for over a year but kept putting it off&amp;hellip; I guess better late than never. I think some of the ideas still hold, so hope some of you find it useful!&lt;/p&gt;
+&lt;h2 id="bigger-better-faster"&gt;Bigger, better, faster&lt;/h2&gt;
+&lt;p&gt;In the &lt;a href="https://www.nature.com/articles/nature14236"&gt;seminal DQN paper&lt;/a&gt;, Mnih et al. demonstrated that reinforcement learning, when combined with neural networks as function approximators, could learn to play Atari 2600 games at superhuman levels. The DQN agent learned to do this over 200 million environment frames, which is roughly equivalent to 1000 hours of human gameplay&amp;hellip;&lt;/p&gt;</description></item><item><title>The Dormant Neuron Phenomenon in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/redo/</link><pubDate>Mon, 19 Jun 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/redo/</guid><description>&lt;p&gt;We identify the dormant neuron phenomenon in deep reinforcement learning, where an agent&amp;rsquo;s network suffers from an increasing number of inactive neurons, thereby affecting network expressivity.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ghada Sokar, Rishabh Agarwal, Pablo Samuel Castro*, Utku Evci*&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2302.12902"&gt;ICML 2023 paper&lt;/a&gt;.
 The code is available
-&lt;a href="https://github.com/google/dopamine/tree/master/dopamine/labs/redo">here&lt;/a>.
+&lt;a href="https://github.com/google/dopamine/tree/master/dopamine/labs/redo"&gt;here&lt;/a&gt;.
 Many more results and analyses are available in the paper, so I encouraged you to
-check it out if interested!&lt;/p>
-&lt;p>The following figure gives a nice summary of the overall findings of our work
+check it out if interested!&lt;/p&gt;
+&lt;p&gt;The following figure gives a nice summary of the overall findings of our work
 (we are reporting the Interquantile Mean (IQM) as introduced in
-&lt;a href="https://arxiv.org/abs/2108.13264">our Statistical Precipice NeurIPS'21 paper&lt;/a>):&lt;/p></description></item><item><title>Albums</title><link>https://psc-g.github.io/posts/art/albums/</link><pubDate>Mon, 20 Mar 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/albums/</guid><description>&lt;p>I&amp;rsquo;ve been in bands since I was 12. In a parallel universe I&amp;rsquo;m a full-time musician :D. This page collects the albums I&amp;rsquo;ve released so far, in reverse chronological order. Enjoy!&lt;/p>
-&lt;h2 id="the-45s---1-2024">the 45s - #1 (2024)&lt;/h2>
-&lt;p>With my good friend Jean-Simon Diallo we started a new project where we release 45s (i.e. singles) consisting of two songs, one written by him and one by me. He does the singing, I do the production and play the instruments. Enjoy!&lt;/p></description></item><item><title>PongDay</title><link>https://psc-g.github.io/posts/misc/pongday/</link><pubDate>Mon, 05 Dec 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/pongday/</guid><description>&lt;p>I learned on the radio that last November 29th marked the 50th anniversary of the classic arcade game Pong. This game is particularly meaningful for those of us that do RL research, as it is one of the games that is part of the &lt;a href="https://jair.org/index.php/jair/article/view/10819">Arcade Learning Environment&lt;/a>, one of the most popular benchmarks. Pong is probably the easiest game of the whole suite, so we often use it as a test to make sure our agents are learning. Learning curves below are for agents trained with the &lt;a href="https://github.com/google/dopamine">Dopamine&lt;/a> framework.&lt;/p></description></item><item><title>Introducción a los Transformers</title><link>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</link><pubDate>Mon, 03 Oct 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</guid><description>&lt;p>Como parte de la &lt;a href="https://www.riiaa.org/riiaa5-quito">RIIAA en Quito&lt;/a>, di una introducción a los Transformers, que es la arquitectura detrás de avances como GPT-3, Music Transformer, Parti, y muchos otros.&lt;/p>
-&lt;h2 id="grabación">Grabación&lt;/h2>
-&lt;p>Pueden ver la grabación aquí:&lt;/p>
-&lt;center>
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/W28CACYxnus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;/center>
-&lt;h2 id="materiales">Materiales&lt;/h2>
-&lt;p>Aquí pueden acceder a los diferentes materiales que mencioné durante el curso:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://docs.google.com/presentation/d/1nvUn5w1e01bzjFtuaZ50SZb773QEqxgwzlCa-X7XrfY/edit?usp=sharing">Las diapositivas&lt;/a> que usé en el curso&lt;/li>
-&lt;li>&lt;a href="https://transformer.huggingface.co/">Write with Transformers&lt;/a> de Hugging Face (GPT-2)&lt;/li>
-&lt;li>&lt;a href="https://6b.eleuther.ai/">Eleuther GPT-J-6B&lt;/a>, que es mucho mejor modelo que el GPT-2 de Hugging Face&lt;/li>
-&lt;li>El &lt;a href="https://colab.research.google.com/drive/1psXc1nRmPCY6H7o7bBEY7ZvP68vZSVnN?usp=sharing">colab simple sobre bigrams&lt;/a>&lt;/li>
-&lt;li>El &lt;a href="https://colab.research.google.com/github/google/flax/blob/main/examples/seq2seq/seq2seq.ipynb">colab de Flax sobre LSTMs&lt;/a>&lt;/li>
-&lt;li>El excelente &lt;a href="https://jalammar.github.io/illustrated-transformer/">the Illustrated Transformer&lt;/a> de Jay Alammar, en el cual basé la descripción de Transformers.&lt;/li>
-&lt;li>&lt;a href="http://nlp.seas.harvard.edu/annotated-transformer/">The Annotated Transformer&lt;/a>&lt;/li>
-&lt;li>El &lt;a href="https://parti.research.google/">blog post de Parti&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Th State of Spars Train ng in D ep Re nforc m nt Le rn ng</title><link>https://psc-g.github.io/posts/research/rl/sparse_rl/</link><pubDate>Wed, 22 Jun 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/sparse_rl/</guid><description>&lt;p>We perform a systematic investigation into applying a number of existing sparse
+&lt;a href="https://arxiv.org/abs/2108.13264"&gt;our Statistical Precipice NeurIPS'21 paper&lt;/a&gt;):&lt;/p&gt;</description></item><item><title>Albums</title><link>https://psc-g.github.io/posts/art/albums/</link><pubDate>Mon, 20 Mar 2023 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/albums/</guid><description>&lt;p&gt;I&amp;rsquo;ve been in bands since I was 12. In a parallel universe I&amp;rsquo;m a full-time musician :D. This page collects the albums I&amp;rsquo;ve released so far, in reverse chronological order. Enjoy!&lt;/p&gt;
+&lt;h2 id="the-45s---1-2024"&gt;the 45s - #1 (2024)&lt;/h2&gt;
+&lt;p&gt;With my good friend Jean-Simon Diallo we started a new project where we release 45s (i.e. singles) consisting of two songs, one written by him and one by me. He does the singing, I do the production and play the instruments. Enjoy!&lt;/p&gt;</description></item><item><title>PongDay</title><link>https://psc-g.github.io/posts/misc/pongday/</link><pubDate>Mon, 05 Dec 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/pongday/</guid><description>&lt;p&gt;I learned on the radio that last November 29th marked the 50th anniversary of the classic arcade game Pong. This game is particularly meaningful for those of us that do RL research, as it is one of the games that is part of the &lt;a href="https://jair.org/index.php/jair/article/view/10819"&gt;Arcade Learning Environment&lt;/a&gt;, one of the most popular benchmarks. Pong is probably the easiest game of the whole suite, so we often use it as a test to make sure our agents are learning. Learning curves below are for agents trained with the &lt;a href="https://github.com/google/dopamine"&gt;Dopamine&lt;/a&gt; framework.&lt;/p&gt;</description></item><item><title>Introducción a los Transformers</title><link>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</link><pubDate>Mon, 03 Oct 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/introduccion-a-transformers/</guid><description>&lt;p&gt;Como parte de la &lt;a href="https://www.riiaa.org/riiaa5-quito"&gt;RIIAA en Quito&lt;/a&gt;, di una introducción a los Transformers, que es la arquitectura detrás de avances como GPT-3, Music Transformer, Parti, y muchos otros.&lt;/p&gt;
+&lt;h2 id="grabación"&gt;Grabación&lt;/h2&gt;
+&lt;p&gt;Pueden ver la grabación aquí:&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/W28CACYxnus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;h2 id="materiales"&gt;Materiales&lt;/h2&gt;
+&lt;p&gt;Aquí pueden acceder a los diferentes materiales que mencioné durante el curso:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/presentation/d/1nvUn5w1e01bzjFtuaZ50SZb773QEqxgwzlCa-X7XrfY/edit?usp=sharing"&gt;Las diapositivas&lt;/a&gt; que usé en el curso&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://transformer.huggingface.co/"&gt;Write with Transformers&lt;/a&gt; de Hugging Face (GPT-2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://6b.eleuther.ai/"&gt;Eleuther GPT-J-6B&lt;/a&gt;, que es mucho mejor modelo que el GPT-2 de Hugging Face&lt;/li&gt;
+&lt;li&gt;El &lt;a href="https://colab.research.google.com/drive/1psXc1nRmPCY6H7o7bBEY7ZvP68vZSVnN?usp=sharing"&gt;colab simple sobre bigrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;El &lt;a href="https://colab.research.google.com/github/google/flax/blob/main/examples/seq2seq/seq2seq.ipynb"&gt;colab de Flax sobre LSTMs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;El excelente &lt;a href="https://jalammar.github.io/illustrated-transformer/"&gt;the Illustrated Transformer&lt;/a&gt; de Jay Alammar, en el cual basé la descripción de Transformers.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nlp.seas.harvard.edu/annotated-transformer/"&gt;The Annotated Transformer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;El &lt;a href="https://parti.research.google/"&gt;blog post de Parti&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Th State of Spars Train ng in D ep Re nforc m nt Le rn ng</title><link>https://psc-g.github.io/posts/research/rl/sparse_rl/</link><pubDate>Wed, 22 Jun 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/sparse_rl/</guid><description>&lt;p&gt;We perform a systematic investigation into applying a number of existing sparse
 training techniques on a variety of deep RL agents and environments, and
 conclude by suggesting promising avenues for improving the effectiveness of
-sparse training methods, as well as for advancing their use in DRL.&lt;/p>
-&lt;p>&lt;em>Laura Graesser*, Utku Evci*, Erich Elsen, Pablo Samuel Castro&lt;/em>&lt;/p>
-&lt;hr>
-&lt;p>This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2206.10369">ICML 2022 paper&lt;/a>.
+sparse training methods, as well as for advancing their use in DRL.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Laura Graesser*, Utku Evci*, Erich Elsen, Pablo Samuel Castro&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2206.10369"&gt;ICML 2022 paper&lt;/a&gt;.
 The code is available
-&lt;a href="https://github.com/google-research/rigl/tree/master/rigl/rl">here&lt;/a>.
+&lt;a href="https://github.com/google-research/rigl/tree/master/rigl/rl"&gt;here&lt;/a&gt;.
 Many more results and analyses are available in the paper, so I encouraged you to
-check it out if interested!&lt;/p></description></item><item><title>Crosswords: A General Intelligence Challenge?</title><link>https://psc-g.github.io/posts/misc/crosswords/</link><pubDate>Tue, 19 Apr 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/crosswords/</guid><description>&lt;p>I have become obsessed with crossword puzzles, specifically
-&lt;a href="https://www.nytimes.com/crosswords">the NYT crosswords&lt;/a>, since
+check it out if interested!&lt;/p&gt;</description></item><item><title>Crosswords: A General Intelligence Challenge?</title><link>https://psc-g.github.io/posts/misc/crosswords/</link><pubDate>Tue, 19 Apr 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/crosswords/</guid><description>&lt;p&gt;I have become obsessed with crossword puzzles, specifically
+&lt;a href="https://www.nytimes.com/crosswords"&gt;the NYT crosswords&lt;/a&gt;, since
 my friend Ralph Crewe gently forced me to start doing them.
 Although I&amp;rsquo;m not still at his level, I&amp;rsquo;ve been working on them
-daily and getting noticeably better.&lt;/p>
-&lt;p>In doing so I&amp;rsquo;ve come to realize they are a fantastic mechanism for testing
+daily and getting noticeably better.&lt;/p&gt;
+&lt;p&gt;In doing so I&amp;rsquo;ve come to realize they are a fantastic mechanism for testing
 generally capable problem-solving, and in this post would like to explain the
 various types of challenges they present. I&amp;rsquo;ll be using past NYT crossword
 puzzles as examples (they&amp;rsquo;re all at least a week old so should hopefully not be
-spoilers for anyone).&lt;/p></description></item><item><title>yovoy</title><link>https://psc-g.github.io/posts/misc/yovoy/</link><pubDate>Mon, 07 Mar 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/yovoy/</guid><description>&lt;h1 id="what-is-a-palindrome">What is a palindrome?&lt;/h1>
-&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Palindrome">palindrome&lt;/a> is a phrase that reads
+spoilers for anyone).&lt;/p&gt;</description></item><item><title>yovoy</title><link>https://psc-g.github.io/posts/misc/yovoy/</link><pubDate>Mon, 07 Mar 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/yovoy/</guid><description>&lt;h1 id="what-is-a-palindrome"&gt;What is a palindrome?&lt;/h1&gt;
+&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Palindrome"&gt;palindrome&lt;/a&gt; is a phrase that reads
 the same way from left to right, and right to left. The rules are that all characters
 must be used in both directions, but punctuation, capitalization, and spaces can be
-ignored.&lt;/p>
-&lt;p>¡Las mismas reglas en español!&lt;/p>
-&lt;p>Some well-known Palindromes:&lt;/p>
-&lt;blockquote>
-&lt;p>A man, a plan, a canal, Panama!&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Do geese see god?&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Yo, banana boy!&lt;/p>&lt;/blockquote>
-&lt;p>Unos palíndromos en español:&lt;/p></description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>&lt;p>&lt;a href="https://twitter.com/pcastr/status/1496344364389388289">The thread I wrote&lt;/a> at
+ignored.&lt;/p&gt;
+&lt;p&gt;¡Las mismas reglas en español!&lt;/p&gt;
+&lt;p&gt;Some well-known Palindromes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A man, a plan, a canal, Panama!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do geese see god?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yo, banana boy!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Unos palíndromos en español:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dábale arroz a la zorra el abad.&lt;/p&gt;</description></item><item><title>CME is A-OK</title><link>https://psc-g.github.io/posts/mentoring/cme/</link><pubDate>Mon, 28 Feb 2022 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/cme/</guid><description>&lt;p&gt;&lt;a href="https://twitter.com/pcastr/status/1496344364389388289"&gt;The thread I wrote&lt;/a&gt; at
 the start of perf season at Google seemed to resonate with
 lots of people, so I decided to put a slightly extended version of it in
-blog-post form.&lt;/p>
+blog-post form.&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/mentoring/cme/thread.png"
  
  alt="Original Twitter Thread"
@@ -77,18 +82,18 @@ blog-post form.&lt;/p>
  
  class="center"
  
->
+&gt;
 
-&lt;h2 id="what-is-perf">What is perf?&lt;/h2>
-&lt;p>In brief, &amp;ldquo;perf&amp;rdquo; season at Google is when we evaluate our performance over the
+&lt;h2 id="what-is-perf"&gt;What is perf?&lt;/h2&gt;
+&lt;p&gt;In brief, &amp;ldquo;perf&amp;rdquo; season at Google is when we evaluate our performance over the
 last few months, in the form of a self-assessment, and our peers provide
 their assessments on how they perceive our performance. The general
 purpose of this exercise is to receive feedback on how to grow as an
 engineer/researcher/employee, but it is also the process through which you can
-get promoted (by nominating yourself).&lt;/p></description></item><item><title>Portrait of Hallelagine</title><link>https://psc-g.github.io/posts/musicode/hallelagine/</link><pubDate>Thu, 23 Dec 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/hallelagine/</guid><description>&lt;p>Happy holidays from the MUSICODE &amp;ldquo;team&amp;rdquo;!&lt;/p>
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6O3c-j2ySIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>&amp;ldquo;Portrait of Hallelagine&amp;rdquo;, a mashup of Jaco Pastorius&amp;rsquo; &amp;ldquo;Portrait of Tracy&amp;rdquo;, Leonard Cohen&amp;rsquo;s &amp;ldquo;Hallelujah&amp;rdquo;, and John Lennon&amp;rsquo;s &amp;ldquo;Imagine&amp;rdquo;.&lt;/p>
-&lt;p>100% of video editing done with &lt;a href="https://runwayml.com/">Runway&lt;/a>!&lt;/p></description></item><item><title>Deep Reinforcement Learning at the Edge of the Statistical Precipice</title><link>https://psc-g.github.io/posts/research/rl/precipice/</link><pubDate>Mon, 06 Dec 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/precipice/</guid><description>&lt;p>We argue that reliable evaluation in the few run deep RL regime cannot ignore
+get promoted (by nominating yourself).&lt;/p&gt;</description></item><item><title>Portrait of Hallelagine</title><link>https://psc-g.github.io/posts/musicode/hallelagine/</link><pubDate>Thu, 23 Dec 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/hallelagine/</guid><description>&lt;p&gt;Happy holidays from the MUSICODE &amp;ldquo;team&amp;rdquo;!&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6O3c-j2ySIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&amp;ldquo;Portrait of Hallelagine&amp;rdquo;, a mashup of Jaco Pastorius&amp;rsquo; &amp;ldquo;Portrait of Tracy&amp;rdquo;, Leonard Cohen&amp;rsquo;s &amp;ldquo;Hallelujah&amp;rdquo;, and John Lennon&amp;rsquo;s &amp;ldquo;Imagine&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;100% of video editing done with &lt;a href="https://runwayml.com/"&gt;Runway&lt;/a&gt;!&lt;/p&gt;</description></item><item><title>Deep Reinforcement Learning at the Edge of the Statistical Precipice</title><link>https://psc-g.github.io/posts/research/rl/precipice/</link><pubDate>Mon, 06 Dec 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/precipice/</guid><description>&lt;p&gt;We argue that reliable evaluation in the few run deep RL regime cannot ignore
 the uncertainty in results without running the risk of slowing down progress in
 the field. We illustrate this point using a case study on the Atari 100k
 benchmark, where we find substantial discrepancies between conclusions drawn
@@ -96,107 +101,107 @@ from point estimates alone versus a more thorough statistical analysis.
 We advocate for reporting interval estimates of aggregate performance and
 propose performance profiles to account for the variability in results, as well
 as present more robust and efficient aggregate metrics, such as interquartile
-mean scores, to achieve small uncertainty in results.&lt;/p></description></item><item><title>The Difficulty of Passive Learning in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/tandem/</link><pubDate>Tue, 26 Oct 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/tandem/</guid><description>&lt;p>We propose the &amp;ldquo;tandem learning&amp;rdquo; experimental design, where two RL agents are
+mean scores, to achieve small uncertainty in results.&lt;/p&gt;</description></item><item><title>The Difficulty of Passive Learning in Deep Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/tandem/</link><pubDate>Tue, 26 Oct 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/tandem/</guid><description>&lt;p&gt;We propose the &amp;ldquo;tandem learning&amp;rdquo; experimental design, where two RL agents are
 learning from identical data streams, but only one interacts with the
 environment to collect the data. We use this experiment design to study the
-empirical challenges of offline reinforcement learning.&lt;/p>
-&lt;p>&lt;em>Georg Ostrovski, Pablo Samuel Castro, Will Dabney&lt;/em>&lt;/p>
-&lt;p>This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2110.14020">NeurIPS 2021 paper&lt;/a>.
+empirical challenges of offline reinforcement learning.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Georg Ostrovski, Pablo Samuel Castro, Will Dabney&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2110.14020"&gt;NeurIPS 2021 paper&lt;/a&gt;.
 We provide two Tandem RL implementations:
-&lt;a href="https://github.com/deepmind/deepmind-research/tree/master/tandem_dqn">this one&lt;/a>
-based on the &lt;a href="https://github.com/deepmind/dqn_zoo">DQN Zoo&lt;/a>, and
-&lt;a href="https://github.com/google/dopamine/tree/master/dopamine/labs/tandem_dqn">this one&lt;/a>
-based on the &lt;a href="https://github.com/google/dopamine">Dopamine library&lt;/a>.&lt;/p></description></item><item><title>MICo: Learning improved representations via sampling-based state similarity for Markov decision processes</title><link>https://psc-g.github.io/posts/research/rl/mico/</link><pubDate>Thu, 21 Oct 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/mico/</guid><description>&lt;p>We present a new behavioural distance over the state space of a Markov
+&lt;a href="https://github.com/deepmind/deepmind-research/tree/master/tandem_dqn"&gt;this one&lt;/a&gt;
+based on the &lt;a href="https://github.com/deepmind/dqn_zoo"&gt;DQN Zoo&lt;/a&gt;, and
+&lt;a href="https://github.com/google/dopamine/tree/master/dopamine/labs/tandem_dqn"&gt;this one&lt;/a&gt;
+based on the &lt;a href="https://github.com/google/dopamine"&gt;Dopamine library&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>MICo: Learning improved representations via sampling-based state similarity for Markov decision processes</title><link>https://psc-g.github.io/posts/research/rl/mico/</link><pubDate>Thu, 21 Oct 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/mico/</guid><description>&lt;p&gt;We present a new behavioural distance over the state space of a Markov
 decision process, and demonstrate the use of this distance as an effective
 means of shaping the learnt representations of deep reinforcement learning
-agents.&lt;/p>
-&lt;p>&lt;em>Pablo Samuel Castro*, Tyler Kastner*, Prakash Panangaden, and Mark Rowland&lt;/em>&lt;/p>
-&lt;center>
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/CWKv2R30c9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;/center>
-&lt;hr>
-&lt;p>This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2106.08229">NeurIPS 2021 paper&lt;/a>.
+agents.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Pablo Samuel Castro*, Tyler Kastner*, Prakash Panangaden, and Mark Rowland&lt;/em&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/CWKv2R30c9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;p&gt;This blogpost is a summary of our &lt;a href="https://arxiv.org/abs/2106.08229"&gt;NeurIPS 2021 paper&lt;/a&gt;.
 The code is available
-&lt;a href="https://github.com/google-research/google-research/tree/master/mico">here&lt;/a>.&lt;/p>
-&lt;p>The following figure gives a nice summary of the empirical gains our new loss
+&lt;a href="https://github.com/google-research/google-research/tree/master/mico"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following figure gives a nice summary of the empirical gains our new loss
 provides, yielding an improvement on all of the
-&lt;a href="https://github.com/google/dopamine">Dopamine&lt;/a> agents (left), as well as over Soft
-Actor-Critic and the DBC algorithm of &lt;a href="https://arxiv.org/abs/2006.10742">Zhang et al., ICLR 2021&lt;/a> (right).
+&lt;a href="https://github.com/google/dopamine"&gt;Dopamine&lt;/a&gt; agents (left), as well as over Soft
+Actor-Critic and the DBC algorithm of &lt;a href="https://arxiv.org/abs/2006.10742"&gt;Zhang et al., ICLR 2021&lt;/a&gt; (right).
 In both cases we are reporting the Interquantile Mean as introduced in
-&lt;a href="https://arxiv.org/abs/2108.13264">our Statistical Precipice NeurIPS'21 paper&lt;/a>.&lt;/p></description></item><item><title>Losses, Dissonances, and Distortions</title><link>https://psc-g.github.io/posts/musicode/ldd/</link><pubDate>Wed, 29 Sep 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/ldd/</guid><description>&lt;p>Exploiting the creative possibilities of the numerical signals obtained during
-the training of a machine learning model.&lt;/p>
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qjg0bt5hgi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>I will be presenting this &lt;a href="https://arxiv.org/abs/2111.05128">paper&lt;/a> at the 5th Machine Learning for Creativity and Design Workshop at NeurIPS 2021.&lt;/p>
-&lt;p>The code is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ldd">here&lt;/a>.&lt;/p>
-&lt;p>You can see an &amp;ldquo;expainody&amp;rdquo; video here:&lt;/p>
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lKWgfdDmGik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>In recent years, there has been a growing interest in using machine learning
+&lt;a href="https://arxiv.org/abs/2108.13264"&gt;our Statistical Precipice NeurIPS'21 paper&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Losses, Dissonances, and Distortions</title><link>https://psc-g.github.io/posts/musicode/ldd/</link><pubDate>Wed, 29 Sep 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/ldd/</guid><description>&lt;p&gt;Exploiting the creative possibilities of the numerical signals obtained during
+the training of a machine learning model.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qjg0bt5hgi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;I will be presenting this &lt;a href="https://arxiv.org/abs/2111.05128"&gt;paper&lt;/a&gt; at the 5th Machine Learning for Creativity and Design Workshop at NeurIPS 2021.&lt;/p&gt;
+&lt;p&gt;The code is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ldd"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can see an &amp;ldquo;expainody&amp;rdquo; video here:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lKWgfdDmGik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In recent years, there has been a growing interest in using machine learning
 models for creative purposes. In most cases, this is with the use of large
-&lt;em>generative models&lt;/em> which, as their name implies, can generate high-quality
-and realistic outputs in &lt;a href="https://magenta.tensorflow.org/music-transformer">music&lt;/a>,
-&lt;a href="https://compvis.github.io/taming-transformers/">images&lt;/a>,
-&lt;a href="https://openai.com/blog/gpt-3-apps/">text&lt;/a>, and others. The
+&lt;em&gt;generative models&lt;/em&gt; which, as their name implies, can generate high-quality
+and realistic outputs in &lt;a href="https://magenta.tensorflow.org/music-transformer"&gt;music&lt;/a&gt;,
+&lt;a href="https://compvis.github.io/taming-transformers/"&gt;images&lt;/a&gt;,
+&lt;a href="https://openai.com/blog/gpt-3-apps/"&gt;text&lt;/a&gt;, and others. The
 standard approach for artistic creation using these models is to take a
-&lt;em>pre-trained&lt;/em> model (or set of models) and use them for producing output.
+&lt;em&gt;pre-trained&lt;/em&gt; model (or set of models) and use them for producing output.
 The artist directs the model&amp;rsquo;s generation by
-&lt;a href="https://psc-g.github.io/posts/research/creativity/ganterpretations/">``navigating&amp;rsquo;&amp;rsquo; the latent space&lt;/a>,
-&lt;a href="https://magenta.tensorflow.org/midi-me">fine-tuning the trained parameters&lt;/a>,
+&lt;a href="https://psc-g.github.io/posts/research/creativity/ganterpretations/"&gt;``navigating&amp;rsquo;&amp;rsquo; the latent space&lt;/a&gt;,
+&lt;a href="https://magenta.tensorflow.org/midi-me"&gt;fine-tuning the trained parameters&lt;/a&gt;,
 or using the model&amp;rsquo;s output to steer another
 generative process (e.g.
-&lt;a href="https://medium.com/artists-and-machine-intelligence/perception-engines-8a46bc598d57">two&lt;/a>
-&lt;a href="https://psc-g.github.io/posts/research/creativity/ml-jam/">examples&lt;/a>).&lt;/p></description></item><item><title>Introducing MUSICODE Phase 2</title><link>https://psc-g.github.io/posts/musicode/introducing/</link><pubDate>Sat, 25 Sep 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/introducing/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pesosYR7FcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>A new phase for a musical ode to musical code. More focused on performance and coding, more geared towards people with a technical background.&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/channel/UCrZNf0XkxtXE0tsy1y2RT0w">Subscribe to the YouTube channel!&lt;/a>.&lt;/p>
-&lt;p>You can find the code I use for each episode &lt;a href="https://github.com/psc-g/musicode">here&lt;/a>!&lt;/p>
-&lt;p>You can see the first phase &lt;a href="https://psc-g.github.io/posts/musicode/phase1/">here&lt;/a>.&lt;/p></description></item><item><title>Episode 5: Repeats &amp; Loops</title><link>https://psc-g.github.io/posts/musicode/phase1/episode5/</link><pubDate>Tue, 20 Jul 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode5/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hG9FJaFi-8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep5">here&lt;/a>.&lt;/p>
-&lt;p>Loops are such an essential part of programming that I knew I&amp;rsquo;d have to make an episode on them at some point. A natural musical analogue is musical repeats, so the whole episode came fairly naturally!&lt;/p>
-&lt;p>I thought it&amp;rsquo;d be fun to have some beats to accompany the piano, so I used SuperCollider for that. That proved to be the most challenging part of the episode, as getting the timing right was &lt;em>really&lt;/em> hard. A big part of the difficulty is that there&amp;rsquo;s a &lt;em>mechanical&lt;/em> latecy induced by the piano, since the hammers have to physically strike the strings! In the end I&amp;rsquo;m pleased enough with the output, although I think I could have done better&amp;hellip;&lt;/p></description></item><item><title>Tips for Reviewing Research Papers</title><link>https://psc-g.github.io/posts/mentoring/reviewing/</link><pubDate>Thu, 10 Jun 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/reviewing/</guid><description>&lt;p>The &lt;a href="https://neurips.cc/">NeurIPS 2021&lt;/a> review period is about to begin, and
+&lt;a href="https://medium.com/artists-and-machine-intelligence/perception-engines-8a46bc598d57"&gt;two&lt;/a&gt;
+&lt;a href="https://psc-g.github.io/posts/research/creativity/ml-jam/"&gt;examples&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Introducing MUSICODE Phase 2</title><link>https://psc-g.github.io/posts/musicode/introducing/</link><pubDate>Sat, 25 Sep 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/introducing/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pesosYR7FcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;A new phase for a musical ode to musical code. More focused on performance and coding, more geared towards people with a technical background.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCrZNf0XkxtXE0tsy1y2RT0w"&gt;Subscribe to the YouTube channel!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find the code I use for each episode &lt;a href="https://github.com/psc-g/musicode"&gt;here&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;You can see the first phase &lt;a href="https://psc-g.github.io/posts/musicode/phase1/"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Episode 5: Repeats &amp; Loops</title><link>https://psc-g.github.io/posts/musicode/phase1/episode5/</link><pubDate>Tue, 20 Jul 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode5/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hG9FJaFi-8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep5"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Loops are such an essential part of programming that I knew I&amp;rsquo;d have to make an episode on them at some point. A natural musical analogue is musical repeats, so the whole episode came fairly naturally!&lt;/p&gt;
+&lt;p&gt;I thought it&amp;rsquo;d be fun to have some beats to accompany the piano, so I used SuperCollider for that. That proved to be the most challenging part of the episode, as getting the timing right was &lt;em&gt;really&lt;/em&gt; hard. A big part of the difficulty is that there&amp;rsquo;s a &lt;em&gt;mechanical&lt;/em&gt; latecy induced by the piano, since the hammers have to physically strike the strings! In the end I&amp;rsquo;m pleased enough with the output, although I think I could have done better&amp;hellip;&lt;/p&gt;</description></item><item><title>Tips for Reviewing Research Papers</title><link>https://psc-g.github.io/posts/mentoring/reviewing/</link><pubDate>Thu, 10 Jun 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/reviewing/</guid><description>&lt;p&gt;The &lt;a href="https://neurips.cc/"&gt;NeurIPS 2021&lt;/a&gt; review period is about to begin, and
 there will likely be lots of complaining about the quality of reviews when they
-come out (I&amp;rsquo;m often guilty of this type of complaint).&lt;/p>
-&lt;p>I decided to write a post describing how I approach paper-reviewing, in the help
+come out (I&amp;rsquo;m often guilty of this type of complaint).&lt;/p&gt;
+&lt;p&gt;I decided to write a post describing how I approach paper-reviewing, in the help
 that it can be useful for others (especially those who are new to reviewing) in
-writing high quality reviews.&lt;/p>
-&lt;p>I&amp;rsquo;m mostly an RL researcher, so a lot of the tips below are mostly from my
+writing high quality reviews.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m mostly an RL researcher, so a lot of the tips below are mostly from my
 experience reading RL papers. I think many of the ideas are applicable more
-generally, but I acknowledge some may be more RL-specific.&lt;/p></description></item><item><title>Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research</title><link>https://psc-g.github.io/posts/research/rl/revisiting_rainbow/</link><pubDate>Mon, 24 May 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/revisiting_rainbow/</guid><description>&lt;p>We argue for the value of small- to mid-scale environments in deep RL for increasing scientific insight and help make our community more inclusive.&lt;/p>
-&lt;p>&lt;em>Johan S. Obando-Ceron and Pablo Samuel Castro&lt;/em>&lt;/p>
-&lt;p>This is a summary of our &lt;a href="https://arxiv.org/abs/2011.14826">paper&lt;/a> which was accepted at the
-&lt;a href="https://icml.cc/">Thirty-eighth International Conference on Machine Learning (ICML'21)&lt;/a>. (An initial version was presented at the &lt;a href="https://sites.google.com/corp/view/deep-rl-workshop-neurips2020/home">deep reinforcement learning workshop at NeurIPS 2020&lt;/a>).&lt;/p>
-&lt;p>The code is available &lt;a href="https://github.com/JohanSamir/revisiting_rainbow">here&lt;/a>.&lt;/p>
-&lt;p>You can see the Deep RL talk &lt;a href="https://slideslive.com/38941329/revisiting-rainbow-promoting-more-insightful-and-inclusive-deep-reinforcement-learning-research">here&lt;/a>.&lt;/p></description></item><item><title>Episode 4: Live Coding &amp; Jazz</title><link>https://psc-g.github.io/posts/musicode/phase1/episode4/</link><pubDate>Wed, 28 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode4/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Oj6Sre4Lhac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep4">here&lt;/a>.&lt;/p>
-&lt;p>I had a different idea for the fourth episode, but then I saw &lt;a href="https://twitter.com/jmcl_gtr/status/1372490033391927296">John McLaughlin&amp;rsquo;s tweet&lt;/a> about International Jazz day, and decided to do something for that instead.&lt;/p>
-&lt;p>Obviously I&amp;rsquo;d talk about Jazz in the musical section, but it wasn&amp;rsquo;t clear yet &lt;em>what&lt;/em> part of Jazz I&amp;rsquo;d talk about. I spoke to a few people and it seemed like a good idea would be to talk about improvisation, and how jazz musicians do it; in particular, I&amp;rsquo;m hoping this helps people who don&amp;rsquo;t &amp;ldquo;get&amp;rdquo; jazz to understand what we&amp;rsquo;re doing when we play it, and that we&amp;rsquo;re not just playing random notes! :)&lt;/p></description></item><item><title>Origins of April Fool's Day</title><link>https://psc-g.github.io/posts/misc/origins/</link><pubDate>Thu, 01 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/origins/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe></description></item><item><title>Music during COVID-19</title><link>https://psc-g.github.io/posts/art/covid-music/</link><pubDate>Tue, 16 Mar 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/covid-music/</guid><description>&lt;p>It&amp;rsquo;s been just over a year since COVID-19 forced us all to stay home. It&amp;rsquo;s been
+generally, but I acknowledge some may be more RL-specific.&lt;/p&gt;</description></item><item><title>Revisiting Rainbow: Promoting more insightful and inclusive deep reinforcement learning research</title><link>https://psc-g.github.io/posts/research/rl/revisiting_rainbow/</link><pubDate>Mon, 24 May 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/revisiting_rainbow/</guid><description>&lt;p&gt;We argue for the value of small- to mid-scale environments in deep RL for increasing scientific insight and help make our community more inclusive.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Johan S. Obando-Ceron and Pablo Samuel Castro&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is a summary of our &lt;a href="https://arxiv.org/abs/2011.14826"&gt;paper&lt;/a&gt; which was accepted at the
+&lt;a href="https://icml.cc/"&gt;Thirty-eighth International Conference on Machine Learning (ICML'21)&lt;/a&gt;. (An initial version was presented at the &lt;a href="https://sites.google.com/corp/view/deep-rl-workshop-neurips2020/home"&gt;deep reinforcement learning workshop at NeurIPS 2020&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The code is available &lt;a href="https://github.com/JohanSamir/revisiting_rainbow"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can see the Deep RL talk &lt;a href="https://slideslive.com/38941329/revisiting-rainbow-promoting-more-insightful-and-inclusive-deep-reinforcement-learning-research"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Episode 4: Live Coding &amp; Jazz</title><link>https://psc-g.github.io/posts/musicode/phase1/episode4/</link><pubDate>Wed, 28 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode4/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Oj6Sre4Lhac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep4"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I had a different idea for the fourth episode, but then I saw &lt;a href="https://twitter.com/jmcl_gtr/status/1372490033391927296"&gt;John McLaughlin&amp;rsquo;s tweet&lt;/a&gt; about International Jazz day, and decided to do something for that instead.&lt;/p&gt;
+&lt;p&gt;Obviously I&amp;rsquo;d talk about Jazz in the musical section, but it wasn&amp;rsquo;t clear yet &lt;em&gt;what&lt;/em&gt; part of Jazz I&amp;rsquo;d talk about. I spoke to a few people and it seemed like a good idea would be to talk about improvisation, and how jazz musicians do it; in particular, I&amp;rsquo;m hoping this helps people who don&amp;rsquo;t &amp;ldquo;get&amp;rdquo; jazz to understand what we&amp;rsquo;re doing when we play it, and that we&amp;rsquo;re not just playing random notes! :)&lt;/p&gt;</description></item><item><title>Origins of April Fool's Day</title><link>https://psc-g.github.io/posts/misc/origins/</link><pubDate>Thu, 01 Apr 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/origins/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</description></item><item><title>Music during COVID-19</title><link>https://psc-g.github.io/posts/art/covid-music/</link><pubDate>Tue, 16 Mar 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/covid-music/</guid><description>&lt;p&gt;It&amp;rsquo;s been just over a year since COVID-19 forced us all to stay home. It&amp;rsquo;s been
 a terribly difficult year for so many around the globe, and I don&amp;rsquo;t mean this
 post to minimize the plight of others, but rather simply highlight one of the
-silver linings in my past year.&lt;/p>
-&lt;p>One of the things I miss most from pre-COVID days is playing live. I had to
+silver linings in my past year.&lt;/p&gt;
+&lt;p&gt;One of the things I miss most from pre-COVID days is playing live. I had to
 cancel a show with my jazz trio when things started getting locked down. Since
 I still needed a &amp;ldquo;performance outlet&amp;rdquo; for my music, I decided to start
 recording some things as home, where the unifying motive was to challenge
 myself in some way. Singing is not my musical forte, so a lot of these involve
-me singing (sorry!).&lt;/p></description></item><item><title>Episode 3: Leitmotifs &amp; Variables</title><link>https://psc-g.github.io/posts/musicode/phase1/episode3/</link><pubDate>Thu, 11 Mar 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode3/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o4qUKFHPPnw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep3">here&lt;/a>.&lt;/p>
-&lt;p>I had it in my head that the third episode would talk about &lt;a href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29">variables&lt;/a> in the section about Computer Science. Originally I thought the musical would be about chords, but it didn&amp;rsquo;t quite fit well with variables. Then I thought about key signatures, thinking that these are kind of like variables in the sense that you can shift any song into different pitches just by changing key signatures; but again, I wasn&amp;rsquo;t very content with the connection. While walking Lucy (my dog) one day it hit me that &lt;a href="https://en.wikipedia.org/wiki/Leitmotif">leitmotifs&lt;/a> are actually quite similar to variables in the sense that you can reference them at any point, and they hold a particular &amp;ldquo;value&amp;rdquo; when called.&lt;/p></description></item><item><title>Episode 2: Bits &amp; Semitones</title><link>https://psc-g.github.io/posts/musicode/phase1/episode2/</link><pubDate>Sun, 07 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode2/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_d4M1gthsXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep2">here&lt;/a>.&lt;/p>
-&lt;p>The idea for doing something with bits seemed kind of natural to me as a second episode. After covering what &amp;ldquo;computation&amp;rdquo; is, why not cover what computers actually &amp;ldquo;see&amp;rdquo; when they run computations?&lt;/p>
-&lt;p>Given that bits are what makes up everything inside a computer&amp;rsquo;s software, I wanted a musical topic that was inside every type of music (at least in Western music). Initially I was thinking of doing scales, but as I was developing this idea it dawned on me that there is a very close relationship between semitones and tones (or between half-steps and whole-steps) and the zeros and ones of the binary system.&lt;/p></description></item><item><title>Metrics and continuity in reinforcement learning</title><link>https://psc-g.github.io/posts/research/rl/metrics_continuity/</link><pubDate>Wed, 03 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/metrics_continuity/</guid><description>&lt;p>In this work we investigate the notion of &amp;ldquo;state similarity&amp;rdquo; in Markov decision processes. This concept is central to generalization in RL with function approximation.&lt;/p>
-&lt;p>&lt;a href="https://arxiv.org/abs/2102.01514">Our paper&lt;/a> was published at AAAI'21.&lt;/p>
-&lt;p>&lt;em>Charline Le Lan, Marc G. Bellemare, and Pablo Samuel Castro&lt;/em>&lt;/p>
-&lt;p>The text below was adapted from &lt;a href="https://twitter.com/charlinelelan/status/1357006401952972808">Charline&amp;rsquo;s twitter thread&lt;/a>&lt;/p>
-&lt;p>In RL, we often deal with systems with large state spaces. We can’t exactly represent the value of each of these states and need some type of generalization. One way to do that is to look at structured representations in which similar states are assigned similar predictions.&lt;/p></description></item><item><title>Episode 1: Musical Notes &amp; Computation</title><link>https://psc-g.github.io/posts/musicode/phase1/episode1/</link><pubDate>Thu, 28 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode1/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BrxO-Lssnjg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep1">here&lt;/a>.&lt;/p>
-&lt;p>I originally thought this channel would be a kind of educational channel, where people could learn about both music and computer science in a fun and informal way. &lt;a href="https://twitter.com/pcastr/status/1296122430977716224">I tweeted asking for suggestions for what to cover first on the CS side&lt;/a>, and &lt;a href="https://twitter.com/korymath/status/1296122717318590465">Kory Mathewson&amp;rsquo;s response&lt;/a> was my favourite.&lt;/p>
-&lt;p>On the music side, it was kind of a train-of-thought process. The first thing that came to mind when thinking about the first thing you might learn in music theory was musical notes themselves.&lt;/p></description></item><item><title>Introducing MUSICODE</title><link>https://psc-g.github.io/posts/musicode/phase1/introducing/</link><pubDate>Sun, 24 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/introducing/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jmoFkx0iGB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
-&lt;p>A musical ode to musical code.&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/channel/UCrZNf0XkxtXE0tsy1y2RT0w">Subscribe to the YouTube channel!&lt;/a>.&lt;/p>
-&lt;p>Each episode will explore a topic in Computer Science, a topic in Music, and combine them in creative ways.&lt;/p>
-&lt;p>You can find the code I use for each episode &lt;a href="https://github.com/psc-g/musicode">here&lt;/a>!&lt;/p>
-&lt;h2 id="the-story">The story&lt;/h2>
-&lt;p>The reason I decided to start this show was because, thanks to COVID-19, I was no longer performing live with my &lt;a href="https://www.psctrio.com/">jazz trio&lt;/a>, but I was aching for some type of performative output. I had recently bought a &lt;a href="https://en.wikipedia.org/wiki/Disklavier">disklavier&lt;/a>, which had been a dream of mine for quite some time, especially after seeing &lt;a href="https://dantepfer.com/blog/?p=711">Dan Tepfer&amp;rsquo;s Natural Machines&lt;/a>.&lt;/p></description></item><item><title>Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/pse/</link><pubDate>Thu, 14 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/pse/</guid><description>&lt;p>This &lt;a href="https://arxiv.org/abs/2101.05265">paper&lt;/a> was accepted as a spotlight at ICLR'21.&lt;/p>
-&lt;p>We propose a new metric and contrastive loss that comes equipped with theoretical and empirical results.&lt;/p>
+me singing (sorry!).&lt;/p&gt;</description></item><item><title>Episode 3: Leitmotifs &amp; Variables</title><link>https://psc-g.github.io/posts/musicode/phase1/episode3/</link><pubDate>Thu, 11 Mar 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode3/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o4qUKFHPPnw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep3"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I had it in my head that the third episode would talk about &lt;a href="https://en.wikipedia.org/wiki/Variable_%28computer_science%29"&gt;variables&lt;/a&gt; in the section about Computer Science. Originally I thought the musical would be about chords, but it didn&amp;rsquo;t quite fit well with variables. Then I thought about key signatures, thinking that these are kind of like variables in the sense that you can shift any song into different pitches just by changing key signatures; but again, I wasn&amp;rsquo;t very content with the connection. While walking Lucy (my dog) one day it hit me that &lt;a href="https://en.wikipedia.org/wiki/Leitmotif"&gt;leitmotifs&lt;/a&gt; are actually quite similar to variables in the sense that you can reference them at any point, and they hold a particular &amp;ldquo;value&amp;rdquo; when called.&lt;/p&gt;</description></item><item><title>Episode 2: Bits &amp; Semitones</title><link>https://psc-g.github.io/posts/musicode/phase1/episode2/</link><pubDate>Sun, 07 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode2/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_d4M1gthsXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep2"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The idea for doing something with bits seemed kind of natural to me as a second episode. After covering what &amp;ldquo;computation&amp;rdquo; is, why not cover what computers actually &amp;ldquo;see&amp;rdquo; when they run computations?&lt;/p&gt;
+&lt;p&gt;Given that bits are what makes up everything inside a computer&amp;rsquo;s software, I wanted a musical topic that was inside every type of music (at least in Western music). Initially I was thinking of doing scales, but as I was developing this idea it dawned on me that there is a very close relationship between semitones and tones (or between half-steps and whole-steps) and the zeros and ones of the binary system.&lt;/p&gt;</description></item><item><title>Metrics and continuity in reinforcement learning</title><link>https://psc-g.github.io/posts/research/rl/metrics_continuity/</link><pubDate>Wed, 03 Feb 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/metrics_continuity/</guid><description>&lt;p&gt;In this work we investigate the notion of &amp;ldquo;state similarity&amp;rdquo; in Markov decision processes. This concept is central to generalization in RL with function approximation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2102.01514"&gt;Our paper&lt;/a&gt; was published at AAAI'21.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Charline Le Lan, Marc G. Bellemare, and Pablo Samuel Castro&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The text below was adapted from &lt;a href="https://twitter.com/charlinelelan/status/1357006401952972808"&gt;Charline&amp;rsquo;s twitter thread&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In RL, we often deal with systems with large state spaces. We can’t exactly represent the value of each of these states and need some type of generalization. One way to do that is to look at structured representations in which similar states are assigned similar predictions.&lt;/p&gt;</description></item><item><title>Episode 1: Musical Notes &amp; Computation</title><link>https://psc-g.github.io/posts/musicode/phase1/episode1/</link><pubDate>Thu, 28 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/episode1/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BrxO-Lssnjg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The code for this episode is available &lt;a href="https://github.com/psc-g/musicode/tree/main/ep1"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I originally thought this channel would be a kind of educational channel, where people could learn about both music and computer science in a fun and informal way. &lt;a href="https://twitter.com/pcastr/status/1296122430977716224"&gt;I tweeted asking for suggestions for what to cover first on the CS side&lt;/a&gt;, and &lt;a href="https://twitter.com/korymath/status/1296122717318590465"&gt;Kory Mathewson&amp;rsquo;s response&lt;/a&gt; was my favourite.&lt;/p&gt;
+&lt;p&gt;On the music side, it was kind of a train-of-thought process. The first thing that came to mind when thinking about the first thing you might learn in music theory was musical notes themselves.&lt;/p&gt;</description></item><item><title>Introducing MUSICODE</title><link>https://psc-g.github.io/posts/musicode/phase1/introducing/</link><pubDate>Sun, 24 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/musicode/phase1/introducing/</guid><description>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jmoFkx0iGB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;A musical ode to musical code.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCrZNf0XkxtXE0tsy1y2RT0w"&gt;Subscribe to the YouTube channel!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Each episode will explore a topic in Computer Science, a topic in Music, and combine them in creative ways.&lt;/p&gt;
+&lt;p&gt;You can find the code I use for each episode &lt;a href="https://github.com/psc-g/musicode"&gt;here&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id="the-story"&gt;The story&lt;/h2&gt;
+&lt;p&gt;The reason I decided to start this show was because, thanks to COVID-19, I was no longer performing live with my &lt;a href="https://www.psctrio.com/"&gt;jazz trio&lt;/a&gt;, but I was aching for some type of performative output. I had recently bought a &lt;a href="https://en.wikipedia.org/wiki/Disklavier"&gt;disklavier&lt;/a&gt;, which had been a dream of mine for quite some time, especially after seeing &lt;a href="https://dantepfer.com/blog/?p=711"&gt;Dan Tepfer&amp;rsquo;s Natural Machines&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning</title><link>https://psc-g.github.io/posts/research/rl/pse/</link><pubDate>Thu, 14 Jan 2021 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/pse/</guid><description>&lt;p&gt;This &lt;a href="https://arxiv.org/abs/2101.05265"&gt;paper&lt;/a&gt; was accepted as a spotlight at ICLR'21.&lt;/p&gt;
+&lt;p&gt;We propose a new metric and contrastive loss that comes equipped with theoretical and empirical results.&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/research/rl/pse/jumpy.png"
  
  alt="Jumping task"
@@ -209,11 +214,11 @@ me singing (sorry!).&lt;/p></description></item><item><title>Episode 3: Leitmoti
  
  class="center"
  
->
+&gt;
 
-&lt;h2 id="policy-similarity-metric">Policy Similarity Metric&lt;/h2>
-&lt;p>We introduce the policy similarity metric (PSM) which is based on &lt;a href="https://arxiv.org/abs/1207.4114">bisimulation metrics&lt;/a>.
-In contrast to bisimulation metrics (which is built on reward differences), PSMs are built on differences in optimal policies.&lt;/p>
+&lt;h2 id="policy-similarity-metric"&gt;Policy Similarity Metric&lt;/h2&gt;
+&lt;p&gt;We introduce the policy similarity metric (PSM) which is based on &lt;a href="https://arxiv.org/abs/1207.4114"&gt;bisimulation metrics&lt;/a&gt;.
+In contrast to bisimulation metrics (which is built on reward differences), PSMs are built on differences in optimal policies.&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/research/rl/pse/psm.png"
  
  alt="Policy similarity metric"
@@ -226,31 +231,31 @@ In contrast to bisimulation metrics (which is built on reward differences), PSMs
  
  class="center"
  
->
+&gt;
 
-&lt;p>If we were to use this metric for policy transfer (as Doina Precup &amp;amp; I &lt;a href="http://ojs.aaai.org/index.php/AAAI/article/view/7751">explored previously&lt;/a>), we can upper-bound the difference between the optimal and the transferred policy:&lt;/p></description></item><item><title>2020 RL highlights</title><link>https://psc-g.github.io/posts/research/rl/2020highlights/</link><pubDate>Wed, 16 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/2020highlights/</guid><description>&lt;p>As part of &lt;a href="https://twimlai.com/">TWiML&lt;/a> &amp;rsquo;s AI Rewind series, I was asked to provide a list of reinforcement learning papers that were highlights for me in 2020. It&amp;rsquo;s been a difficult year for pretty much everyone, but it&amp;rsquo;s heartening to see that despite all the difficulties, interesting research still came out.&lt;/p>
-&lt;p>Given the size and breadth of the reinforcement learning research, as well as the fact that I was asked to do this at the end of NeurIPS and right before my vacation, I decided to apply the following rules in the selection:&lt;/p></description></item><item><title>Autonomous navigation of stratospheric balloons using reinforcement learning</title><link>https://psc-g.github.io/posts/research/rl/loon/</link><pubDate>Wed, 02 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/loon/</guid><description>&lt;p>In this work we, quite literally, take reinforcement learning to new heights! Specifically, we use deep reinforcement learning to help control the navigation of stratospheric balloons, whose purpose is to deliver internet to areas with low connectivity. This project is an ongoing collaboration with &lt;a href="https://loon.com/">Loon&lt;/a>.&lt;/p>
-&lt;p>It&amp;rsquo;s been incredibly rewarding to see reinforcement learning deployed successfully in a real setting. It&amp;rsquo;s also been terrific to work alongside such fantastic co-authors:&lt;br>
-&lt;em>Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang&lt;/em>&lt;/p></description></item><item><title>Agence: a dynamic film exploring multi-agent systems and human agency</title><link>https://psc-g.github.io/posts/research/creativity/agence/</link><pubDate>Tue, 01 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/agence/</guid><description>&lt;p>Agence is a dynamic and interactive film authored by three parties: 1) the
+&lt;p&gt;If we were to use this metric for policy transfer (as Doina Precup &amp;amp; I &lt;a href="http://ojs.aaai.org/index.php/AAAI/article/view/7751"&gt;explored previously&lt;/a&gt;), we can upper-bound the difference between the optimal and the transferred policy:&lt;/p&gt;</description></item><item><title>2020 RL highlights</title><link>https://psc-g.github.io/posts/research/rl/2020highlights/</link><pubDate>Wed, 16 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/2020highlights/</guid><description>&lt;p&gt;As part of &lt;a href="https://twimlai.com/"&gt;TWiML&lt;/a&gt; &amp;rsquo;s AI Rewind series, I was asked to provide a list of reinforcement learning papers that were highlights for me in 2020. It&amp;rsquo;s been a difficult year for pretty much everyone, but it&amp;rsquo;s heartening to see that despite all the difficulties, interesting research still came out.&lt;/p&gt;
+&lt;p&gt;Given the size and breadth of the reinforcement learning research, as well as the fact that I was asked to do this at the end of NeurIPS and right before my vacation, I decided to apply the following rules in the selection:&lt;/p&gt;</description></item><item><title>Autonomous navigation of stratospheric balloons using reinforcement learning</title><link>https://psc-g.github.io/posts/research/rl/loon/</link><pubDate>Wed, 02 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/loon/</guid><description>&lt;p&gt;In this work we, quite literally, take reinforcement learning to new heights! Specifically, we use deep reinforcement learning to help control the navigation of stratospheric balloons, whose purpose is to deliver internet to areas with low connectivity. This project is an ongoing collaboration with &lt;a href="https://loon.com/"&gt;Loon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s been incredibly rewarding to see reinforcement learning deployed successfully in a real setting. It&amp;rsquo;s also been terrific to work alongside such fantastic co-authors:&lt;br&gt;
+&lt;em&gt;Marc G. Bellemare, Salvatore Candido, Pablo Samuel Castro, Jun Gong, Marlos C. Machado, Subhodeep Moitra, Sameera S. Ponda, Ziyu Wang&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Agence: a dynamic film exploring multi-agent systems and human agency</title><link>https://psc-g.github.io/posts/research/creativity/agence/</link><pubDate>Tue, 01 Dec 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/agence/</guid><description>&lt;p&gt;Agence is a dynamic and interactive film authored by three parties: 1) the
 director, who establishes the narrative structure and environment, 2)
 intelligent agents, using reinforcement learning or scripted (hierarchical
 state machines) AI, and 3) the viewer, who can interact with the system to
 affect the simulation. We trained RL agents in a multi-agent fashion to control
 some (or all, based on user choice) of the agents in the film. You can download
-the game at &lt;a href="https://www.agence.ai/">the Agence website&lt;/a>.&lt;/p></description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>&lt;p>GANterpretations is an idea I published in &lt;a href="https://arxiv.org/abs/2011.05158">this paper&lt;/a>, which was accepted to the &lt;a href="https://neurips2020creativity.github.io/">4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020&lt;/a>. The code is available &lt;a href="https://github.com/psc-g/ganterpretation">here&lt;/a>.&lt;/p>
-&lt;p>At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.&lt;/p>
-&lt;p>The following video walks through the process:&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div>
+the game at &lt;a href="https://www.agence.ai/"&gt;the Agence website&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>GANterpretations</title><link>https://psc-g.github.io/posts/research/creativity/ganterpretations/</link><pubDate>Sun, 08 Nov 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ganterpretations/</guid><description>&lt;p&gt;GANterpretations is an idea I published in &lt;a href="https://arxiv.org/abs/2011.05158"&gt;this paper&lt;/a&gt;, which was accepted to the &lt;a href="https://neurips2020creativity.github.io/"&gt;4th Workshop on Machine Learning for Creativity and Design at NeurIPS 2020&lt;/a&gt;. The code is available &lt;a href="https://github.com/psc-g/ganterpretation"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At a high level what it does is use the spectrogram of a piece of audio (from a video, for example) to &amp;ldquo;draw&amp;rdquo; a path in the latent space of a BigGAN.&lt;/p&gt;
+&lt;p&gt;The following video walks through the process:&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2J8_Q9ZNa8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;h2 id="gans">GANs&lt;/h2>
-&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">GANs&lt;/a> are generative models trained to reproduce images from a given dataset. The way GANs work is they are trained to learn a &lt;em>latent space&lt;/em> $ Z\in\mathbb{R}^d $, where each point $ z\in Z $ generates a unique image $ G(z) $, where $ G $ is the &lt;em>generator&lt;/em> of the GAN. When trained properly, these latent spaces are learned in a structured manner, where nearby points generate similar images.&lt;/p></description></item><item><title>Introduction to reinforcement learning</title><link>https://psc-g.github.io/posts/mentoring/intro-to-rl/</link><pubDate>Wed, 14 Oct 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/intro-to-rl/</guid><description>&lt;p>This post is based on &lt;a href="https://colab.research.google.com/github/psc-g/intro_to_rl/blob/master/Introduction_to_reinforcement_learning.ipynb#scrollTo=XVrlWe2YPpXt">this colab&lt;/a>.&lt;/p>
-&lt;p>You can also watch a video where I go through the basics &lt;a href="https://youtu.be/xMZE-9WECQE">here&lt;/a>.&lt;/p>
-&lt;p>Pueden ver un video (en español) donde presento el material &lt;a href="https://youtu.be/ZOaA4svJH3U">aquí&lt;/a>.&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Reinforcement learning methods are used for sequential decision making in uncertain environments. It is typically framed as an agent (the learner) interacting with an environment which provides the agent with reinforcement (positive or negative), based on the agent&amp;rsquo;s decisions. The agent leverages this reinforcement to update its behaviour in an aim to get closer to acting optimally. In interacting with the uncertain environment, the agent is also learning about the dynamics of the underlying system.&lt;/p></description></item><item><title>Rigging the Lottery: Making All Tickets Winners</title><link>https://psc-g.github.io/posts/research/other/rigl/rigl/</link><pubDate>Wed, 16 Sep 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/other/rigl/rigl/</guid><description>&lt;p>&lt;a href="https://proceedings.icml.cc/static/paper_files/icml/2020/287-Paper.pdf">Rigging the Lottery: Making All Tickets Winners&lt;/a> is a paper published at &lt;a href="https://icml.cc/Conferences/2020">ICML 2020&lt;/a> with Utku Evci, Trevor Gale, Jacob Menick, and Erich Elsen, where we introduce an algorithm for training sparse neural networks that uses a fixed parameter count and computational cost throughout training, without sacrificing accuracy relative to existing dense-to-sparse training methods.&lt;/p>
-&lt;p>You can read more about it in the paper and in our &lt;a href="https://ai.googleblog.com/2020/09/improving-sparse-training-with-rigl.html">blog post&lt;/a>.&lt;/p>
+&lt;h2 id="gans"&gt;GANs&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Generative_adversarial_network"&gt;GANs&lt;/a&gt; are generative models trained to reproduce images from a given dataset. The way GANs work is they are trained to learn a &lt;em&gt;latent space&lt;/em&gt; $ Z\in\mathbb{R}^d $, where each point $ z\in Z $ generates a unique image $ G(z) $, where $ G $ is the &lt;em&gt;generator&lt;/em&gt; of the GAN. When trained properly, these latent spaces are learned in a structured manner, where nearby points generate similar images.&lt;/p&gt;</description></item><item><title>Introduction to reinforcement learning</title><link>https://psc-g.github.io/posts/mentoring/intro-to-rl/</link><pubDate>Wed, 14 Oct 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/intro-to-rl/</guid><description>&lt;p&gt;This post is based on &lt;a href="https://colab.research.google.com/github/psc-g/intro_to_rl/blob/master/Introduction_to_reinforcement_learning.ipynb#scrollTo=XVrlWe2YPpXt"&gt;this colab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also watch a video where I go through the basics &lt;a href="https://youtu.be/xMZE-9WECQE"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pueden ver un video (en español) donde presento el material &lt;a href="https://youtu.be/ZOaA4svJH3U"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Reinforcement learning methods are used for sequential decision making in uncertain environments. It is typically framed as an agent (the learner) interacting with an environment which provides the agent with reinforcement (positive or negative), based on the agent&amp;rsquo;s decisions. The agent leverages this reinforcement to update its behaviour in an aim to get closer to acting optimally. In interacting with the uncertain environment, the agent is also learning about the dynamics of the underlying system.&lt;/p&gt;</description></item><item><title>Rigging the Lottery: Making All Tickets Winners</title><link>https://psc-g.github.io/posts/research/other/rigl/rigl/</link><pubDate>Wed, 16 Sep 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/other/rigl/rigl/</guid><description>&lt;p&gt;&lt;a href="https://proceedings.icml.cc/static/paper_files/icml/2020/287-Paper.pdf"&gt;Rigging the Lottery: Making All Tickets Winners&lt;/a&gt; is a paper published at &lt;a href="https://icml.cc/Conferences/2020"&gt;ICML 2020&lt;/a&gt; with Utku Evci, Trevor Gale, Jacob Menick, and Erich Elsen, where we introduce an algorithm for training sparse neural networks that uses a fixed parameter count and computational cost throughout training, without sacrificing accuracy relative to existing dense-to-sparse training methods.&lt;/p&gt;
+&lt;p&gt;You can read more about it in the paper and in our &lt;a href="https://ai.googleblog.com/2020/09/improving-sparse-training-with-rigl.html"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/research/other/rigl/rigl.gif"
  
  alt="RigL"
@@ -263,22 +268,22 @@ the game at &lt;a href="https://www.agence.ai/">the Agence website&lt;/a>.&lt;/p
  
  class="center"
  
-></description></item><item><title>Artificial General Relativity</title><link>https://psc-g.github.io/posts/misc/agr/</link><pubDate>Wed, 01 Apr 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/agr/</guid><description>&lt;p>We (well, I) introduce a New Field In Science which we (I mean I) call Artificial General Relativity. We
+&gt;</description></item><item><title>Artificial General Relativity</title><link>https://psc-g.github.io/posts/misc/agr/</link><pubDate>Wed, 01 Apr 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/misc/agr/</guid><description>&lt;p&gt;We (well, I) introduce a New Field In Science which we (I mean I) call Artificial General Relativity. We
 (here I really mean &amp;ldquo;we&amp;rdquo;) have all heard of General Relativity and how it revolutionized our understanding of
 the world around us. Einstein&amp;rsquo;s work, although pivotal, failed in one crucial aspect: although it allowed us to
 describe gravity and spacetime, it did not allow us to control them. In this paper I (switching to &amp;ldquo;I&amp;rdquo; to avoid
 sounding pretentious with &amp;ldquo;we&amp;rdquo;) introduce Artificial General Relativity (AGR) which, when achieved, will
 allow us to control gravity and spacetime. I present a set of practical approaches to achieve AGR which serve
-as reasonable baselines for future work.&lt;/p></description></item><item><title>GridWorld Playground</title><link>https://psc-g.github.io/posts/mentoring/gridworldplayground/</link><pubDate>Mon, 16 Mar 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/gridworldplayground/</guid><description>&lt;p>GridWorld playground!&lt;/p>
-&lt;p>I made &lt;a href="https://gridworld-playground.glitch.me">a website&lt;/a> where you can&lt;/p>
-&lt;ul>
-&lt;li>Draw your own GridWorlds&lt;/li>
-&lt;li>Play around with hyperparameters while agent is training&lt;/li>
-&lt;li>Transfer values between agents&lt;/li>
-&lt;li>&amp;ldquo;Teleport&amp;rdquo; the agent to help it during learning&lt;/li>
-&lt;/ul>
-&lt;p>Hope you find it useful and fun!&lt;/p>
-&lt;p>&lt;a href="https://gridworld-playground.glitch.me">&lt;img src="https://psc-g.github.io/posts/mentoring/gridworldPlayground/gridWorldPlayground.gif"
+as reasonable baselines for future work.&lt;/p&gt;</description></item><item><title>GridWorld Playground</title><link>https://psc-g.github.io/posts/mentoring/gridworldplayground/</link><pubDate>Mon, 16 Mar 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/gridworldplayground/</guid><description>&lt;p&gt;GridWorld playground!&lt;/p&gt;
+&lt;p&gt;I made &lt;a href="https://gridworld-playground.glitch.me"&gt;a website&lt;/a&gt; where you can&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Draw your own GridWorlds&lt;/li&gt;
+&lt;li&gt;Play around with hyperparameters while agent is training&lt;/li&gt;
+&lt;li&gt;Transfer values between agents&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Teleport&amp;rdquo; the agent to help it during learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hope you find it useful and fun!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gridworld-playground.glitch.me"&gt;&lt;img src="https://psc-g.github.io/posts/mentoring/gridworldPlayground/gridWorldPlayground.gif"
  
  alt="GridWorld Playground"
  
@@ -288,15 +293,15 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  class="center"
  
->
-&lt;/a>&lt;/p></description></item><item><title>Tips for Interviewing at Google</title><link>https://psc-g.github.io/posts/mentoring/interviewing/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/interviewing/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> This post reflects my personal views and not those of my employer.&lt;/p>
-&lt;p>People often ask me: &lt;em>How do I get a job at Google?&lt;/em>&lt;/p>
-&lt;p>An essential requirement is passing the interviews; unsurprisingly, this is another common question: &lt;em>How do I pass the Google interviews?&lt;/em>&lt;/p>
-&lt;p>While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at the end for some thoughts on this. Although the Google interview process is not perfect, I do feel it is pretty good and objective. Whatever the outcome, remember that your self-worth should not be defined by whether you get an offer.&lt;/p></description></item><item><title>Tips for preparing your resume</title><link>https://psc-g.github.io/posts/mentoring/resume/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/resume/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> This post reflects my personal views and not those of my employer.&lt;/p>
-&lt;p>In my &lt;a href="https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html">previous post&lt;/a> providing tips for interviewing at Google, I included the sentence “If you don’t know anyone at Google, you’ve already applied and haven’t heard back in a while, feel free to send me a note with your CV and I’ll see if there’s something I can do.”&lt;/p>
-&lt;p>I received a number of requests from people who had applied but never heard back. In most of these cases, I spotted issues with their resumes, which may or may not explain why they never heard back. In an effort to help others who are getting ready to apply for a job, I decided to write a new blog post with tips on how to prepare your resume for application.&lt;/p></description></item><item><title>Scalable methods for computing state similarity in deterministic MDPs</title><link>https://psc-g.github.io/posts/research/rl/scalable/</link><pubDate>Fri, 22 Nov 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/scalable/</guid><description>&lt;p>This post describes my paper &lt;a href="https://arxiv.org/abs/1911.09291">Scalable methods for computing state similarity in deterministic MDPs&lt;/a>, published at &lt;a href="https://aaai.org/Conferences/AAAI-20/">AAAI 2020&lt;/a>. The code is available &lt;a href="https://github.com/google-research/google-research/tree/master/bisimulation_aaai2020">here&lt;/a>.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
-&lt;p>We consider distance metrics between states in an MDP. Take the following MDP, where the goal is to reach the green cells:&lt;/p>
+&gt;
+&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tips for Interviewing at Google</title><link>https://psc-g.github.io/posts/mentoring/interviewing/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/interviewing/</guid><description>&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; This post reflects my personal views and not those of my employer.&lt;/p&gt;
+&lt;p&gt;People often ask me: &lt;em&gt;How do I get a job at Google?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An essential requirement is passing the interviews; unsurprisingly, this is another common question: &lt;em&gt;How do I pass the Google interviews?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While there is no hard and fast rule to pass the Google interviews, I do have some tips and guidelines that have helped others in the past (including myself). Although most of this post is Google-specific, most of it should still apply for software engineering positions at other companies. This post mostly applies to Software Engineering (SWE) positions, but some of it should still be relevant for other positions (like Research Scientist); see at the end for some thoughts on this. Although the Google interview process is not perfect, I do feel it is pretty good and objective. Whatever the outcome, remember that your self-worth should not be defined by whether you get an offer.&lt;/p&gt;</description></item><item><title>Tips for preparing your resume</title><link>https://psc-g.github.io/posts/mentoring/resume/</link><pubDate>Mon, 24 Feb 2020 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/mentoring/resume/</guid><description>&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; This post reflects my personal views and not those of my employer.&lt;/p&gt;
+&lt;p&gt;In my &lt;a href="https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html"&gt;previous post&lt;/a&gt; providing tips for interviewing at Google, I included the sentence “If you don’t know anyone at Google, you’ve already applied and haven’t heard back in a while, feel free to send me a note with your CV and I’ll see if there’s something I can do.”&lt;/p&gt;
+&lt;p&gt;I received a number of requests from people who had applied but never heard back. In most of these cases, I spotted issues with their resumes, which may or may not explain why they never heard back. In an effort to help others who are getting ready to apply for a job, I decided to write a new blog post with tips on how to prepare your resume for application.&lt;/p&gt;</description></item><item><title>Scalable methods for computing state similarity in deterministic MDPs</title><link>https://psc-g.github.io/posts/research/rl/scalable/</link><pubDate>Fri, 22 Nov 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/scalable/</guid><description>&lt;p&gt;This post describes my paper &lt;a href="https://arxiv.org/abs/1911.09291"&gt;Scalable methods for computing state similarity in deterministic MDPs&lt;/a&gt;, published at &lt;a href="https://aaai.org/Conferences/AAAI-20/"&gt;AAAI 2020&lt;/a&gt;. The code is available &lt;a href="https://github.com/google-research/google-research/tree/master/bisimulation_aaai2020"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;We consider distance metrics between states in an MDP. Take the following MDP, where the goal is to reach the green cells:&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/research/rl/scalable/sampleMDP.png"
  
  alt="Sample MDP"
@@ -309,10 +314,10 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  class="center"
  
->
+&gt;
 
-&lt;h3 id="physical-distance-betweent-states">Physical distance betweent states?&lt;/h3>
-&lt;p>Physical distance often fails to capture the similarity properties we&amp;rsquo;d like:&lt;/p>
+&lt;h3 id="physical-distance-betweent-states"&gt;Physical distance betweent states?&lt;/h3&gt;
+&lt;p&gt;Physical distance often fails to capture the similarity properties we&amp;rsquo;d like:&lt;/p&gt;
 &lt;img src="https://psc-g.github.io/posts/research/rl/scalable/physicalDistance.png"
  
  alt="Physical distance"
@@ -325,10 +330,10 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  class="center"
  
->
+&gt;
 
-&lt;h3 id="state-abstractions">State abstractions&lt;/h3>
-&lt;p>Now imagine we add an exact copy of these states to the MDP (think of it as an additional &amp;ldquo;floor&amp;rdquo;):&lt;/p></description></item><item><title>The Cost of Beauty</title><link>https://psc-g.github.io/posts/art/cost-of-beauty/</link><pubDate>Tue, 01 Oct 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/cost-of-beauty/</guid><description>&lt;img src="https://psc-g.github.io/posts/art/cost-of-beauty/book.png"
+&lt;h3 id="state-abstractions"&gt;State abstractions&lt;/h3&gt;
+&lt;p&gt;Now imagine we add an exact copy of these states to the MDP (think of it as an additional &amp;ldquo;floor&amp;rdquo;):&lt;/p&gt;</description></item><item><title>The Cost of Beauty</title><link>https://psc-g.github.io/posts/art/cost-of-beauty/</link><pubDate>Tue, 01 Oct 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/cost-of-beauty/</guid><description>&lt;img src="https://psc-g.github.io/posts/art/cost-of-beauty/book.png"
  
  alt="Cost of Beauty book"
  
@@ -336,18 +341,18 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
+&gt;
 
-&lt;p>In &lt;a href="https://en.wikipedia.org/wiki/The_Evolution_of_Beauty">&amp;ldquo;The Evolution of Beauty&amp;rdquo;&lt;/a>, Richard O. Prum argues that many of the ornaments present in animals need not have an adaptationist purpose (as is the common held belief), but can be the result of the aesthetic choice of the females.&lt;/p>
-&lt;p>&lt;a href="https://cost-of-beauty.glitch.me/">This web app&lt;/a> is inspired by that idea. It creates a set of male and female &lt;em>Things&lt;/em> that can mate and reproduce.&lt;/p>
-&lt;h2 id="courting">Courting&lt;/h2>
-&lt;p>Males try to seduce females, and females select the most attractive male. Males have to catch up to the females (before they die) in order to reproduce.&lt;/p></description></item><item><title>ML-Jam: Performing Structured Improvisations with Pre-trained Models</title><link>https://psc-g.github.io/posts/research/creativity/ml-jam/</link><pubDate>Wed, 19 Jun 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ml-jam/</guid><description>&lt;p>This &lt;a href="https://arxiv.org/abs/1904.13285">paper&lt;/a>, published in the &lt;a href="http://computationalcreativity.net/iccc2019/">International Conference on Computational Creativity, 2019&lt;/a>, explores using pre-trained musical generative models in a collaborative setting for improvisation.&lt;/p>
-&lt;p>You can read more details about it in &lt;a href="https://magenta.tensorflow.org/mljam">this blog post&lt;/a>.&lt;/p>
-&lt;p>You can also play with it in &lt;a href="https://ml-jam.glitch.me/">this web app&lt;/a>!&lt;/p>
-&lt;p>If you want to play with the code, it is &lt;a href="https://github.com/psc-g/Psc2">here&lt;/a>.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>Demo video playing with the web app:&lt;/p>
-&lt;p>&lt;a href="https://youtu.be/CUrdnAwfHgQ">&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/mljam.gif"
+&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/The_Evolution_of_Beauty"&gt;&amp;ldquo;The Evolution of Beauty&amp;rdquo;&lt;/a&gt;, Richard O. Prum argues that many of the ornaments present in animals need not have an adaptationist purpose (as is the common held belief), but can be the result of the aesthetic choice of the females.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cost-of-beauty.glitch.me/"&gt;This web app&lt;/a&gt; is inspired by that idea. It creates a set of male and female &lt;em&gt;Things&lt;/em&gt; that can mate and reproduce.&lt;/p&gt;
+&lt;h2 id="courting"&gt;Courting&lt;/h2&gt;
+&lt;p&gt;Males try to seduce females, and females select the most attractive male. Males have to catch up to the females (before they die) in order to reproduce.&lt;/p&gt;</description></item><item><title>ML-Jam: Performing Structured Improvisations with Pre-trained Models</title><link>https://psc-g.github.io/posts/research/creativity/ml-jam/</link><pubDate>Wed, 19 Jun 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/creativity/ml-jam/</guid><description>&lt;p&gt;This &lt;a href="https://arxiv.org/abs/1904.13285"&gt;paper&lt;/a&gt;, published in the &lt;a href="http://computationalcreativity.net/iccc2019/"&gt;International Conference on Computational Creativity, 2019&lt;/a&gt;, explores using pre-trained musical generative models in a collaborative setting for improvisation.&lt;/p&gt;
+&lt;p&gt;You can read more details about it in &lt;a href="https://magenta.tensorflow.org/mljam"&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also play with it in &lt;a href="https://ml-jam.glitch.me/"&gt;this web app&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;If you want to play with the code, it is &lt;a href="https://github.com/psc-g/Psc2"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="demos"&gt;Demos&lt;/h2&gt;
+&lt;p&gt;Demo video playing with the web app:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/CUrdnAwfHgQ"&gt;&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/mljam.gif"
  
  alt="ML-Jam demo"
  
@@ -355,10 +360,10 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/a>&lt;/p>
-&lt;p>Demo video jamming over Herbie Hancock&amp;rsquo;s Chameleon:&lt;/p>
-&lt;p>&lt;a href="https://youtu.be/Pd46_EIlfy4">&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/chameleon.png"
+&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Demo video jamming over Herbie Hancock&amp;rsquo;s Chameleon:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/Pd46_EIlfy4"&gt;&lt;img src="https://psc-g.github.io/posts/research/creativity/ml-jam/chameleon.png"
  
  alt="Chameleon demo"
  
@@ -366,11 +371,11 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/a>&lt;/p>
-&lt;p>Demo video over free improvisation:&lt;/p></description></item><item><title>Musical Aquarium</title><link>https://psc-g.github.io/posts/art/musical-aquarium/</link><pubDate>Mon, 13 May 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/musical-aquarium/</guid><description>&lt;p>I created &lt;a href="https://musical-aquarium.glitch.me/">this website&lt;/a> as an experiment to learn &lt;a href="https://p5js.org/">p5.js&lt;/a>. It creates programmatic &amp;ldquo;music&amp;rdquo; based on the interaction oof the fish you create.&lt;/p>
-&lt;p>You create fish by clicking anywhere on the screen. The x-axis of the position where you click determines the pitch (taken from the D minor pentatonic scale), while the length of the click determines the size and the speed of the fish.&lt;/p>
-&lt;p>Whenever the fish bump into each other they &amp;ldquo;sing&amp;rdquo; and move away. Enjoy!&lt;/p></description></item><item><title>Dopamine: A framework for flexible value-based reinforcement learning research</title><link>https://psc-g.github.io/posts/research/rl/dopamine/</link><pubDate>Mon, 27 Aug 2018 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/dopamine/</guid><description>&lt;img src="https://psc-g.github.io/posts/research/rl/dopamine/dopamine.png"
+&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Demo video over free improvisation:&lt;/p&gt;</description></item><item><title>Musical Aquarium</title><link>https://psc-g.github.io/posts/art/musical-aquarium/</link><pubDate>Mon, 13 May 2019 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/musical-aquarium/</guid><description>&lt;p&gt;I created &lt;a href="https://musical-aquarium.glitch.me/"&gt;this website&lt;/a&gt; as an experiment to learn &lt;a href="https://p5js.org/"&gt;p5.js&lt;/a&gt;. It creates programmatic &amp;ldquo;music&amp;rdquo; based on the interaction oof the fish you create.&lt;/p&gt;
+&lt;p&gt;You create fish by clicking anywhere on the screen. The x-axis of the position where you click determines the pitch (taken from the D minor pentatonic scale), while the length of the click determines the size and the speed of the fish.&lt;/p&gt;
+&lt;p&gt;Whenever the fish bump into each other they &amp;ldquo;sing&amp;rdquo; and move away. Enjoy!&lt;/p&gt;</description></item><item><title>Dopamine: A framework for flexible value-based reinforcement learning research</title><link>https://psc-g.github.io/posts/research/rl/dopamine/</link><pubDate>Mon, 27 Aug 2018 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/research/rl/dopamine/</guid><description>&lt;img src="https://psc-g.github.io/posts/research/rl/dopamine/dopamine.png"
  
  alt="Dopamine logo"
  
@@ -378,13 +383,13 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
+&gt;
 
-&lt;p>Dopamine is a framework for flexible, value-based, reinforcement learning research. It was originally written in TensorFlow, but now all agents have been implemented in JAX.&lt;/p>
-&lt;p>You can read more about it in &lt;a href="https://github.com/google/dopamine">our github page&lt;/a> and in our &lt;a href="https://arxiv.org/abs/1812.06110">white paper&lt;/a>.&lt;/p>
-&lt;p>&lt;a href="https://ai.googleblog.com/2018/08/introducing-new-framework-for-flexible.html">Original Google AI blogpost&lt;/a>.&lt;/p>
-&lt;p>We have a website where you can easily compare the performance of all the Dopamine agents, which I find really useful:&lt;/p>
-&lt;p>&lt;a href="https://google.github.io/dopamine/baselines/plots.html">&lt;img src="https://psc-g.github.io/posts/research/rl/dopamine/baselines.png"
+&lt;p&gt;Dopamine is a framework for flexible, value-based, reinforcement learning research. It was originally written in TensorFlow, but now all agents have been implemented in JAX.&lt;/p&gt;
+&lt;p&gt;You can read more about it in &lt;a href="https://github.com/google/dopamine"&gt;our github page&lt;/a&gt; and in our &lt;a href="https://arxiv.org/abs/1812.06110"&gt;white paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ai.googleblog.com/2018/08/introducing-new-framework-for-flexible.html"&gt;Original Google AI blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We have a website where you can easily compare the performance of all the Dopamine agents, which I find really useful:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://google.github.io/dopamine/baselines/plots.html"&gt;&lt;img src="https://psc-g.github.io/posts/research/rl/dopamine/baselines.png"
  
  alt="Baselines screenshot"
  
@@ -392,28 +397,28 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/a>.&lt;/p>
-&lt;p>We also provide a set of Colaboratory notebooks that really help understand the framework:&lt;/p></description></item><item><title>JiDiJi: An Experiment in Musical Representation</title><link>https://psc-g.github.io/posts/art/jidiji/</link><pubDate>Sun, 14 Jan 2018 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/jidiji/</guid><description>&lt;p>I made &lt;a href="https://jidiji.glitch.me/">this website&lt;/a> to convert between music and colours. Read below for details!&lt;/p>
-&lt;h2 id="about">About&lt;/h2>
-&lt;p>Music can be represented in various forms: as a series of sounds, as a score, as tabs (for guitar), as a series of chord names, as MIDI, as a &lt;a href="https://github.com/tensorflow/magenta/blob/master/magenta/protobuf/music.proto#L27">NoteSequence protocol buffer&lt;/a>, and more.&lt;/p>
-&lt;p>I stumbled upon the &lt;a href="https://en.wikipedia.org/wiki/Solresol">Solresol&lt;/a> language recently, as well as upon &lt;a href="http://cdm.link/2018/03/watch-ableton-loop-talk-connects-polyrhythms-synesthesia/">this talk&lt;/a> by &lt;a href="http://www.adamneely.com/">Adam Neely&lt;/a>, and realized that you can also represent music as colours.&lt;/p></description></item><item><title>Family - Over the Years</title><link>https://psc-g.github.io/posts/art/family/</link><pubDate>Sun, 14 May 2006 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/family/</guid><description>&lt;p>We photograph ourselves each year on our anniversary.&lt;/p>
-&lt;p>(This page is not optimized for mobile yet)&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Year&lt;/th>
- &lt;th>Michelle&lt;/th>
- &lt;th>Pablo Samuel&lt;/th>
- &lt;th>Sofia&lt;/th>
- &lt;th>Samuel&lt;/th>
- &lt;th>Emilia&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>2006&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2006.jpg"
+&gt;
+&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also provide a set of Colaboratory notebooks that really help understand the framework:&lt;/p&gt;</description></item><item><title>JiDiJi: An Experiment in Musical Representation</title><link>https://psc-g.github.io/posts/art/jidiji/</link><pubDate>Sun, 14 Jan 2018 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/jidiji/</guid><description>&lt;p&gt;I made &lt;a href="https://jidiji.glitch.me/"&gt;this website&lt;/a&gt; to convert between music and colours. Read below for details!&lt;/p&gt;
+&lt;h2 id="about"&gt;About&lt;/h2&gt;
+&lt;p&gt;Music can be represented in various forms: as a series of sounds, as a score, as tabs (for guitar), as a series of chord names, as MIDI, as a &lt;a href="https://github.com/tensorflow/magenta/blob/master/magenta/protobuf/music.proto#L27"&gt;NoteSequence protocol buffer&lt;/a&gt;, and more.&lt;/p&gt;
+&lt;p&gt;I stumbled upon the &lt;a href="https://en.wikipedia.org/wiki/Solresol"&gt;Solresol&lt;/a&gt; language recently, as well as upon &lt;a href="http://cdm.link/2018/03/watch-ableton-loop-talk-connects-polyrhythms-synesthesia/"&gt;this talk&lt;/a&gt; by &lt;a href="http://www.adamneely.com/"&gt;Adam Neely&lt;/a&gt;, and realized that you can also represent music as colours.&lt;/p&gt;</description></item><item><title>Family - Over the Years</title><link>https://psc-g.github.io/posts/art/family/</link><pubDate>Sun, 14 May 2006 08:06:25 +0600</pubDate><guid>https://psc-g.github.io/posts/art/family/</guid><description>&lt;p&gt;We photograph ourselves each year on our anniversary.&lt;/p&gt;
+&lt;p&gt;(This page is not optimized for mobile yet)&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Year&lt;/th&gt;
+ &lt;th&gt;Michelle&lt;/th&gt;
+ &lt;th&gt;Pablo Samuel&lt;/th&gt;
+ &lt;th&gt;Sofia&lt;/th&gt;
+ &lt;th&gt;Samuel&lt;/th&gt;
+ &lt;th&gt;Emilia&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2006&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2006.jpg"
  
  
  width="150"
@@ -423,9 +428,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2006.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2006.jpg"
  
  
  width="150"
@@ -435,15 +440,15 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2007&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2007.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2007&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2007.jpg"
  
  
  width="150"
@@ -453,9 +458,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2007.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2007.jpg"
  
  
  width="150"
@@ -465,9 +470,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2007.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2007.jpg"
  
  
  width="150"
@@ -477,14 +482,14 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2008&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2008.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2008&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2008.jpg"
  
  
  width="150"
@@ -494,9 +499,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2008.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2008.jpg"
  
  
  width="150"
@@ -506,9 +511,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2008.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2008.jpg"
  
  
  width="150"
@@ -518,14 +523,14 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2009&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2009.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2009&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2009.jpg"
  
  
  width="150"
@@ -535,9 +540,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2009.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2009.jpg"
  
  
  width="150"
@@ -547,9 +552,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2009.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2009.jpg"
  
  
  width="150"
@@ -559,14 +564,14 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2010&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2010.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2010&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2010.jpg"
  
  
  width="150"
@@ -576,9 +581,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2010.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2010.jpg"
  
  
  width="150"
@@ -588,9 +593,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2010.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2010.jpg"
  
  
  width="150"
@@ -600,14 +605,14 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2011&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2011.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2011&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2011.jpg"
  
  
  width="150"
@@ -617,9 +622,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2011.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2011.jpg"
  
  
  width="150"
@@ -629,9 +634,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2011.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2011.jpg"
  
  
  width="150"
@@ -641,9 +646,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2011.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2011.jpg"
  
  
  width="150"
@@ -653,13 +658,13 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2012&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2012.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2012&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2012.jpg"
  
  
  width="150"
@@ -669,9 +674,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2012.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2012.jpg"
  
  
  width="150"
@@ -681,9 +686,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2012.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2012.jpg"
  
  
  width="150"
@@ -693,9 +698,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2012.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2012.jpg"
  
  
  width="150"
@@ -705,13 +710,13 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2013&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2013.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2013&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2013.jpg"
  
  
  width="150"
@@ -721,9 +726,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2013.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2013.jpg"
  
  
  width="150"
@@ -733,9 +738,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2013.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2013.jpg"
  
  
  width="150"
@@ -745,9 +750,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2013.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2013.jpg"
  
  
  width="150"
@@ -757,13 +762,13 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2014&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2014.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2014&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2014.jpg"
  
  
  width="150"
@@ -773,9 +778,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2014.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2014.jpg"
  
  
  width="150"
@@ -785,9 +790,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2014.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2014.jpg"
  
  
  width="150"
@@ -797,9 +802,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2014.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2014.jpg"
  
  
  width="150"
@@ -809,9 +814,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2014.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2014.jpg"
  
  
  width="150"
@@ -821,12 +826,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2015&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2015.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2015&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2015.jpg"
  
  
  width="140"
@@ -836,9 +841,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2015.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2015.jpg"
  
  
  width="140"
@@ -848,9 +853,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2015.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2015.jpg"
  
  
  width="140"
@@ -860,9 +865,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2015.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2015.jpg"
  
  
  width="140"
@@ -872,9 +877,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2015.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2015.jpg"
  
  
  width="140"
@@ -884,12 +889,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2016&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2016.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2016&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2016.jpg"
  
  
  width="140"
@@ -899,9 +904,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2016.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2016.jpg"
  
  
  width="140"
@@ -911,9 +916,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2016.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2016.jpg"
  
  
  width="140"
@@ -923,9 +928,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2016.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2016.jpg"
  
  
  width="140"
@@ -935,9 +940,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2016.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2016.jpg"
  
  
  width="140"
@@ -947,12 +952,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2017&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2017.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2017&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2017.jpg"
  
  
  width="140"
@@ -962,9 +967,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2017.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2017.jpg"
  
  
  width="140"
@@ -974,9 +979,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2017.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2017.jpg"
  
  
  width="140"
@@ -986,9 +991,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2017.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2017.jpg"
  
  
  width="140"
@@ -998,9 +1003,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2017.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2017.jpg"
  
  
  width="140"
@@ -1010,12 +1015,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2018&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2018.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2018&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2018.jpg"
  
  
  width="150"
@@ -1025,9 +1030,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2018.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2018.jpg"
  
  
  width="150"
@@ -1037,9 +1042,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2018.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2018.jpg"
  
  
  width="150"
@@ -1049,9 +1054,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2018.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2018.jpg"
  
  
  width="150"
@@ -1061,9 +1066,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2018.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2018.jpg"
  
  
  width="150"
@@ -1073,24 +1078,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2019&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2019.jpg"
- 
- 
- width="150"
- 
- 
- height="180"
- 
- 
- 
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2019.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2019&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2019.jpg"
  
  
  width="150"
@@ -1100,9 +1093,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2019.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2019.jpg"
  
  
  width="150"
@@ -1112,9 +1105,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2019.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2019.jpg"
  
  
  width="150"
@@ -1124,9 +1117,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2019.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2019.jpg"
  
  
  width="150"
@@ -1136,12 +1129,24 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2020&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2020.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2019.jpg"
+ 
+ 
+ width="150"
+ 
+ 
+ height="180"
+ 
+ 
+ 
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2020&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2020.jpg"
  
  
  width="140"
@@ -1151,9 +1156,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2020.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2020.jpg"
  
  
  width="140"
@@ -1163,9 +1168,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2020.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2020.jpg"
  
  
  width="140"
@@ -1175,9 +1180,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2020.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2020.jpg"
  
  
  width="140"
@@ -1187,9 +1192,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2020.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2020.jpg"
  
  
  width="140"
@@ -1199,12 +1204,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2021&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2021.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2021&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2021.jpg"
  
  
  width="140"
@@ -1214,9 +1219,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2021.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2021.jpg"
  
  
  width="140"
@@ -1226,9 +1231,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2021.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2021.jpg"
  
  
  width="140"
@@ -1238,9 +1243,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2021.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2021.jpg"
  
  
  width="140"
@@ -1250,9 +1255,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2021.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2021.jpg"
  
  
  width="140"
@@ -1262,12 +1267,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2022&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2022.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2022&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2022.jpg"
  
  
  width="140"
@@ -1277,9 +1282,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2022.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2022.jpg"
  
  
  width="140"
@@ -1289,9 +1294,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2022.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2022.jpg"
  
  
  width="140"
@@ -1301,9 +1306,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2022.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2022.jpg"
  
  
  width="140"
@@ -1313,9 +1318,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2022.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2022.jpg"
  
  
  width="140"
@@ -1325,12 +1330,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2023&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2023.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2023&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2023.jpg"
  
  
  width="140"
@@ -1340,9 +1345,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2023.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2023.jpg"
  
  
  width="140"
@@ -1352,9 +1357,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2023.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2023.jpg"
  
  
  width="140"
@@ -1364,9 +1369,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2023.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2023.jpg"
  
  
  width="140"
@@ -1376,9 +1381,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2023.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2023.jpg"
  
  
  width="140"
@@ -1388,12 +1393,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2024&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2024.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2024&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2024.jpg"
  
  
  width="140"
@@ -1403,9 +1408,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2024.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2024.jpg"
  
  
  width="140"
@@ -1415,9 +1420,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2024.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2024.jpg"
  
  
  width="140"
@@ -1427,9 +1432,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2024.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2024.jpg"
  
  
  width="140"
@@ -1439,9 +1444,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2024.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2024.jpg"
  
  
  width="140"
@@ -1451,12 +1456,12 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2025&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/ms-2025.JPG"
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2025&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/ms-2025.JPG"
  
  
  width="140"
@@ -1466,9 +1471,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/psc-2025.JPG"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/psc-2025.JPG"
  
  
  width="140"
@@ -1478,9 +1483,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sec-2025.JPG"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sec-2025.JPG"
  
  
  width="140"
@@ -1490,9 +1495,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/sac-2025.jpg"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/sac-2025.jpg"
  
  
  width="140"
@@ -1502,9 +1507,9 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;td>&lt;img src="https://psc-g.github.io/posts/art/family/enc-2025.JPG"
+&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;img src="https://psc-g.github.io/posts/art/family/enc-2025.JPG"
  
  
  width="140"
@@ -1514,8 +1519,8 @@ as reasonable baselines for future work.&lt;/p></description></item><item><title
  
  
  
->
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>
