@@ -18,6 +18,8 @@ buttons:
   filter: "creativity"
 - name: General Machine Learning
   filter: "ml"
+- name: 2025
+  filter: "2025"
 - name: 2024
   filter: "2024"
 - name: 2023
@@ -34,6 +36,54 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning
+  role: Roger Creus Castanyer, Johan Obando-Ceron, Lu Li, Pierre-Luc Bacon, Glen Berseth, Aaron Courville, Pablo Samuel Castro
+  timeline: "NeurIPS, 2025"
+  paper: https://openreview.net/forum?id=Vqj65VeDOu
+  tags: ["rl", "2025"]
+
+- name: Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning
+  role:   Ghada Sokar, Pablo Samuel Castro
+  timeline: "NeurIPS, 2025"
+  paper: https://openreview.net/forum?id=LrBWGwVfCA
+  tags: ["rl", "2025"]
+
+- name: Meta-World+ - An Improved, Standardized, RL Benchmark
+  role: Reginald McLean, Evangelos Chatzaroulas, Luc McCutcheon, Frank Röder, Tianhe Yu, Zhanpeng He, K.R. Zentner, Ryan Julian, J K Terry, Isaac Woungang, Nariman Farsad, Pablo Samuel Castro
+  timeline: "NeurIPS D&B, 2025"
+  paper: https://openreview.net/forum?id=1de3azE606
+  tags: ["rl", "2025"]
+
+- name: Optimistic critics can empower small actors
+  role: Olya Mastikhina, Dhruv Sreenivas, Pablo Samuel Castro
+  timeline: "RLC, 2025"
+  paper: https://openreview.net/forum?id=yx68Ns2e5E
+  tags: ["rl", "2025"]
+
+- name: Multi-Task Reinforcement Learning Enables Parameter Scaling
+  role: Reginald McLean, Evangelos Chatzaroulas, Jordan Terry, Isaac Woungang, Nariman Farsad, Pablo Samuel Castro
+  timeline: "RLC, 2025"
+  paper: https://openreview.net/forum?id=eBWwBIFV7T#discussion
+  tags: ["rl", "2025"]
+
+- name: Discovering Symbolic Cognitive Models from Human and Animal Behavior
+  role: Pablo Samuel Castro, Nenad Tomasev, Ankit Anand, Navodita Sharma, Rishika Mohanta, Aparna Dev, Kuba Perlin, Siddhant Jain, Kyle Levin, Noemi Elteto, Will Dabney, Alexander Novikov, Glenn C Turner, Maria K Eckstein, Nathaniel D. Daw, Kevin J Miller, Kim Stachenfeld
+  timeline: "ICML, 2025"
+  paper: https://openreview.net/forum?id=dhRXGWJ027
+  tags: ["ml", "2025"]
+
+- name: The Impact of On-Policy Parallelized Data Collection on Deep Reinforcement Learning Networks
+  role: Walter Mayor, Johan Obando-Ceron, Aaron Courville, Pablo Samuel Castro
+  timeline: "ICML, 2025"
+  paper: https://openreview.net/forum?id=cnqyzuZhSo
+  tags: ["rl", "2025"]
+
+- name: A Survey of State Representation Learning for Deep Reinforcement Learning
+  role: Ayoub Echchahed, Pablo Samuel Castro
+  timeline: "TMLR, 2025"
+  paper: https://openreview.net/forum?id=gOk34vUHtz
+  tags: ["rl", "2025"]
+
 - name: CALE - Continuous Arcade Learning Environment
   role: Jesse Farebrother, Pablo Samuel Castro
   timeline: "NeurIPS, 2024"
