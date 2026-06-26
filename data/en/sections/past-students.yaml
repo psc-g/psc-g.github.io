@@ -17,6 +17,8 @@ students:
 - name: Johan Samir Obando-Ceron
   program: Master's
   university: Université de Montréal
+  co_supervisors:
+  - Marc G. Bellemare
   website: https://johanobandoc.github.io
   github: https://github.com/JohanSamir
   scholar: https://scholar.google.com/citations?hl=es&user=KViAb3EAAAAJ

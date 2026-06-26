@@ -24,8 +24,8 @@
               {{ with .university }}
                 <br><em>{{ . }}</em>
               {{ end }}
-              {{ with .principal_supervisor }}
-                <br><small class="text-muted">Principal supervisor: {{ . }}</small>
+              {{ with .co_supervisors }}
+                <br><small class="text-muted">Co-supervised with: {{ delimit . ", " }}</small>
               {{ end }}
             </p>
             <div class="mt-2 mb-2">
