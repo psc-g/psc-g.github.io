@@ -42,6 +42,12 @@ publications:
   paper: https://openreview.net/forum?id=Vqj65VeDOu
   tags: ["rl", "2025"]
 
+- name: "Don't flatten, tokenize! Unlocking the key to SoftMoE's efficacy in deep RL"
+  role: Ghada Sokar, Johan Obando-Ceron, Aaron Courville, Hugo Larochelle, Pablo Samuel Castro
+  timeline: "ICLR, 2025"
+  paper: https://proceedings.iclr.cc/paper_files/paper/2025/hash/74d056577c164d45f713ce297a4872df-Abstract-Conference.html
+  tags: ["rl", "2025"]
+
 - name: Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning
   role:   Ghada Sokar, Pablo Samuel Castro
   timeline: "NeurIPS, 2025"
