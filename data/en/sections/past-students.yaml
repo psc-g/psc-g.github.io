@@ -13,3 +13,15 @@ students:
   papers:
   - name: "A Survey of State Representation Learning for Deep Reinforcement Learning"
     url: https://openreview.net/forum?id=gOk34vUHtz
+
+- name: Johan Samir Obando-Ceron
+  program: Master's
+  university: Université de Montréal
+  website: https://johanobandoc.github.io
+  github: https://github.com/JohanSamir
+  scholar: https://scholar.google.com/citations?hl=es&user=KViAb3EAAAAJ
+  papers:
+  - name: "Revisiting Rainbow"
+    url: https://arxiv.org/abs/2011.14826
+  - name: "Small batch deep reinforcement learning"
+    url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/528388f1ad3a481249a97cbb698d2fe6-Abstract-Conference.html

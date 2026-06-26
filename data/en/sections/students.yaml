@@ -74,10 +74,6 @@ students:
     url: https://arxiv.org/abs/2402.08609
   - name: "On the consistency of hyper-parameter selection in value-based deep RL"
     url: https://arxiv.org/abs/2406.17523
-  - name: "Small batch deep reinforcement learning"
-    url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/528388f1ad3a481249a97cbb698d2fe6-Abstract-Conference.html
-  - name: "Revisiting Rainbow"
-    url: https://arxiv.org/abs/2011.14826
 
 - name: Gandharv Patil
   program: PhD
