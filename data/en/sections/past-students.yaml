@@ -1,0 +1,15 @@
+# section information
+section:
+  name: Past Students
+  id: past-students
+  enable: true
+  weight: 5
+  showOnNavbar: false
+
+# past students
+students:
+- name: Ayoub Echchahed
+  program: Master's
+  papers:
+  - name: "A Survey of State Representation Learning for Deep Reinforcement Learning"
+    url: https://openreview.net/forum?id=gOk34vUHtz
