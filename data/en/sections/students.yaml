@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Students
+  id: students
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# current students
+students:
+- name: Roger Creus-Castanyer
+  program: PhD
+  university: Université de Montréal
+  principal_supervisor: Glen Berseth
+  website: https://roger-creus.github.io/
+  github: https://github.com/roger-creus
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=E3y_txsAAAAJ
+  papers:
+  - name: "ARM-FM: Automated Reward Machines via Foundation Models"
+    url: https://openreview.net/forum?id=OBpQdCWLfd
+  - name: "Stable Gradients for Stable Learning at Scale in Deep RL"
+    url: https://openreview.net/forum?id=Vqj65VeDOu
+
+- name: Julian Dierkes
+  program: Independent Visiting Researcher
+  university: RWTH Aachen University
+  website: https://labchameleon.github.io
+  github: https://github.com/LabChameleon
+  scholar: https://scholar.google.com/citations?user=dYzkTPEAAAAJ&hl=en
+
+- name: Nicola Gauthier
+  program: Master's Research
+  university: Université de Montréal
+
+- name: Olya Mastikhina
+  program: PhD
+  university: Université de Montréal
+  papers:
+  - name: "Optimistic critics can empower small actors"
+    url: https://openreview.net/forum?id=yx68Ns2e5E
+
+- name: Walter Mayor
+  program: Collaborating Researcher
+  website: https://waltermayor.github.io/
+  github: https://github.com/waltermayor
+  scholar: https://scholar.google.com/citations?hl=en&user=fGTJwC4AAAAJ
+  papers:
+  - name: "Simplicial Embeddings Improve Sample Efficiency in Actor-Critic Agents"
+    url: https://openreview.net/forum?id=mCpq1GCKxA
+  - name: "The Impact of On-Policy Parallelized Data Collection on Deep RL Networks"
+    url: https://openreview.net/forum?id=cnqyzuZhSo
+
+- name: Johan Samir Obando-Ceron
+  program: PhD
+  university: Université de Montréal
+  principal_supervisor: Aaron Courville
+  website: https://johanobandoc.github.io
+  github: https://github.com/JohanSamir
+  scholar: https://scholar.google.com/citations?hl=es&user=KViAb3EAAAAJ
+  papers:
+  - name: "Simplicial Embeddings Improve Sample Efficiency in Actor-Critic Agents"
+    url: https://openreview.net/forum?id=mCpq1GCKxA
+  - name: "Stable Deep RL via Isotropic Gaussian Representations"
+    url: https://openreview.net/forum?id=gc7Gg18ejz
+  - name: "Stable Gradients for Stable Learning at Scale in Deep RL"
+    url: https://openreview.net/forum?id=Vqj65VeDOu
+  - name: "Mind the GAP! Challenges of Scale in Pixel-based Deep RL"
+    url: https://openreview.net/forum?id=LrBWGwVfCA
+  - name: "In value-based deep RL, a pruned network is a good network"
+    url: https://arxiv.org/abs/2402.12479
+  - name: "Mixtures of experts unlock parameter scaling for deep RL"
+    url: https://arxiv.org/abs/2402.08609
+  - name: "On the consistency of hyper-parameter selection in value-based deep RL"
+    url: https://arxiv.org/abs/2406.17523
+  - name: "Small batch deep reinforcement learning"
+    url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/528388f1ad3a481249a97cbb698d2fe6-Abstract-Conference.html
+  - name: "Revisiting Rainbow"
+    url: https://arxiv.org/abs/2011.14826
+
+- name: Gandharv Patil
+  program: PhD
+  university: McGill University
+  principal_supervisor: Doina Precup
+  website: https://www.gandharvpatil.com
+  github: https://github.com/gp1702
+  scholar: https://scholar.google.com/citations?user=onD9-zcAAAAJ&hl=en
+
+- name: Ali Saheb Pasand
+  program: PhD
+  university: McGill University
+  principal_supervisor: Blake Richards
+  papers:
+  - name: "Stable Deep RL via Isotropic Gaussian Representations"
+    url: https://openreview.net/forum?id=gc7Gg18ejz
+
+- name: Dhruv Sreenivas
+  program: PhD
+  university: Université de Montréal
+  website: https://dhruvsreenivas.github.io
+  github: https://github.com/dhruvsreenivas
+  papers:
+  - name: "Optimistic critics can empower small actors"
+    url: https://openreview.net/forum?id=yx68Ns2e5E
