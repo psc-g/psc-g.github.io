@@ -18,6 +18,8 @@ buttons:
   filter: "creativity"
 - name: General Machine Learning
   filter: "ml"
+- name: 2026
+  filter: "2026"
 - name: 2025
   filter: "2025"
 - name: 2024
@@ -36,6 +38,30 @@ buttons:
   filter: "2018"
 
 publications:
+- name: Simplicial Embeddings Improve Sample Efficiency in Actor-Critic Agents
+  role: Johan Obando-Ceron, Walter Mayor, Samuel Lavoie, Scott Fujimoto, Aaron Courville, Pablo Samuel Castro
+  timeline: "ICLR, 2026"
+  paper: https://openreview.net/forum?id=mCpq1GCKxA
+  tags: ["rl", "2026"]
+
+- name: ARM-FM - Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning
+  role: Roger Creus Castanyer, Faisal Mohamed, Pablo Samuel Castro, Cyrus Neary, Glen Berseth
+  timeline: "ICLR, 2026"
+  paper: https://openreview.net/forum?id=OBpQdCWLfd
+  tags: ["rl", "2026"]
+
+- name: Discovering Differences in Strategic Behavior between Humans and LLMs
+  role: Caroline Wang, Daniel Kasenberg, Kim Stachenfeld, Pablo Samuel Castro
+  timeline: "ICML, 2026"
+  paper: https://openreview.net/forum?id=Y9RqhWmcyK
+  tags: ["ml", "2026"]
+
+- name: Stable Deep Reinforcement Learning via Isotropic Gaussian Representations
+  role: Ali Saheb Pasand, Johan Obando-Ceron, Aaron Courville, Pouya Bashivan, Pablo Samuel Castro
+  timeline: "ICML, 2026"
+  paper: https://openreview.net/forum?id=gc7Gg18ejz
+  tags: ["rl", "2026"]
+
 - name: Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning
   role: Roger Creus Castanyer, Johan Obando-Ceron, Lu Li, Pierre-Luc Bacon, Glen Berseth, Aaron Courville, Pablo Samuel Castro
   timeline: "NeurIPS, 2025"
