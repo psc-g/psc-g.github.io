@@ -13,7 +13,8 @@ students:
 - name: Roger Creus-Castanyer
   program: PhD
   university: Université de Montréal
-  principal_supervisor: Glen Berseth
+  co_supervisors:
+  - Glen Berseth
   website: https://roger-creus.github.io/
   github: https://github.com/roger-creus
   scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=E3y_txsAAAAJ
@@ -55,7 +56,8 @@ students:
 - name: Johan Samir Obando-Ceron
   program: PhD
   university: Université de Montréal
-  principal_supervisor: Aaron Courville
+  co_supervisors:
+  - Aaron Courville
   website: https://johanobandoc.github.io
   github: https://github.com/JohanSamir
   scholar: https://scholar.google.com/citations?hl=es&user=KViAb3EAAAAJ
@@ -80,7 +82,8 @@ students:
 - name: Gandharv Patil
   program: PhD
   university: McGill University
-  principal_supervisor: Doina Precup
+  co_supervisors:
+  - Doina Precup
   website: https://www.gandharvpatil.com
   github: https://github.com/gp1702
   scholar: https://scholar.google.com/citations?user=onD9-zcAAAAJ&hl=en
@@ -88,7 +91,9 @@ students:
 - name: Ali Saheb Pasand
   program: PhD
   university: McGill University
-  principal_supervisor: Blake Richards
+  co_supervisors:
+  - Blake Richards
+  - Pouya Bashivan
   papers:
   - name: "Stable Deep RL via Isotropic Gaussian Representations"
     url: https://openreview.net/forum?id=gc7Gg18ejz
