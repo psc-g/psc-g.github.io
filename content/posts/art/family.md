@@ -13,28 +13,501 @@ menu:
 
 We photograph ourselves each year on our anniversary.
 
-(This page is not optimized for mobile yet)
+<style>
+.family-year {
+  margin-bottom: 2rem;
+}
+.family-year h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.family-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.family-photo {
+  text-align: center;
+}
+.family-photo img {
+  max-width: 140px;
+  height: auto;
+  border-radius: 4px;
+}
+.family-photo p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+@media (max-width: 576px) {
+  .family-photo img {
+    max-width: 120px;
+  }
+}
+</style>
 
-| Year | Michelle | Pablo Samuel | Sofia | Samuel | Emilia |
-|------|----------|--------------|-------|--------|--------|
-| 2006 | {{< img src="/posts/art/family/ms-2006.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2006.jpg" height="190" width="150" >}} | | | |
-| 2007 | {{< img src="/posts/art/family/ms-2007.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2007.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2007.jpg" height="190" width="150" >}}  | | |
-| 2008 | {{< img src="/posts/art/family/ms-2008.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2008.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2008.jpg" height="190" width="150" >}}  | | |
-| 2009 | {{< img src="/posts/art/family/ms-2009.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2009.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2009.jpg" height="190" width="150" >}}  | | |
-| 2010 | {{< img src="/posts/art/family/ms-2010.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2010.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2010.jpg" height="190" width="150" >}}  | | |
-| 2011 | {{< img src="/posts/art/family/ms-2011.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2011.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2011.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/sac-2011.jpg" height="190" width="150" >}}  | |
-| 2012 | {{< img src="/posts/art/family/ms-2012.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2012.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2012.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/sac-2012.jpg" height="190" width="150" >}}  | |
-| 2013 | {{< img src="/posts/art/family/ms-2013.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2013.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2013.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/sac-2013.jpg" height="190" width="150" >}}  | |
-| 2014 | {{< img src="/posts/art/family/ms-2014.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2014.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2014.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/sac-2014.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/enc-2014.jpg" height="190" width="150" >}}  |
-| 2015 | {{< img src="/posts/art/family/ms-2015.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/psc-2015.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/sec-2015.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/sac-2015.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/enc-2015.jpg" height="190" width="140" >}}  |
-| 2016 | {{< img src="/posts/art/family/ms-2016.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/psc-2016.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/sec-2016.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/sac-2016.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/enc-2016.jpg" height="190" width="140" >}}  |
-| 2017 | {{< img src="/posts/art/family/ms-2017.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/psc-2017.jpg" height="190" width="140" >}} | {{< img src="/posts/art/family/sec-2017.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/sac-2017.jpg" height="190" width="140" >}}  | {{< img src="/posts/art/family/enc-2017.jpg" height="190" width="140" >}}  |
-| 2018 | {{< img src="/posts/art/family/ms-2018.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/psc-2018.jpg" height="190" width="150" >}} | {{< img src="/posts/art/family/sec-2018.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/sac-2018.jpg" height="190" width="150" >}}  | {{< img src="/posts/art/family/enc-2018.jpg" height="190" width="150" >}}  |
-| 2019 | {{< img src="/posts/art/family/ms-2019.jpg" height="180" width="150" >}} | {{< img src="/posts/art/family/psc-2019.jpg" height="180" width="150" >}} | {{< img src="/posts/art/family/sec-2019.jpg" height="180" width="150" >}}  | {{< img src="/posts/art/family/sac-2019.jpg" height="180" width="150" >}}  | {{< img src="/posts/art/family/enc-2019.jpg" height="180" width="150" >}}  |
-| 2020 | {{< img src="/posts/art/family/ms-2020.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2020.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2020.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2020.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2020.jpg" height="200" width="140" >}}  |
-| 2021 | {{< img src="/posts/art/family/ms-2021.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2021.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2021.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2021.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2021.jpg" height="200" width="140" >}}  |
-| 2022 | {{< img src="/posts/art/family/ms-2022.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2022.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2022.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2022.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2022.jpg" height="200" width="140" >}}  |
-| 2023 | {{< img src="/posts/art/family/ms-2023.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2023.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2023.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2023.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2023.jpg" height="200" width="140" >}}  |
-| 2024 | {{< img src="/posts/art/family/ms-2024.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2024.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2024.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2024.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2024.jpg" height="200" width="140" >}}  |
-| 2025 | {{< img src="/posts/art/family/ms-2025.JPG" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2025.JPG" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2025.JPG" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2025.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2025.JPG" height="200" width="140" >}}  |
-| 2026 | {{< img src="/posts/art/family/ms-2026.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/psc-2026.jpg" height="200" width="140" >}} | {{< img src="/posts/art/family/sec-2026.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/sac-2026.jpg" height="200" width="140" >}}  | {{< img src="/posts/art/family/enc-2026.jpg" height="200" width="140" >}}  |
+<div class="family-year">
+<h3>2006</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2006.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2006.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2007</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2007.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2007.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2007.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2008</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2008.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2008.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2008.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2009</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2009.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2009.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2009.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2010</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2010.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2010.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2010.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2011</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2011.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2011.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2011.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2011.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2012</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2012.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2012.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2012.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2012.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2013</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2013.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2013.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2013.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2013.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2014</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2014.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2014.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2014.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2014.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2014.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2015</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2015.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2015.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2015.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2015.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2015.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2016</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2016.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2016.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2016.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2016.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2016.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2017</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2017.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2017.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2017.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2017.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2017.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2018</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2018.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2018.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2018.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2018.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2018.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2019</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2019.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2019.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2019.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2019.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2019.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2020</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2020.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2020.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2020.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2020.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2020.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2021</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2021.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2021.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2021.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2021.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2021.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2022</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2022.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2022.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2022.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2022.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2022.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2023</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2023.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2023.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2023.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2023.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2023.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2024</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2024.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2024.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2024.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2024.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2024.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
+
+<div class="family-year">
+<h3>2025</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2025.JPG" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2025.JPG" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2025.JPG" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2025.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2025.JPG" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
