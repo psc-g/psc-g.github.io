@@ -511,3 +511,30 @@ We photograph ourselves each year on our anniversary.
 </div>
 </div>
 </div>
+
+
+<div class="family-year">
+<h3>2026</h3>
+<div class="family-photos">
+<div class="family-photo">
+{{< img src="/posts/art/family/ms-2026.jpg" width="140" >}}
+<p>Michelle</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/psc-2026.jpg" width="140" >}}
+<p>Pablo Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sec-2026.jpg" width="140" >}}
+<p>Sofia</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/sac-2026.jpg" width="140" >}}
+<p>Samuel</p>
+</div>
+<div class="family-photo">
+{{< img src="/posts/art/family/enc-2026.jpg" width="140" >}}
+<p>Emilia</p>
+</div>
+</div>
+</div>
